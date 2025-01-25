@@ -1,0 +1,121 @@
+
+  /*-----------------------------------------------------------------*/
+/*  Contact
+/*-----------------------------------------------------------------*/
+
+#contact {
+	background:url('../../images/presentations/ilustraation.jpg') no-repeat;
+}
+
+.contact-form {
+	display: block;
+	/* padding: 0px 0px 30px 0px; */
+}
+
+.contact-info {
+	margin-bottom:65px;
+}
+
+.contact-info p {
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 16px;
+  color: #FFF;
+}
+
+.contact-information {
+    min-height: 150px;
+    margin: 0 0 30px 0;
+    padding: 30px 15px 0 15px;
+    background: rgba(0, 0, 0, .4);
+}
+
+.contact-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FBB03F;
+    border-radius: 50px;
+}
+
+.contact-icon i {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.contact-text h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #719a0a;
+}
+
+.contact-text p {
+    margin: 0;
+    font-size: 16px;
+    color: #454545;
+}
+
+.contact-social a {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #FBB03F;
+}
+
+.contact-social a:hover {
+    color: #719a0a;
+}
+
+
+
+.contact-text {
+    position: relative;
+    width: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .form-control {
+	display: inline-block;
+	margin-bottom: 20px;
+	font-size: 15px;
+	line-height: 25px;
+	color: #FFF;
+	/* height: 46px; */
+	width: 100%;
+	vertical-align: middle;
+	box-shadow: none;
+	border-radius: 0px;
+	transition: all 200ms ease-in 0s;
+	background: rgba(255, 255, 255, 0) none repeat scroll 0% 0%;
+	border: 2px solid rgba(236, 240, 241, 0.58);
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .form-control:focus {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color:#FFF !important;
+}
+
+.btn-green {
+	background:#7EC13F;
+	border-color: #7EC13F;
+	color:#FFF;
+}
+
+.btn-green:hover, .btn-green:focus {
+	color: #FFF;
+	background:transparent;
+	border-color: #FFF;
+}

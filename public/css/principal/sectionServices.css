@@ -1,0 +1,50 @@
+section#services{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/img/circle.svg);
+}
+#services span.contentIcon {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto 10px auto;
+    border-radius: 50%;
+    /* background: rgb(9,9,121); */
+    /* background: linear-gradient(#7d0015, #784ba0); */
+    background: linear-gradient(90deg, var(--main-color) 11%, #e9ba0055 100%);
+    /* box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1); */
+    display: inline-flex;
+    align-items: center;
+    /* text-align: center; */
+    /* transition: all 0.7s ease-in-out;      */
+}
+
+#services span.contentIcon .icono{
+    margin: auto;
+    font-size:40px;
+    color: #fff;
+}
+
+#services .card{
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    /* border: 0px; */
+    border-radius: 15px;
+    margin:15px;
+    transition: .25s;
+    /* .icono-cuadrado{ */
+        /* width: 24px;
+        height:24px; */
+        background-image: url(../../assets/img/waves-card.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    /* } */
+    height: 230px;
+}
+#services .card:hover{
+    transform: translateY(-5px);
+    /* background: rgba(255, 255, 255, 0.1); */
+    border-radius: 15px;
+    backdrop-filter:blur(5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    transition: .25s;
+}

@@ -1,0 +1,248 @@
+.topMenu.wrap
+{
+    background:var(--third-color);
+}
+
+nav.navbar
+{
+    /* box-shadow: 0px 5px 20px -17px rgb(0 0 0 / 34%); */
+    padding: 0;
+}
+nav .navbar-nav > .nav-item > .nav-link
+{
+    font-size: 14px;
+    padding: 1.4rem 20px;
+    font-weight: 500;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    position: relative;
+    /* opacity: 1 !important; */
+}
+nav .navbar-nav > .nav-item.active > a
+{
+    color: #fff;
+}
+nav .navbar-nav > .nav-item > .nav-link:hover:before
+{
+    visibility: visible;
+    /* background-color: #f1bc31; */
+    background-color: var(--secondary-color);
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    transition: 0.5s ease;
+}
+nav .navbar-nav > .nav-item > .nav-link:hover
+{
+    color: #fff;
+}
+nav .navbar-nav > .nav-item.active > a:before
+{
+    visibility: visible;
+    background-color: var(--secondary-color);
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+nav .navbar-nav > .nav-item > .nav-link:before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    border-bottom: 5px solid #FFF;
+    border-radius: 5px;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    z-index: -1;
+}
+
+
+/*-----------------------------------------------------------------*/
+/* Navigation
+/*-----------------------------------------------------------------*/
+
+
+#header {
+	top: 0;
+	z-index: 500;
+	width: 100%;
+	position: fixed;
+	z-index: 99999;
+}
+
+#main-menu {
+	z-index: 300;
+	visibility:visible;
+}
+
+.menu-bg {
+	background:#202020;
+}
+
+#main-menu ul {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#main-menu ul li {
+	display: inline-block;
+	position: relative;
+}
+
+#main-menu ul li a {
+	display: inline-block;
+	padding:6px 10px;
+	line-height: 60px;
+	color: #FFF;
+	font-weight: 600;
+	font-size: 15px;
+	text-transform: uppercase;
+	transition: all 0.25s ease 0s;
+}
+
+#main-menu ul li a:hover {
+	color:#FFF;
+}
+
+#main-menu ul.nav>li>a:hover, #main-menu ul.nav>li>a:focus {
+	background: none;
+}
+
+#main-menu ul li.active > a, #main-menu ul li.active.has-child > a {
+	color: #FFF;
+	box-shadow: inset 0 -2px 0 #FFF;
+}
+
+.clear-toggle {
+	display:none;
+	clear:both;
+}
+
+.navbar-toggle {
+	color: #FFF;
+	margin-top: 4px;
+	font-size: 32px;
+	margin-bottom: 0px;
+	padding-top: 9px;
+	position: absolute;
+	right: 0px;
+	padding-right: 0;
+}
+
+.logo {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.logo-nav {
+	float: left;
+	line-height: 60px;
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+    .navbar-right {
+        float:none !important;
+    }
+
+}
+
+/* @media (min-width: 768px) and (max-width: 992px) {
+
+    .thumnail-img {
+        width:50%;
+    }
+
+}
+
+     @media (max-width: 768px) {
+
+     .thumnail-img {
+        width:50%;
+    }
+
+    }
+
+     @media (max-width: 550px) {
+
+    .thumnail-img {
+        width:100%;
+    }
+
+    } */
+
+
+@media (max-width:480px) {
+
+    .big {
+        font-size: 35px;
+        line-height: 52px;
+    }
+
+    .small {
+        font-size: 19px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    #main-menu.collapse {
+     display: block !important;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    #main-menu {
+        background:#202020;
+    }
+
+     .navbar-right {
+     float:none !important;
+     margin-right:0px !important;
+    }
+
+     .clear-toggle {
+     display:block;
+    }
+
+     .navbar-toggle {
+     display: block !important;
+    }
+
+     #main-menu ul li {
+     display: block;
+     text-align: left;
+    }
+
+    #main-menu ul li a {
+        line-height: 23px;
+        display: inherit;
+        border-bottom: 1px solid #2C2C2C;
+        padding: 5px 20px;
+        background:transparent;
+    }
+
+    #main-menu ul li a:hover, #main-menu ul li.active a {
+        background:#2C2C2C !important;
+        color:#FFF;
+    }
+
+    #main-menu ul li.active > a {
+        box-shadow: none !important;
+    }
+
+
+}

@@ -1,0 +1,158 @@
+.HOVER {
+    --width: 100%;
+    --time: 0.7s;
+
+    position: relative;
+    display: inline-block;
+    color: white;
+    overflow: hidden;
+}
+
+.HOVER i {
+    position: relative;
+    z-index: 5;
+
+    transition: color var(--time);
+}
+
+.HOVER:hover i {
+    color: #222;
+}
+
+.HOVER text {
+    position: relative;
+    z-index: 5;
+
+    transition: color var(--time);
+}
+
+.HOVER:hover text {
+    color: #222;
+}
+
+.HOVER span {
+    position: absolute;
+    display: block;
+    content: "";
+    z-index: 0;
+    width: 0;
+    height: 0;
+
+    border-radius: 100%;
+    background: var(--main-color);
+
+    transform: translate(-50%, -50%);
+    transition: width var(--time),
+                  padding-top var(--time);
+}
+
+.HOVER:hover span {
+    width: calc(var(--width) * 3);
+    padding-top: calc(var(--width) * 2.28);
+}
+
+.HOVER.custom-btn
+{
+    border-color: #f8f9fa;
+}
+
+/* quitar despues */
+
+/**********************/
+/*     17.Footer     */
+/**********************/
+footer {
+	background:url('/images/slider/pattern.png') repeat rgba(0, 0, 0, .4);
+	/* position: absolute;
+	left: 0;
+	top: 0;
+	right: 0; */
+	/* z-index: 100;
+	width: 100%;
+	height: 100%; */
+}
+
+footer footer-col {
+	/* margin-bottom: 2.25rem; */
+}
+
+footer h5 {
+	margin-bottom: 0.5rem;
+}
+
+footer a {
+	text-decoration: none;
+    margin-bottom: 35px;
+}
+
+footer h5,
+footer p,
+footer a {
+	color: #bbb;
+}
+
+footer .list-unstyled .fas {
+	color: #bbb;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+footer .list-unstyled .media-body {
+	margin-left: -0.375rem;
+    margin-bottom: 10px;
+}
+
+footer .list-unstyled .media-body i{
+	padding: 0 4px;
+}
+
+footer .fab {
+	margin-bottom: 0.75rem;
+	margin-right: 1rem;
+	color: #ccc;
+	font-size: 1.25rem;
+	transition: all 0.2s ease;
+}
+
+footer .fab:hover {
+	color: #ffbd50;
+}
+
+
+
+/*************************/
+/*     18. Copyright     */
+/*************************/
+.copyrightfooter {
+	padding-top: 1.5rem;
+	padding-bottom: 0.375rem;
+	background-color: #000;
+	text-align: center;
+}
+
+.copyrightfooter .p-small {
+	color: #999;
+	font-size: 0.75rem;
+	line-height: 1.375rem;
+}
+
+.copyrightfooter a {
+	color: #999;
+}
+
+@media (max-width:600px) {
+    .text-about{
+        text-align: center;
+    }
+    .custom-final-footer{
+        flex-direction: column;
+    }
+    .custom-final-footer #seta-content{
+        display:flex;
+        flex-direction: column;
+    }
+    .custom-final-footer .custom-btn{
+        width: 177.81px;
+        height: 31.5px;
+    }
+}
