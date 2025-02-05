@@ -62,7 +62,7 @@
 /*     17.Footer     */
 /**********************/
 footer {
-	background:url('/images/slider/pattern.png') repeat rgba(0, 0, 0, .4);
+	background:url('/images/slider/pattern.png') repeat rgba(176, 68, 68, 0.4);
 	/* position: absolute;
 	left: 0;
 	top: 0;
@@ -119,6 +119,9 @@ footer .fab:hover {
 }
 
 
+.bg-dark{
+    background:var(--main-color) !important;
+}
 
 /*************************/
 /*     18. Copyright     */

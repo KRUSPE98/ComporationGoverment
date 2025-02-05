@@ -8,13 +8,16 @@
 
 <script src="{{ asset('js/contact/custom.js?v='.time()) }}"></script>
 <script src="{{ asset('js/contact/form-validate.js?v='.time()) }}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js" integrity="sha512-nhY06wKras39lb9lRO76J4397CH1XpRSLfLJSftTeo3+q2vP7PaebILH9TqH+GRpnOhfAGjuYMVmVTOZJ+682w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js" integrity="sha512-nhY06wKras39lb9lRO76J4397CH1XpRSLfLJSftTeo3+q2vP7PaebILH9TqH+GRpnOhfAGjuYMVmVTOZJ+682w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
 
-<script type="text/javascript" src="{{('js/owl-carousel/owl.carousel.js?v='.time())}}"></script>
+{{-- <script type="text/javascript" src="{{('js/owl-carousel/owl.carousel.js?v='.time())}}"></script> --}}
 <script type="text/javascript" src="{{('js/principal/sectionSlider.js?v='.time())}}"></script>
 <script type="text/javascript" src="{{('js/principal/jquery.flexslider-min.js?v='.time())}}"></script>
 <script type="text/javascript" src="{{('js/principal/jquery.mixitup.min.js?v='.time())}}"></script>
 <script type="text/javascript" src="{{('js/principal/jquery.magnific-popup.js?v='.time())}}"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
 
 @yield('custom-scripts')
 

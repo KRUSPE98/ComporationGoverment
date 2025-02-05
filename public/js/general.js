@@ -98,7 +98,7 @@ $('.popup-with-move-anim').magnificPopup({
 
 
 $(".tab-carousel").owlCarousel({
- 
+
     navigation : false, // Show next and prev buttons
     slideSpeed : 400,
     pagination : false,
@@ -130,16 +130,40 @@ $(window).on('load', function() {
 /*------------------------------*/
 /*  Scroll to top
 /*------------------------------*/
-	 
+
 $(window).scroll(function(){
     if ($(this).scrollTop() > 100) {
         $('.scrollup').fadeIn();
     } else {
         $('.scrollup').fadeOut();
     }
-}); 
+});
 
 $('.scrollup').click(function(){
     $("html, body").animate({ scrollTop: 0 }, 0);
     return false;
 });
+
+
+
+var owl = $(".owl-carousel").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    nav: false,
+    dots: false,
+});
+
+// Botón anterior
+$(".custom-prev").on('click', function() {
+    owl.trigger('prev.owl.carousel');
+});
+
+// Botón siguiente
+$(".custom-next").on('click', function() {
+    owl.trigger('next.owl.carousel');
+});
+
