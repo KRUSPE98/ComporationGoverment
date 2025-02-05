@@ -27,5 +27,5 @@ Route::get('/contacto', function () {
     return view('client.sections.contact.contactb');
 });
 
-Route::post('/contacts/store','ContactsController@store')->name('contact.store');
+Route::post('/contactForm','ContactsController@contactForm')->name('contact.form');
 
