@@ -9,6 +9,24 @@ $("#sendInformation").on('click', function(e) {
     }
 });
 
+// Limpiar los mensajes de error al modificar el campo
+$('#fruitkha-contact input, #fruitkha-contact textarea').on('input', function() {
+    // Limpiar el estado de error en el mensaje correspondiente
+    $('#form_status').html('');
+    $(this).removeClass('error'); // Remover la clase de error del campo, si la tiene
+});
+
+// Evento para restringir solo números y limitar a 10 dígitos
+$('#phone').on('input', function() {
+    // Eliminar todo lo que no sea un número
+    this.value = this.value.replace(/\D/g, '');  // \D elimina todo lo que no sea un número
+
+    // Limitar la longitud a 10 dígitos
+    if (this.value.length > 10) {
+        this.value = this.value.slice(0, 10);  // Cortar si hay más de 10 dígitos
+    }
+});
+
 function valid_datas(formSelector) {
     var f = $(formSelector)[0];  // Usamos el selector para obtener el formulario
     var valid = true;
@@ -46,6 +64,7 @@ function notice( f ){
 
 // Enviar información al controlador
 function sendContactInformation() {
+    showWait();
     $.ajax({
         type: "POST",
         url: "/contactForm",
@@ -60,49 +79,11 @@ function sendContactInformation() {
         },
         error: function (response) {
             console.log(response);
+            // toastr error
+            toastr.error("Error al enviar el formulario", "Error", {timeOut:3000});
+        },
+        complete: function() {
+            hideWait();
         }
     });
 }
-
-// function createContactInformation() {
-
-// 	var name = $("#name").val();
-// 	var email = $("#email").val();
-// 	var phone = $("#phone").val();
-// 	var message = $("#message").val();
-// 	var _token = $("input[name=__token]").val();
-
-// 	$.ajax({
-// 		type: "post",
-// 		url: "/contacts/store",
-// 		data: {
-// 			name: name,
-// 			email: email,
-// 			phone: phone,
-// 			message: message,
-// 			//_token: _token
-// 			"_token": $("meta[name='csrf-token']").attr("content")
-
-// 		},
-// 		success: function (response) {
-
-// 			if(response){
-// 				$("#name").val("");
-// 				$("#email").val("");
-// 				$("#phone").val("");
-// 				$("#message").val("");
-// 				console.log(response);
-// 				//alert("Add successfull!!");
-// 				toastr.success("Gracias por su mensaje!!", "Nuevo Registro", {timeOut:3000});
-// 			}
-
-
-// 		},
-// 		error: function (response) {
-
-// 			console.log(response);
-// 		}
-
-// 	});
-
-// }

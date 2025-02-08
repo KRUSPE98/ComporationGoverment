@@ -16,6 +16,7 @@ class ContactFormMail extends Mailable
     public $phone;
     public $message;
     public $title;
+    protected $viewTemplate;
 
     /**
      * Create a new message instance.
@@ -24,14 +25,16 @@ class ContactFormMail extends Mailable
      * @param $email
      * @param $phone
      * @param $message
+     * @param $viewTemplate
      * @param $title
      */
-    public function __construct($name, $email, $phone, $message, $title = 'Nuevo Mensaje')
+    public function __construct($name, $email, $phone, $message, $viewTemplate, $title = 'Nuevo Mensaje')
     {
         $this->name = $name;
         $this->email = $email;
         $this->phone = $phone;
         $this->message = $message;
+        $this->viewTemplate = $viewTemplate;
         $this->title = $title;
     }
 
@@ -43,7 +46,7 @@ class ContactFormMail extends Mailable
     public function build()
     {
          // Renderizar la vista del contenido dinámico
-         $generalContent = view('emails.contactForm', [
+         $generalContent = view($this->viewTemplate, [
             'name' => $this->name,
             'email' => $this->email,
             'phone' => $this->phone,

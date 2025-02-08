@@ -31,4 +31,5 @@ Route::get('/contacto', function () {
 });
 
 Route::post('/contactForm','ContactsController@contactForm')->name('contact.form');
+Route::get('/contactForm/preview', 'ContactsController@preview');
 

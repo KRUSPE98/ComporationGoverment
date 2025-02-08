@@ -728,3 +728,12 @@ span.ripple {
 
 }
 /* end of min-width 1200px */
+
+
+.toast-center {
+    position: fixed !important;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Ajuste para centrar */
+    z-index: 9999; /* Asegura que esté por encima de otros elementos */
+}

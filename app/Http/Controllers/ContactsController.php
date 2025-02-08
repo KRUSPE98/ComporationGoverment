@@ -117,10 +117,24 @@ class ContactsController extends Controller
         try {
             // Aquí envías el correo al administrador y al usuario
             // Enviar al administrador (puedes configurar una dirección en el archivo .env)
-            Mail::to('admin@example.com')->send(new ContactFormMail($request->name, $request->email, $request->phone, $request->message, 'Nuevo mensaje de contacto'));
+            Mail::to(env('ADMIN_EMAIL'))->send(new ContactFormMail(
+                $request->name,
+                $request->email,
+                $request->phone,
+                $request->message,
+                'emails.admin_contact', // Vista específica para el admin
+                'Nuevo mensaje de contacto'
+            ));
 
-            // Enviar al usuario (confirmación)
-            Mail::to($request->email)->send(new ContactFormMail($request->name, $request->email, $request->phone, $request->message, 'Confirmación de mensaje enviado'));
+            // Enviar al usuario con su contenido específico
+            Mail::to($request->email)->send(new ContactFormMail(
+                $request->name,
+                $request->email,
+                null,  // No se necesita el teléfono en la confirmación
+                null,  // No se necesita el mensaje en la confirmación
+                'emails.user_confirmation', // Vista específica para el usuario
+                'Confirmación de mensaje enviado'
+            ));
 
             $response['success'] = true;
             $response['message'] = 'Mensaje enviado correctamente';
@@ -129,5 +143,21 @@ class ContactsController extends Controller
         }
 
         return response()->json($response);
+    }
+
+    function preview()
+    {
+        $generalContent = view('emails.contactForm', [
+            'name' => 'Fausto',
+            'email' => 'Fausto@example.com',
+            'phone' => '2441115566',
+            'message' => 'un mensaje bien largo simulando una pregunta de dudas de contacto en el formulario de la web',
+        ])->render(); // Renderiza el contenido dinámico
+
+        return view('emails.general-email-template') // Plantilla base
+            ->with([
+                'generalContent' => $generalContent,  // Pasa el contenido renderizado aquí
+                'title' => 'titulo de prueba', // Título dinámico
+            ]);
     }
 }

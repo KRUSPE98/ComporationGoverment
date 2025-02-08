@@ -3,7 +3,7 @@
 -------------------------------------------------------*/
 
 /****** START SET ACTIVE BACKGROUND BLACK TO THE NAV-BAR IN SOME CONDITIONS ******/
-
+showWait();
 $(window).scroll(function () {
     if ($("#header").offset().top > 50) {
         $("#header").addClass("menu-bg");
@@ -116,16 +116,22 @@ $(".tab-carousel").owlCarousel({
 
 /* Preloader */
 $(window).on('load', function() {
-    var preloaderFadeOutTime = 500;
-    function hidePreloader() {
-        var preloader = $('.spinner-wrapper');
-        setTimeout(function() {
-            preloader.fadeOut(preloaderFadeOutTime);
-        }, 500);
-    }
-    hidePreloader();
+    hideWait();
 });
 
+function hideWait() {
+    var preloaderFadeOutTime = 500;
+    var preloader = $('.spinner-wrapper');
+
+    setTimeout(function() {
+        preloader.fadeOut(preloaderFadeOutTime);
+    }, 500);
+}
+
+function showWait() {
+    var preloader = $('.spinner-wrapper');
+    preloader.show();
+}
 
 /*------------------------------*/
 /*  Scroll to top
@@ -167,3 +173,8 @@ $(".custom-next").on('click', function() {
     owl.trigger('next.owl.carousel');
 });
 
+toastr.options = {
+    "closeButton": true,  // Habilita el botón de cierre
+    "positionClass": "toast-center",  // Centramos la notificación
+    "preventDuplicates": true,
+};

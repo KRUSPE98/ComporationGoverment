@@ -83,7 +83,7 @@ Nosotros
                                 <input class="form-control" id="email" name="email" placeholder="Correo Electrónico" type="email">
                             </div>
                             <div class="col-md-4" data-aos="zoom-in" data-aos-duration="3000">
-                                <input class="form-control" id="phone" name="phone" placeholder="Número de Telefono" type="number">
+                                <input class="form-control" id="phone" name="phone" placeholder="Número de Teléfono" type="text">
                             </div>
                             <div class="col-md-12" data-aos="zoom-in" data-aos-duration="3000">
                                 <textarea class="form-control" id="message" name="message" rows="7" placeholder="Mensaje"></textarea>
