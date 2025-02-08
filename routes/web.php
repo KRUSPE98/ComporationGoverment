@@ -23,9 +23,13 @@ Route::get('/','HomeController@index')->name('index');
 Route::get('/nosotros', function () {
     return view('client.sections.abouts.index');
 });
+Route::get('/services', function () {
+    return view('client.sections.abouts.index');
+});
 Route::get('/contacto', function () {
     return view('client.sections.contact.contactb');
 });
 
-Route::post('/contacts/store','ContactsController@store')->name('contact.store');
+Route::post('/contactForm','ContactsController@contactForm')->name('contact.form');
+Route::get('/contactForm/preview', 'ContactsController@preview');
 

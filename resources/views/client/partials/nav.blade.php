@@ -3,7 +3,9 @@
 
         <div class="container">
 
-            <a class="navbar-brand" href="{{ url('/') }}">IT Soluciones</a>
+            <a class="navbar-brand" href="{{ url('/') }}">
+            <img src="{{asset('images/partials/nav/CGF-logo-white.png')}}" alt="">
+            </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -18,8 +20,11 @@
                     <li class="nav-item page_nosotros">
                         <a class="nav-link" href="{{ url('/nosotros') }}">Nosotros</a>
                     </li>
+                    <li class="nav-item page_services">
+                        <a class="nav-link" href="{{ url('/services') }}">Servicios</a>
+                    </li>
                     <li class="nav-item page_contacto">
-                        <a class="nav-link" href="{{ url('/contacto') }}">Contactanos</a>
+                        <a class="nav-link" href="{{ url('/contacto') }}">Contáctanos</a>
                     </li>
                 </ul>
 

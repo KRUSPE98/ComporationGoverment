@@ -1,0 +1,133 @@
+/* Estilo del section */
+.custom-section {
+    position: relative;
+    padding: 4rem 0;
+    /* background: linear-gradient(135deg,
+            var(--secondary-color) 33%,
+            var(--main-color) 33%,
+            var(--main-color) 66%,
+            var(--secondary-color) 66%); */
+    overflow: hidden;
+    color: white;
+
+}
+
+#agri-food{
+    /* scroll-margin-top: 60px !important; */
+    padding-top: 80px; /* Ajusta este valor al alto de tu menú */
+    margin-top: -35px; /* Ajuste negativo para que el contenido comience en la parte superior */
+}
+
+.custom-section::before,
+.custom-section::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.custom-section::before {
+    width: 300px;
+    height: 300px;
+    background: rgba(108, 25, 71, 0.2);
+    /* Guinda */
+    top: -100px;
+    left: -100px;
+}
+
+.custom-section::after {
+    width: 400px;
+    height: 400px;
+    background: rgba(21, 57, 109, 0.2);
+    /* Azul */
+    bottom: -150px;
+    right: -150px;
+}
+
+/* Título estilizado */
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--main-color);
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.section-title span {
+    color: var(--third-color);
+}
+
+/* Estilo de los cards */
+.custom-card {
+    border: none;
+    border-radius: 1rem;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.custom-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, var(--main-color), var(--secondary-color));
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    object-fit: cover;
+    height: 180px;
+}
+
+.custom-card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.custom-card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.custom-card-text {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Estilo del texto adicional */
+.additional-text-container {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 3rem 1.5rem;
+    background: linear-gradient(135deg, rgba(108, 25, 71, 0.2), rgba(21, 57, 109, 0.2));
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.additional-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #444;
+    line-height: 1.8;
+}
+
+.additional-highlight {
+    font-weight: 700;
+    color: var(--third-color);
+}

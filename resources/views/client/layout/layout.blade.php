@@ -8,13 +8,6 @@
     @include('client.partials.header')
 </head>
 <body>
-     <!--PreLoader-->
-     <!-- <div class="loader">
-        <div class="loader-inner">
-            <div class="circle"></div>
-        </div>
-    </div> -->
-    <!--PreLoader Ends-->
     <!-- Preloader -->
 	<div class="spinner-wrapper">
         <div class="spinner">
@@ -25,14 +18,14 @@
     </div>
     <!-- end of preloader -->
 
-    
+
     @include('client.partials.nav')
     @yield('content')
     <a href="#" class="scrollup"> <i class="fa fa-chevron-up"> </i></a>
     @include('client.partials.footer')
 
 
-    
+
 
     <!-- Spripts JS 19-03-2022 -->
     @include('client.partials.scripts')
