@@ -115,7 +115,7 @@ footer .fab {
 }
 
 footer .fab:hover {
-	color: #ffbd50;
+	color: var(--text-color-white);
 }
 
 
