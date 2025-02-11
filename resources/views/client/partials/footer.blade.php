@@ -72,78 +72,12 @@
     </div>
 
     <div class="d-flex justify-content-around align-items-center p-2 custom-final-footer" style="background-color: rgba(0, 0, 0, 0.2);">
-      <span>© {{ now()->year }} Copyright: IT Soluciones</span>
+      <span>© {{ now()->year }} Copyright: {{env('APP_NAME')}}</span>
       <span id="seta-content">Contenido Desarrollado por: <button type="submit" class="HOVER custom-btn btn no-border no-background"><span></span><text>© Seta Solutions</text></button></span>
     </div>
 
 </footer>
 
-{{-- <div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="footer-col first">
-                    <h5>About Corso</h5>
-                    <p class="p-small">We're passionate about teaching people how to do better SEO for their online presence</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="footer-col second">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled li-space-lg p-small">
-                        <li class="media">
-                            <i class="fas fa-square"></i>
-                            <div class="media-body"><a href="terms-conditions.html">Terms & Conditions</a></div>
-                        </li>
-                        <li class="media">
-                            <i class="fas fa-square"></i>
-                            <div class="media-body"><a href="privacy-policy.html">Privacy Policy</a></div>
-                        </li>
-                        <li class="media">
-                            <i class="fas fa-square"></i>
-                            <div class="media-body"><a href="article-details.html">Article Details</a></div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="footer-col fourth">
-                    <h5>Social Media</h5>
-                    <p class="p-small">For news & updates follow us</p>
-                    <a href="#your-link">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#your-link">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#your-link">
-                        <i class="fab fa-pinterest-p"></i>
-                    </a>
-                    <a href="#your-link">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#your-link">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="#your-link">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="copyright-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="p-small">Copyright © {{now()->year}} <a href="#">SETA Solutions</a> - All rights reserved</p>
-            </div>
-        </div>
-    </div>
-</div> --}}
 @section('custom-scripts')
     <script src="{{ asset('js/footer.js?v='.time())}}"></script>
 @endsection
