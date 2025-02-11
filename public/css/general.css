@@ -764,3 +764,20 @@ span.ripple {
     bottom: -150px;
     right: -150px;
 }
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 2px solid var(--secondary-color);
+    color: var(--text-color-white);
+    font-weight: bold;
+    transition: all 0.3s;
+    text-decoration: none;
+    margin-top: 20px;
+    max-width: 180px;
+}
+
+.btn:hover {
+    background: var(--secondary-color);
+    color: var(--text-color-white);
+}

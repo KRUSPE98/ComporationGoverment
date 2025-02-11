@@ -1,80 +1,3 @@
-/* .slider-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-.owl-carousel .slide {
-    position: relative;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-}
-.slider-text-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    z-index: 10;
-}
-.big {
-    font-size: 50px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.small {
-    font-size: 20px;
-    margin: 15px 0;
-    text-transform: uppercase;
-}
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    border: 2px solid white;
-    color: white;
-    text-transform: uppercase;
-    transition: all 0.3s;
-    text-decoration: none;
-}
-.btn:hover {
-    background: gold;
-    color: black;
-}
-.custom-prev, .custom-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 30px;
-    padding: 10px 15px;
-    cursor: pointer;
-    z-index: 20;
-}
-.custom-prev { left: 20px; }
-.custom-next { right: 20px; }
-.custom-prev:hover, .custom-next:hover {
-    background: gold;
-    color: black;
-} */
-
-
-/* :root {
-    --main-color: #15396D;
-    --third-color: #F2F609;
-} */
-
 .slider-container {
     position: relative;
     width: 100%;
@@ -154,24 +77,6 @@
 
 .small li{
     text-align: left !important;
-}
-
-.btn {
-    display: inline-block;
-    padding: 12px 30px;
-    border: 2px solid var(--secondary-color);
-    color: var(--text-color-white);
-    /* text-transform: uppercase; */
-    font-weight: bold;
-    transition: all 0.3s;
-    text-decoration: none;
-    margin-top: 20px;
-    max-width: 180px;
-}
-
-.btn:hover {
-    background: var(--secondary-color);
-    color: var(--text-color-white);
 }
 
 .custom-prev, .custom-next {
