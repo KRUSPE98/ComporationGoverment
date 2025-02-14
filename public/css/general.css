@@ -781,3 +781,11 @@ span.ripple {
     background: var(--secondary-color);
     color: var(--text-color-white);
 }
+
+/* Estilo del section */
+.custom-section {
+    position: relative;
+    padding: 4rem 0;
+    overflow: hidden;
+    color: white;
+}

@@ -1,17 +1,3 @@
-/* Estilo del section */
-.custom-section {
-    position: relative;
-    padding: 4rem 0;
-    /* background: linear-gradient(135deg,
-            var(--secondary-color) 33%,
-            var(--main-color) 33%,
-            var(--main-color) 66%,
-            var(--secondary-color) 66%); */
-    overflow: hidden;
-    color: white;
-
-}
-
 #agri-food{
     /* scroll-margin-top: 60px !important; */
     padding-top: 80px; /* Ajusta este valor al alto de tu menú */
