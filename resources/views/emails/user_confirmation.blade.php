@@ -1,4 +1,4 @@
-<h3>¡Gracias por tu mensaje! - CGF</h3>
+<h3>¡Gracias por tu mensaje! - {{env('APP_NAME')}}</h3>
 
 <p>Hola {{ $name }},</p>
 
@@ -6,7 +6,7 @@
 
 <p>Si necesitamos más información, nos comunicaremos contigo a través del correo electrónico que proporcionaste.</p>
 
-<p>¡Gracias por confiar en CGF! Estamos aquí para ayudarte.</p>
+<p>¡Gracias por confiar en {{env('APP_NAME')}}! Estamos aquí para ayudarte.</p>
 
 <div style="margin-top: 60px">
     <p style="font-size: 14px;">

@@ -52,7 +52,7 @@
         <!-- Texto adicional -->
         <div class="additional-text-container">
             <div class="additional-text">
-                En <span class="additional-highlight">CGF</span>, gestionamos el fuego de la empresa familiar
+                En <span class="additional-highlight">{{env('APP_NAME')}}</span>, gestionamos el fuego de la empresa familiar
                 agroalimentaria para que no incendie la relación entre la empresa y la familia, contribuyendo con su
                 continuidad generacional y su permanencia en el mercado.
             </div>
