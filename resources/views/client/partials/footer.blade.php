@@ -44,23 +44,23 @@
                         <p class="p-small">Siguenos en nuestras redes sociales</p>
                     </div>
 
-                    <a class="HOVER custom-btn btn btn-floating m-3" href="https://web.facebook.com/Gobernanza.familiar" target="_blank" role="button"
+                    <a class="HOVER custom-btn btn btn-floating m-3" href="{{config('app.urls.socialMedia.fb')}}" target="_blank" role="button"
                     ><span></span><i class="fab fa-facebook-f"></i
                     ></a>
 
-                    <a class="HOVER custom-btn btn btn-floating m-3" href="https://www.youtube.com/@gobernanza.familiar" target="_blank" role="button"
+                    <a class="HOVER custom-btn btn btn-floating m-3" href="{{config('app.urls.socialMedia.yt')}}" target="_blank" role="button"
                     ><span></span>
                     {{-- <i class="fab fa-twitter"></i> --}}
                     <i class="fab fa-youtube"></i>
                     </a>
 
-                    <a class="HOVER custom-btn btn btn-floating m-3" href="https://www.tiktok.com/@gobernanza.familiar" target="_blank" role="button"
+                    <a class="HOVER custom-btn btn btn-floating m-3" href="{{config('app.urls.socialMedia.tt')}}" target="_blank" role="button"
                     ><span></span>
                     {{-- <i class="fab fa-whatsapp"></i> --}}
                     <i class="fab fa-tiktok"></i>
                     </a>
 
-                    <a class="HOVER custom-btn btn btn-floating m-3" href="https://www.instagram.com/gobernanza.familiar/" target="_blank" role="button"
+                    <a class="HOVER custom-btn btn btn-floating m-3" href="{{config('app.urls.socialMedia.ig')}}" target="_blank" role="button"
                     ><span></span><i class="fab fa-instagram"></i
                     ></a>
 
