@@ -20,7 +20,7 @@
                 <tr>
                     <td style="padding: 10px;">
                         <p style="font-size: 12px;">
-                            Dirección de la Empresa | +123 456 7890 | contacto@empresa.com
+                            {{config('app.contacts.address')}} | {{config('app.contacts.phone')}} | {{config('app.contacts.email')}}
                         </p>
                     </td>
                 </tr>
@@ -35,11 +35,17 @@
                             Siguenos en:
                         </p>
                         <p style="font-size: 12px;">
-                            <a href="https://facebook.com/miempresa" target="_blank" style="margin: 0 5px;">
-                                <img src="{{asset('images/decorations/fb_icon.png')}}" alt="Facebook" style="width: 40px; height: 20px;">
+                            <a href="{{config('app.urls.socialMedia.fb')}}" target="_blank" style="margin: 0 10px;text-decoration:none;">
+                                <img src="{{asset('images/decorations/facebook-f-brands.svg')}}" alt="Facebook" style="width: 23px; height: 22px;">
                             </a>
-                            <a href="https://instagram.com/miempresa" target="_blank" style="margin: 0 5px;">
-                                <img src="{{asset('images/decorations/insta_icon.png')}}" alt="Instagram" style="width: 23px; height: 22px;">
+                            <a href="{{config('app.urls.socialMedia.ig')}}" target="_blank" style="margin: 0 10px;text-decoration:none;">
+                                <img src="{{asset('images/decorations/instagram-brands.svg')}}" alt="Instagram" style="width: 23px; height: 22px;">
+                            </a>
+                            <a href="{{config('app.urls.socialMedia.tt')}}" target="_blank" style="margin: 0 10px;text-decoration:none;">
+                                <img src="{{asset('images/decorations/tiktok-brands.svg')}}" alt="Instagram" style="width: 23px; height: 22px;">
+                            </a>
+                            <a href="{{config('app.urls.socialMedia.yt')}}" target="_blank" style="margin: 0 10px;text-decoration:none;">
+                                <img src="{{asset('images/decorations/youtube-brands.svg')}}" alt="Instagram" style="width: 23px; height: 22px;">
                             </a>
                         </p>
                         </p>

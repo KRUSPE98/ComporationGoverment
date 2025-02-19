@@ -13,6 +13,6 @@
         Saludos,
     </p>
     <p style="font-size: 14px;">
-        Equipo de <strong>Consultoría y capacitación en gobernanza familiar corporativa</strong>
+        Equipo de <strong>{{env('APP_NAME')}}</strong>
     </p>
 </div>
