@@ -5,6 +5,10 @@ body{
     background-color: #fbf9f5;
 }
 
+.features-info h4{
+    color: var(--main-color);
+}
+
 .features-icon-box {
 	margin-bottom:50px;
     /* text-align: center; */
@@ -316,7 +320,7 @@ body{
   /*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
  .slider_section {
     min-height: 560px;
-    background: #07212e;
+    background: var(--main-color);
     position: relative;
 }
 

@@ -8,10 +8,7 @@ $(window).scroll(function () {
     if ($("#header").offset().top > 50) {
         $("#header").addClass("menu-bg");
     } else {
-        var main_route = (window.location.pathname.split("/")[1]);
-        if(main_route != 'nosotros'){
-            $("#header").removeClass("menu-bg");
-        }
+        $("#header").removeClass("menu-bg");
     }
 });
 
@@ -69,9 +66,7 @@ $(document).ready(function() {
     if (main_route == '') {
         main_route = 'home';
     }
-    if(main_route == 'nosotros'){
-        $("#header").addClass("menu-bg");
-    }
+
     $('.nav-item.page_' + main_route).addClass('active');
 });
 
