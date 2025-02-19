@@ -31,7 +31,8 @@ Nosotros
                     </div>
                     <div class="contact-text">
                         <h3>Teléfonos</h3>
-                        <p class="text-muted">+52 222 222222</p>
+                        <p class="text-muted">2213458714</p>
+                        <p class="text-muted">5518365601</p>
                     </div>
                 </div>
             </div>
@@ -42,7 +43,7 @@ Nosotros
                     </div>
                     <div class="contact-text">
                         <h3>Correo Electrónico</h3>
-                        <p class="text-muted">contacto@example.com</p>
+                        <p class="text-muted">gobernanza.familiar@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -54,11 +55,18 @@ Nosotros
                     <div class="contact-text">
                         <h3>Redes Sociales</h3>
                         <div class="contact-social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="HOVER custom-btn btn btn-floating" href="{{config('app.urls.socialMedia.fb')}}" target="_blank" rel="noopener noreferrer" role="button">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="HOVER custom-btn btn btn-floating" href="{{config('app.urls.socialMedia.yt')}}" target="_blank" rel="noopener noreferrer" role="button">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a class="HOVER custom-btn btn btn-floating" href="{{config('app.urls.socialMedia.ig')}}" target="_blank" rel="noopener noreferrer" role="button">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="HOVER custom-btn btn btn-floating" href="{{config('app.urls.socialMedia.tt')}}" target="_blank" rel="noopener noreferrer" role="button">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

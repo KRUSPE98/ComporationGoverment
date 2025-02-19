@@ -66,14 +66,22 @@
     color: #454545;
 }
 
+.contact-social{
+    display: flex;
+}
+
 .contact-social a {
     margin-right: 10px;
     font-size: 18px;
-    color: #FBB03F;
+    color: #fff;
+    background: var(--main-color);
+    padding: 5px;
+    border-radius: 50%;
+    border: none !important;
 }
 
 .contact-social a:hover {
-    color: #719a0a;
+    color: var(--secondary-color);
 }
 
 
