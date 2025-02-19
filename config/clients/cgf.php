@@ -14,5 +14,10 @@ return [
             'yt' => 'https://www.youtube.com/@gobernanza.familiar',
             'tt' => 'https://www.tiktok.com/@gobernanza.familiar',
         ],
+    ],
+    'contacts' => [
+        'email' => 'gobernanza.familiar@gmail.com',
+        'phone' => "2213458714 / 5518365601",
+        'address' => 'Puebla, México',
     ]
 ];

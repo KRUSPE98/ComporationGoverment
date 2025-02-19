@@ -147,7 +147,7 @@ class ContactsController extends Controller
 
     function preview()
     {
-        $generalContent = view('emails.contactForm', [
+        $generalContent = view('emails.user_confirmation', [
             'name' => 'Fausto',
             'email' => 'Fausto@example.com',
             'phone' => '2441115566',

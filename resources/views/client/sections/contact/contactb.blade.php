@@ -20,7 +20,7 @@ Nosotros
                     </div>
                     <div class="contact-text">
                         <h3>Dirección</h3>
-                        <p class="text-muted">Texto para ilustrar la dirección de la organización</p>
+                        <p class="text-muted">{{config('app.contacts.address')}}</p>
                     </div>
                 </div>
             </div>
@@ -31,8 +31,7 @@ Nosotros
                     </div>
                     <div class="contact-text">
                         <h3>Teléfonos</h3>
-                        <p class="text-muted">2213458714</p>
-                        <p class="text-muted">5518365601</p>
+                        <p class="text-muted">{!! nl2br(str_replace(' / ', "\n", config('app.contacts.phone'))) !!}</p>
                     </div>
                 </div>
             </div>
@@ -43,7 +42,7 @@ Nosotros
                     </div>
                     <div class="contact-text">
                         <h3>Correo Electrónico</h3>
-                        <p class="text-muted">gobernanza.familiar@gmail.com</p>
+                        <p class="text-muted">{{config('app.contacts.email')}}</p>
                     </div>
                 </div>
             </div>
@@ -115,8 +114,13 @@ Nosotros
         <p class="text-center">Visítanos en nuestra sucursal y conoce nuestros productos y servicios.</p>
         <div class="map-container">
             <iframe
-                src="https://www.google.com/maps/embed?pb=TU_CODIGO_AQUI"
-                allowfullscreen="" loading="lazy"></iframe>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15046.68940542966!2d-98.20620345000001!3d19.041439049999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc0aef32640a1%3A0x4686a9f4ddc43b4!2sPuebla%2C%20Pue.!5e0!3m2!1ses-419!2smx!4v1708360000000"
+                width="100%"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
         </div>
     </div>
 </section>
