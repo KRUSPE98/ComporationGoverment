@@ -32,7 +32,7 @@ body{
 	height: 60px;
 	line-height: 41px;
 	font-size: 45px;
-	color:#FBB03F;
+	color:var(--secondary-color);
 }
 
 .features-icon-box .features-info {
@@ -149,9 +149,19 @@ body{
     color: white;
     border: 7px solid #e9ecef;
     border-radius: 100%;
-    background-color: #FBB03F;
-    /* font-size: 75px; */
+    background-color: var(--secondary-color);
+
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100%; /* Asegura que tenga una altura definida */
   }
+
+  .timeline i {
+    font-size: 80px;
+
+  }
+
 
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 10px;

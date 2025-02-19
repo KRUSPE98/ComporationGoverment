@@ -11,8 +11,8 @@
         <ul class="timeline">
             <li>
                 <div class="timeline-image" data-aos="flip-right">
-                    <img class="rounded-circle img-fluid" src="{{ asset('images/us/ética-transparencia.png') }}" alt="..." />
-                    <!-- <i class="fa-solid fa-scale-balanced balance-1"></i> -->
+                    {{-- <img class="rounded-circle img-fluid" src="{{ asset('images/us/ética-transparencia.png') }}" alt="..." /> --}}
+                    <i class="fa-solid fa-scale-balanced balance-1"></i>
                 </div>
                 <div class="timeline-panel" data-aos="fade-right" data-aos-duration="2000">
                     <div class="timeline-heading">
@@ -33,7 +33,11 @@
             </li> -->
 
             <li class="timeline-inverted">
-                <div class="timeline-image" data-aos="flip-right"><img class="rounded-circle img-fluid" src="{{ asset('images/us/eficiencia-calidad.png') }}" alt="..." /></div>
+                <div class="timeline-image" data-aos="flip-right">
+                    {{-- <img class="rounded-circle img-fluid" src="{{ asset('images/us/eficiencia-calidad.png') }}" alt="..." /> --}}
+                    <i class="fa-solid fa-handshake"></i>
+
+                </div>
                 <div class="timeline-panel" data-aos="fade-right" data-aos-duration="2000">
                     <div class="timeline-heading">
                         <h4 class="subheading">Eficiencia y Calidad</h4>
@@ -41,10 +45,10 @@
                     <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
                 </div>
             </li>
-            
-            
 
-            <li>
+
+
+            {{-- <li>
                 <div class="timeline-image" data-aos="flip-right"><img class="rounded-circle img-fluid" src="{{ asset('images/us/compromiso.png') }}" alt="..." /></div>
                 <div class="timeline-panel" data-aos="fade-right" data-aos-duration="2000">
                     <div class="timeline-heading">
@@ -70,7 +74,7 @@
                     </div>
                     <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
                 </div>
-            </li>
+            </li> --}}
             <!-- <li class="timeline-inverted">
                 <div class="timeline-image">
                     <h4>

@@ -8,9 +8,7 @@
             <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <section class="mb-4 text-about">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-                      repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-                      eum harum corrupti dicta, aliquam sequi voluptate quas.
+                        En CCGFC, nos comprometemos a proteger la privacidad de nuestros clientes y visitantes. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos su información cuando visita nuestro sitio web y utiliza nuestros servicios de Consultoría y Capacitación en Gobernanza Familiar Corporativa.
                     </p>
                 </section>
             </div>
@@ -46,19 +44,23 @@
                         <p class="p-small">Siguenos en nuestras redes sociales</p>
                     </div>
 
-                    <a class="HOVER custom-btn btn btn-floating m-3" href="#!" role="button"
+                    <a class="HOVER custom-btn btn btn-floating m-3" href="https://web.facebook.com/Gobernanza.familiar" target="_blank" role="button"
                     ><span></span><i class="fab fa-facebook-f"></i
                     ></a>
 
-                    <a class="HOVER custom-btn btn btn-floating m-3" href="#!" role="button"
-                    ><span></span><i class="fab fa-twitter"></i
-                    ></a>
+                    <a class="HOVER custom-btn btn btn-floating m-3" href="https://www.youtube.com/@gobernanza.familiar" target="_blank" role="button"
+                    ><span></span>
+                    {{-- <i class="fab fa-twitter"></i> --}}
+                    <i class="fab fa-youtube"></i>
+                    </a>
 
-                    <a class="HOVER custom-btn btn btn-floating m-3" href="#!" role="button"
-                    ><span></span><i class="fab fa-whatsapp"></i
-                    ></a>
+                    <a class="HOVER custom-btn btn btn-floating m-3" href="https://www.tiktok.com/@gobernanza.familiar" target="_blank" role="button"
+                    ><span></span>
+                    {{-- <i class="fab fa-whatsapp"></i> --}}
+                    <i class="fab fa-tiktok"></i>
+                    </a>
 
-                    <a class="HOVER custom-btn btn btn-floating m-3" href="#!" role="button"
+                    <a class="HOVER custom-btn btn btn-floating m-3" href="https://www.instagram.com/gobernanza.familiar/" target="_blank" role="button"
                     ><span></span><i class="fab fa-instagram"></i
                     ></a>
 
@@ -73,7 +75,12 @@
 
     <div class="d-flex justify-content-around align-items-center p-2 custom-final-footer" style="background-color: rgba(0, 0, 0, 0.2);">
       <span>© {{ now()->year }} Copyright: {{env('APP_NAME')}}</span>
-      <span id="seta-content">Contenido Desarrollado por: <button type="submit" class="HOVER custom-btn btn no-border no-background"><span></span><text>© Seta Solutions</text></button></span>
+      <span id="seta-content">Contenido Desarrollado por:
+        <a class="custom-btn no-background" href="/">
+            <span></span>
+            <text>© Seta Solutions</text>
+        </a>
+      </span>
     </div>
 
 </footer>
