@@ -1,0 +1,108 @@
+.video-section {
+    display: flex;
+    width: 100%;
+    height: 100vh; /* Ocupa toda la pantalla */
+    background: #000;
+}
+
+/* Contenedor del texto (30%) */
+.text-container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: white;
+    text-align: left;
+    position: relative;
+    background: linear-gradient(135deg, #15396D, #6C1947); /* Fondo con degradado */
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%); /* Forma diagonal */
+}
+
+/* Caja interna del texto */
+.text-content {
+    max-width: 80%;
+    z-index: 2;
+}
+
+.text-container h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.text-container p {
+    font-size: 1.2rem;
+}
+
+/* Elemento decorativo en el fondo */
+.text-container::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Contenedor del video (70%) */
+.video-container {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Oscurece un poco el video */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.video-overlay h1 {
+    font-size: 2.5rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .video-section {
+        flex-direction: column; /* Apila los elementos en móviles */
+        height: auto;
+    }
+
+    .text-container {
+        width: 100%;
+        height: auto;
+        clip-path: none;
+        padding: 20px;
+    }
+
+    .text-content {
+        max-width: 90%;
+    }
+
+    .video-container {
+        width: 100%;
+        height: 60vh; /* Video más pequeño en móviles */
+    }
+}

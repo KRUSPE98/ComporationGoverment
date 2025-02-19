@@ -15,7 +15,7 @@
 }
 
 .section-title span {
-    color: var(--third-color);
+    color: var(--secondary-color);
 }
 
 /* Estilo de los cards */
@@ -89,5 +89,5 @@
 
 .additional-highlight {
     font-weight: 700;
-    color: var(--third-color);
+    color: var(--secondary-color);
 }

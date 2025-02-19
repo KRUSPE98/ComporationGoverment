@@ -11,7 +11,7 @@
             </div>
             <div class="col-md-6">
                 <div class="full text_align_center" data-aos="fade-up" data-aos-duration="3000">
-                    <img class="slide_img" src="{{ asset('images/presentations/us2.png') }}" alt="#" /> 
+                    <img class="slide_img" src="{{ asset('images/us/mentory.png') }}" alt="#" />
                 </div>
             </div>
         </div>
