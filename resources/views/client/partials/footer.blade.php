@@ -8,7 +8,7 @@
             <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <section class="mb-4 text-about">
                     <p>
-                        En CCGFC, nos comprometemos a proteger la privacidad de nuestros clientes y visitantes. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos su información cuando visita nuestro sitio web y utiliza nuestros servicios de Consultoría y Capacitación en Gobernanza Familiar Corporativa.
+                        En {{env('APP_NAME')}}, nos comprometemos a proteger la privacidad de nuestros clientes y visitantes. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos su información cuando visita nuestro sitio web y utiliza nuestros servicios de Consultoría y Capacitación en Gobernanza Familiar Corporativa.
                     </p>
                 </section>
             </div>
