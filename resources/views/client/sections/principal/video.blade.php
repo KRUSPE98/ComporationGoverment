@@ -1,4 +1,4 @@
-{{-- <section class="video-section">
+<section class="video-section">
     <div class="text-container">
         <div class="text-content">
             <h2>Sobre Nosotros</h2>
@@ -13,6 +13,6 @@
         <div class="video-overlay">
         </div>
     </div>
-</section> --}}
+</section>
 
 

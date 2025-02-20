@@ -1,4 +1,4 @@
-<section class="video-section">
+{{-- <section class="video-section">
     <div class="text-container">
         <div class="text-content">
             <h2>Sobre Nosotros</h2>
@@ -11,7 +11,7 @@
             Tu navegador no soporta videos.
         </video>
         <div class="video-overlay">
-            {{-- <h1>Bienvenido a Nuestra Empresa</h1> --}}
+
         </div>
     </div>
-</section>
+</section> --}}

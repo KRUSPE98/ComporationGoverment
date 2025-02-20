@@ -6,6 +6,7 @@ Servicios
 @section('content')
 @component('client.sections.abouts.presentation')
 @endcomponent
+<link rel="stylesheet" href="{{asset('css/principal/video.css?v='.time())}}">
 <section id="history" class="section parallax">
     <div class="overlay"></div>
     <div class="container">
