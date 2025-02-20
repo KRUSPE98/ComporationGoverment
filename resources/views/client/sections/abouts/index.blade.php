@@ -16,7 +16,7 @@ Nosotros
     @endcomponent
     @component('client.sections.abouts.philosophy')
     @endcomponent
-    @component('client.sections.abouts.history')
+    @component('client.sections.abouts.video')
     @endcomponent
 
 @endsection

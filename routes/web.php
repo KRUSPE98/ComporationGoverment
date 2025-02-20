@@ -24,7 +24,7 @@ Route::get('/nosotros', function () {
     return view('client.sections.abouts.index');
 });
 Route::get('/services', function () {
-    return view('client.sections.abouts.index');
+    return view('client.sections.services.history');
 });
 Route::get('/contacto', function () {
     return view('client.sections.contact.contactb');
