@@ -1,18 +1,28 @@
-<section class="video-section">
-    <div class="text-container">
-        <div class="text-content">
-            <h2>Sobre Nosotros</h2>
-            <p>Somos una empresa de consultoría mexicana especializada en la profesionalización de empresas familiares del sector agroalimentario del país a través de la implementación de gobernanza familiar, gobierno corporativo y desarrollo organizacional, con altos estándares de calidad y sentido de responsabilidad, permitiendo gestionar la relación familia-empresa, contribuyendo a la continuidad generacional y a la permanencia en el mercado.</p>
+<div class="py-5" style="background: linear-gradient(to right, #f8f9fa, #e9ecef); border-radius: 10px;">
+    <div class="row align-items-center">
+
+      <div class="col-md-6">
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/hVGUlQYGm18?si=j7fK8yN7vzJHctIU"
+            title="YouTube video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
         </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <h2>Nuestra Empresa</h2>
+        <p class="mt-3">
+          En [Nombre de la Empresa], nos especializamos en ofrecer soluciones innovadoras
+          para [servicio o producto]. Nuestro equipo está comprometido con la calidad y la
+          satisfacción del cliente, brindando siempre lo mejor.
+        </p>
+      </div>
     </div>
-    <div class="video-container">
-        <video autoplay muted loop>
-            <source src="{{asset('video/video-de-edificios-hermosos.mp4')}}" type="video/mp4">
-            Tu navegador no soporta videos.
-        </video>
-        <div class="video-overlay">
-        </div>
-    </div>
-</section>
+  </div>
 
 

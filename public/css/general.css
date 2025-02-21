@@ -793,3 +793,14 @@ span.ripple {
     overflow: hidden;
     color: white;
 }
+
+.section-title {
+    text-align: center;
+    color: var(--main-color);
+    margin-bottom: 6rem;
+}
+
+.section-title span {
+    color: var(--text-color-title-yellow);
+}
+

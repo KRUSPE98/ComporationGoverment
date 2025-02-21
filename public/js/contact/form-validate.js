@@ -73,14 +73,13 @@ function sendContactInformation() {
             if(response){
                 $("#fruitkha-contact")[0].reset();
                 console.log(response);
-                //alert("Add successfull!!");
-                toastr.success("Gracias por su mensaje!!", "Nuevo Registro", {timeOut:3000});
+                toastr.success("Gracias por su mensaje!!", "Nueva solicitud de diagnóstico", {timeOut:3000});
             }
         },
         error: function (response) {
             console.log(response);
             // toastr error
-            toastr.error("Error al enviar el formulario", "Error", {timeOut:3000});
+            toastr.error("Error al enviar la solicitud.", "Error", {timeOut:3000});
         },
         complete: function() {
             hideWait();

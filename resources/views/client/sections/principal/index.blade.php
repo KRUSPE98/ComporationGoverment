@@ -24,9 +24,6 @@
     @component('client.sections.principal.slider')
     @endcomponent
 
-    @component('client.sections.principal.video')
-    @endcomponent
-
     @component('client.sections.principal.agri-food')
     @endcomponent
 

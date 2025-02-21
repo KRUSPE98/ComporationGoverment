@@ -1,6 +1,10 @@
 <!-- Small Services -->
 <section class="custom-section" id="agri-food">
     <div class="container">
+
+        @component('client.sections.principal.video')
+        @endcomponent
+
         <h2 class="section-title">Sector <span>Agroalimentario</span></h2>
         <div class="row g-4">
             <!-- Card 1 -->

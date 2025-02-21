@@ -1,21 +1,5 @@
 #agri-food{
-    /* scroll-margin-top: 60px !important; */
     padding-top: 80px; /* Ajusta este valor al alto de tu menú */
-    margin-top: -35px; /* Ajuste negativo para que el contenido comience en la parte superior */
-}
-
-/* Título estilizado */
-.section-title {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--main-color);
-    margin-bottom: 3rem;
-    position: relative;
-}
-
-.section-title span {
-    color: var(--text-color-title-yellow);
 }
 
 /* Estilo de los cards */

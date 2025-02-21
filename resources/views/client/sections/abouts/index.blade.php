@@ -8,16 +8,11 @@ Nosotros
 
 
 @section('content')
-
-
     @component('client.sections.abouts.presentation')
     @endcomponent
     @component('client.sections.abouts.response')
     @endcomponent
     @component('client.sections.abouts.philosophy')
     @endcomponent
-    @component('client.sections.abouts.video')
-    @endcomponent
-
 @endsection
 
