@@ -10,7 +10,7 @@ nav.navbar
 }
 nav .navbar-nav > .nav-item > .nav-link
 {
-    font-size: 14px;
+    14px;
     padding: 1.4rem 20px;
     font-weight: 500;
     color: #FFF;
@@ -110,7 +110,7 @@ nav .navbar-nav > .nav-item > .nav-link:before
 	line-height: 60px;
 	color: #FFF;
 	font-weight: 600;
-	font-size: 15px;
+	/* font-size: 15px; */
 	text-transform: uppercase;
 	transition: all 0.25s ease 0s;
 }
@@ -136,7 +136,7 @@ nav .navbar-nav > .nav-item > .nav-link:before
 .navbar-toggle {
 	color: #FFF;
 	margin-top: 4px;
-	font-size: 32px;
+	/* font-size: 32px; */
 	margin-bottom: 0px;
 	padding-top: 9px;
 	position: absolute;
@@ -197,12 +197,12 @@ nav .navbar-nav > .nav-item > .nav-link:before
 @media (max-width:480px) {
 
     .big {
-        font-size: 35px;
+        35px;
         line-height: 52px;
     }
 
     .small {
-        font-size: 19px;
+        19px;
     }
     .nav-item{
         margin-left: 0;

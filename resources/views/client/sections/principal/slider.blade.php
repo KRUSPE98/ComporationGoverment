@@ -1,25 +1,3 @@
-{{-- <section class="slider-container">
-    <div class="owl-carousel owl-theme">
-        <div class="slide" style="background-image: url('{{ asset('images/slider/1.jpg') }}');">
-            <div class="overlay"></div>
-            <div class="slider-text-wrapper animate__animated animate__fadeInDown">
-                <h2 class="big">Título 1</h2>
-                <p class="small animate__animated animate__fadeInUp">Descripción del primer slide.</p>
-                <a href="#" class="btn animate__animated animate__zoomIn">Leer Más</a>
-            </div>
-        </div>
-        <div class="slide" style="background-image: url('{{ asset('images/slider/2.jpg') }}');">
-            <div class="overlay"></div>
-            <div class="slider-text-wrapper animate__animated animate__fadeInDown">
-                <h2 class="big">Título 2</h2>
-                <p class="small animate__animated animate__fadeInUp">Descripción del segundo slide.</p>
-                <a href="#" class="btn animate__animated animate__zoomIn">Leer Más</a>
-            </div>
-        </div>
-    </div>
-    <button class="custom-prev">&#10094;</button>
-    <button class="custom-next">&#10095;</button>
-</section> --}}
 <section class="slider-container">
     <div class="owl-carousel owl-theme">
         <div class="slide slide-1" style="background-image: url('{{ asset('images/slider/level-br.jpeg') }}');">

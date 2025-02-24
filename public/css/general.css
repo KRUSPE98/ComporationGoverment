@@ -77,113 +77,9 @@ span.ripple {
     }
 }
 
-/* .ripple {
-    position: absolute;
-    width: 2px;
-    height: 2px;
-    animation-name: ripple;
-    animation-duration: 500ms;
-    opacity: 0;
-    border-radius: 50%;
-  }
-
-  @keyframes ripple {
-
-    0% {
-      opacity: .4;
-      transform: scale(0);
-      background: red;
-    }
-
-    100% {
-      opacity: 0;
-      transform: scale(100);
-      background: red;
-    }
-  } */
-
-
 .section-heading{
     color: #051922 !important;
 }
-
-  /******************************/
-/*     05. Small Features     */
-/******************************/
-/* .cards-1 {
-	padding-top: 1rem;
-	padding-bottom: 2rem;
-	background-color: #f7fafd;
-	text-align: center;
-}
-
-.cards-1 .card {
-	max-width: 11rem;
-	margin-right: auto;
-	margin-bottom: 3rem;
-	margin-left: auto;
-	padding: 0;
-	border: none;
-	background-color: transparent;
-}
-
-.cards-1 .card-image {
-	width: 7.5rem;
-	height: 7.5rem;
-	margin-right: auto;
-	margin-bottom: 1.5rem;
-	margin-left: auto;
-	border-radius: 50%;
-	background-color: #ebe7fa;
-}
-
-.cards-1 .card-image .icono {
-	color: #FBB03F;
-	font-size: 3.25rem;
-	line-height: 7.5rem;
-}
-
-.cards-1 .card-image.green {
-	background-color: #daf4ef;
-}
-
-.cards-1 .card-image.green .icono {
-	color: #FBB03F;
-}
-
-.cards-1 .card-image.red {
-	background-color: #f8e5ea;
-}
-
-.cards-1 .card-image.red .icono {
-	color: #FBB03F;
-}
-
-.cards-1 .card-image.yellow {
-	background-color: #f8f1de;
-}
-
-.cards-1 .card-image.yellow .icono {
-	color: #FBB03F;
-}
-
-.cards-1 .card-image.blue {
-	background-color: #e1f2fa;
-}
-
-.cards-1 .card-image.blue .icono {
-	color: #FBB03F;
-}
-
-.cards-1 .card-body {
-	padding: 0;
-}
-
-.cards-1 .card-title {
-	margin-bottom: 0.5rem;
-} */
-
-
 
 /**********************************************/
 /*     07. Description 1 Details Lightbox     */
@@ -232,7 +128,6 @@ span.ripple {
 
 .lightbox-basic .list-unstyled .far {
 	color: #19ca94;
-	font-size: 1.125rem;
 	line-height: 1.75rem;
 }
 
@@ -416,14 +311,12 @@ span.ripple {
 
 .content-tab-1 > .nav_2 li > a > i {
 	color: #474846;
-	font-size: 35px;
 	margin-bottom: 10px;
 }
 
 .content-tab-1 > .nav_2 > li > a > h4 {
 	display: block;
 	color: #4D3F3F;
-	font-size: 11px;
 	margin-bottom: 0px;
 }
 
@@ -457,7 +350,6 @@ span.ripple {
 	color: #FFF;
 	text-align: center;
 	line-height: 35px;
-	font-size: 20px;
 	border:2px solid transparent;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
@@ -489,7 +381,6 @@ span.ripple {
 	width: 30px;
 	height: 30px;
 	line-height:20px;
-	font-size:20px;
 	border-radius:0;
 	opacity:1;
 	background:#7EC13F;
@@ -555,7 +446,6 @@ span.ripple {
 	line-height: 55px;
 	text-align: center;
 	color: #7EC13F;
-	font-size: 22px;
 	font-weight: 600;
 	border: 1px solid #7EC13F;
 	position: relative;
@@ -594,7 +484,6 @@ span.ripple {
 
 .tab4-services-box .icon {
 	text-align: center;
-	font-size: 47px;
 	display: inline-block;
 	color: #7EC13F;
 	width: 100px;
@@ -630,7 +519,7 @@ span.ripple {
 }
 
 .core-features .list li {
-    font-size: 15px;
+    15px;
     margin: 0px 0px 12px;
     font-weight: 600;
     line-height: 20px;
@@ -789,7 +678,6 @@ span.ripple {
 /* Estilo del section */
 .custom-section {
     position: relative;
-    padding: 4rem 0;
     overflow: hidden;
     color: white;
 }
@@ -804,3 +692,6 @@ span.ripple {
     color: var(--text-color-title-yellow);
 }
 
+.spacer{
+    margin-block: 5rem;
+}

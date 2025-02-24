@@ -60,7 +60,7 @@
 }
 
 .big {
-    font-size: 35px;
+    35px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -68,7 +68,7 @@
 }
 
 .small {
-    font-size: 20px;
+    20px;
     margin: 15px 0;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -86,7 +86,7 @@
     background: rgba(0, 0, 0, 0);
     color: white;
     border: none;
-    font-size: 35px;
+    35px;
     padding: 15px 20px;
     cursor: pointer;
     z-index: 20;
@@ -186,18 +186,18 @@
 
     /* Títulos grandes */
     .big {
-        font-size: 5vw;  /* Ajuste responsivo al tamaño de la pantalla */
+        5vw;  /* Ajuste responsivo al tamaño de la pantalla */
     }
 
     /* Párrafos pequeños */
     .small {
-        font-size: 3vw;  /* Ajuste responsivo al tamaño de la pantalla */
+        3vw;  /* Ajuste responsivo al tamaño de la pantalla */
     }
 
     /* Botones */
     .btn {
         padding: 10px 25px;
-        font-size: 1.2em;
+        1.2em;
     }
 }
 

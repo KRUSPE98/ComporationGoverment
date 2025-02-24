@@ -1,11 +1,11 @@
 <!-- Small Services -->
 <section class="custom-section" id="agri-food">
-    <div class="container">
+    <div class="container spacer">
 
         @component('client.sections.principal.video')
         @endcomponent
 
-        <h2 class="section-title">Sector <span>Agroalimentario</span></h2>
+        <h2 class="section-title spacer">Sector <span>Agroalimentario</span></h2>
         <div class="row g-4">
             <!-- Card 1 -->
             <div class="col-md-6 col-lg-3 d-flex">
@@ -54,7 +54,7 @@
         </div>
 
         <!-- Texto adicional -->
-        <div class="additional-text-container">
+        <div class="additional-text-container spacer">
             <div class="additional-text">
                 En <span class="additional-highlight">{{env('APP_NAME')}}</span>, gestionamos el fuego de la empresa familiar
                 agroalimentaria para que no incendie la relación entre la empresa y la familia, contribuyendo con su

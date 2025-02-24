@@ -35,7 +35,6 @@ body{
 	width: 60px;
 	height: 60px;
 	line-height: 41px;
-	font-size: 45px;
 	color:var(--secondary-color);
 }
 
@@ -77,7 +76,6 @@ body{
 
 .scrollup i {
 	color:var(--secondary-color);
-	font-size:15px;
 	display:block;
 	line-height:33px;
 }
@@ -162,13 +160,13 @@ body{
   }
 
   .timeline i {
-    font-size: 80px;
+    80px;
 
   }
 
 
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-    font-size: 10px;
+    10px;
     line-height: 14px;
     margin-top: 12px;
   }
@@ -248,7 +246,7 @@ body{
       margin-left: -50px;
     }
     .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-      font-size: 13px;
+      13px;
       line-height: 18px;
       margin-top: 16px;
     }
@@ -258,7 +256,7 @@ body{
       text-align: left;
     }
     /* .balance-1{
-        font-size: 35px !important;
+        35px !important;
     } */
     /* .timeline-inverted{
         display: block;
@@ -281,7 +279,7 @@ body{
       margin-left: -75px;
     }
     .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-      font-size: 18px;
+      18px;
       line-height: 26px;
       margin-top: 30px;
     }
@@ -464,12 +462,12 @@ a.slide_banner {
     color: #333;
 }
 .top-banner-slider .flex_caption1 .title1 {
-    font-size: 36px;
+    36px;
     font-weight: 300;
     color: #ffffff;
 }
 .top-banner-slider .flex_caption1 .title2 {
-    font-size: 60px;
+    60px;
     font-weight: 900;
     color: #ffffff;
 }
@@ -493,7 +491,7 @@ a.slide_banner {
     text-align: center;
     font-weight: 700;
     line-height: 31px;
-    font-size: 26px;
+    26px;
     color: #fff;
     transition: all 0.1s ease-in-out;
     -webkit-transition: all 0.1s ease-in-out;
@@ -505,7 +503,7 @@ a.slide_banner {
     display: block;
     font-weight: 100;
     line-height: 36px;
-    font-size: 34px;
+    34px;
 }
 a.slide_banner::before {
     content: '';
@@ -629,7 +627,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     position: relative;
 }
 .slider_section h1 {
-    font-size: 65px;
+    65px;
     line-height: 65px;
     color: #fff;
     font-weight: 500;
@@ -638,29 +636,29 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     margin-top: 140px;
 }
 .slider_section h1 strong.cur {
-    font-size: 50px;
+    50px;
     line-height: 50px;
     color: #5293b7;
     font-weight: 400;
 }
 .slider_section p {
     color: #fff;
-    font-size: 17px;
+    17px;
 }
 .banner-main span {
-    font-size: 35px;
+    35px;
      color: #2f2f2f;
      padding-bottom: 25px;
      display: inline-block;
 }
 .banner-main p {
-    font-size: 17px;
+    17px;
      line-height: 30px;
      color: #2f2f2f;
 }
 .heading h2 {
     padding: 0;
-    font-size: 45px;
+    45px;
     font-weight: 500;
     text-align: left;
     color: #282e40;
@@ -673,14 +671,14 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      padding-top: 40px;
 }
  .about .aboutimg p {
-    font-size: 17px;
+    17px;
      line-height: 32px;
      color: #555554;
      padding: 30px 0px;
 }
  .about .aboutimg a{
      width: 218px;
-     font-size: 17px;
+     17px;
      padding: 20px 0px;
      background-color: #000;
      color: #fff;
@@ -703,7 +701,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
  .Coach .titlepage h2 {
      line-height: 72px;
-     font-size: 40px;
+     40px;
      color: #18bb18;
 }
  .need {
@@ -711,7 +709,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      font-weight: normal;
 }
  .Coach .titlepage span {
-    font-size: 20px;
+    20px;
      line-height: 22px;
      color: #383838;
 }
@@ -729,7 +727,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      float: left;
 }
  .Coach .tow-box p {
-    font-size: 27px;
+    27px;
      line-height: 34px;
      color: #151108;
 }
@@ -742,7 +740,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      color: #fff;
      display: inline-block;
      font-weight: 400;
-     font-size: 17px;
+     17px;
      line-height: 20px;
      margin: 0 auto;
      display: flex;
@@ -774,7 +772,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
  .get h2 {
      font-weight: bold;
      line-height: 86px;
-     font-size: 60px;
+     60px;
      color: #14120f;
 }
  .white {
@@ -782,7 +780,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
  .get p {
     color: #fff;
-     font-size: 17px;
+     17px;
      line-height: 32px;
 }
  .get a {
@@ -816,7 +814,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      padding-top: 50px;
 }
  .full-slider_cont h1 {
-     font-size: 65px;
+     65px;
      line-height: 72px;
      color: #110707;
 }
@@ -826,7 +824,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
  .full-slider_cont p {
      font-weight: 400;
-     font-size: 17px;
+     17px;
      line-height: 34px;
      color: #262424;
      padding: 19px 0px 70px 0px;
@@ -843,7 +841,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      padding-bottom: 50px;
 }
  .Contact .titlepage3 h2 {
-     font-size: 60px;
+     60px;
      line-height: 50px;
      color: #01080b;
      padding-bottom: 0px;
@@ -880,11 +878,11 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     min-height: 145px;
     background: #282e40;
     width: 100%;
-    font-size: 1rem;
+    1rem;
     line-height: 1.5em;
 } */
  .send-btn {
-     font-size: 26px;
+     26px;
      border: #000000 solid 2px;
      padding: 16px 70px;
      background-color: #000000;
@@ -905,7 +903,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
  .footer .JJcoach h3 {
      color: #fff;
-     font-size: 31px;
+     31px;
      line-height: 30px;
      display: block;
      padding-bottom: 25px;
@@ -927,7 +925,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
  .footer .Social h3 {
      color: #fff;
-     font-size: 17px;
+     17px;
      line-height: 30px;
      display: block;
      padding-bottom: 25px;
@@ -955,7 +953,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     padding-right: 10px;
 }
  ul.location_icon span {
-    font-size: 17px;
+    17px;
      font-weight: 400;
 }
  ul.socil_link {
@@ -984,7 +982,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
 .copyright p {
     color: #fff;
-    font-size: 15px;
+    15px;
     text-align: center;
     width: 100%;
 }
@@ -1005,7 +1003,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
  .about-bg .abouttitle h2 {
      color: #fff;
      text-transform: uppercase;
-     font-size: 40px;
+     40px;
      line-height: 45px;
      padding: 40px 0;
      font-weight: 500;
@@ -1027,7 +1025,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
  .meet_page .meet-me .abouttitle h2 {
      color: #fff;
      text-transform: uppercase;
-     font-size: 40px;
+     40px;
      line-height: 45px;
      padding: 40px 0;
      font-weight: 500;
@@ -1039,7 +1037,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
  .Coach-bg .abouttitle h2 {
      color: #fff;
      text-transform: uppercase;
-     font-size: 40px;
+     40px;
      line-height: 45px;
      padding: 40px 0;
      font-weight: 500;
@@ -1051,7 +1049,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
  .Contact-bg .abouttitle h2 {
      color: #fff;
      text-transform: uppercase;
-     font-size: 40px;
+     40px;
      line-height: 45px;
      padding: 40px 0;
      font-weight: 500;
@@ -1060,10 +1058,10 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 
 
 
-.container {
+/* .container {
      position: relative;
      z-index: 99;
-}
+} */
 .left_white {
      position: relative;
 }
@@ -1097,14 +1095,14 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      padding-left: 0 !important;
 }
 .main_heading_1 h2 {
-    font-size: 75px;
+    75px;
     font-weight: 700;
     color: #5293b7;
     padding: 0;
     margin-top: 50px;
 }
 .blog_blue p {
-    font-size: 15px;
+    15px;
     line-height: 23px;
     padding: 0 15px 20px 15px;
     position: relative;
@@ -1140,14 +1138,14 @@ footer p a {
 }
 footer h3 {
     color: #fff;
-    font-size: 30px;
+    30px;
     font-weight: 500;
     margin-top: 0;
     margin-bottom: 35px;
 }
 footer p {
     color: #fff;
-    font-size: 17px;
+    17px;
     line-height: 30px;
     float: left;
 }
@@ -1157,7 +1155,7 @@ footer p span:nth-child(1) {
 }
 
 footer p span {
-    font-size: 15px;
+    15px;
     line-height: 24px;
     float: left;
 }
@@ -1192,7 +1190,7 @@ footer input {
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .full-slider_cont h1 {
-        font-size: 51px;
+        51px;
         line-height: 61px;
    }
 
@@ -1209,11 +1207,11 @@ footer input {
 @media (min-width: 768px) and (max-width: 991px) {
 
     .full-slider_cont h1{
-        font-size: 40px;
+        40px;
         line-height: 50px;
    }
    .slider_section h1 {
-   font-size: 40px;
+   40px;
    line-height: 35px;
    }
 
@@ -1263,17 +1261,17 @@ footer input {
    margin-top: 50px;
 }
 .slider_section h1 {
-   font-size: 35px;
+   35px;
    line-height: 35px;
 }
 .slider_section h1 strong.cur {
-   font-size: 30px;
+   30px;
 }
 .slider_section .button_section {
    display: none;
 }
 .heading h2 {
-   font-size: 35px;
+   35px;
 }
 img {
    border-style: none;
@@ -1323,20 +1321,20 @@ img {
    margin-top: 50px;
 }
 .slider_section h1 {
-   font-size: 50px;
+   50px;
    line-height: 35px;
 }
 .slider_section h1 strong.cur {
-   font-size: 35px;
+   35px;
 }
 .slider_section .button_section {
    display: none;
 }
 .heading h2 {
-   font-size: 35px;
+   35px;
 }
 .main_heading_1 h2 {
-   font-size: 42px;
+   42px;
    margin-top: 0;
    margin-bottom: 15px;
 }
@@ -1346,7 +1344,7 @@ img {
 }
 
 .balance-1{
-    font-size: 35px;
+    35px;
 }
 
 }
