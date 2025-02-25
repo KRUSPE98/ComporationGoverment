@@ -160,13 +160,11 @@ body{
   }
 
   .timeline i {
-    80px;
-
+    font-size:80px;
   }
 
 
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-    10px;
     line-height: 14px;
     margin-top: 12px;
   }
@@ -279,7 +277,6 @@ body{
       margin-left: -75px;
     }
     .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-      18px;
       line-height: 26px;
       margin-top: 30px;
     }
@@ -321,19 +318,6 @@ body{
     background: var(--main-color);
     position: relative;
 }
-
-
-/* .slider_section::after {
-   width: 54%;
-   position: absolute;
-   top: 0;
-   right: -370px;
-   content: "";
-   background: #fff;
-   display: block;
-   height: 100%;
-   transform: skew(50deg);
-} */
 
 .slider_section::after {
     width: 33%;
@@ -462,12 +446,10 @@ a.slide_banner {
     color: #333;
 }
 .top-banner-slider .flex_caption1 .title1 {
-    36px;
     font-weight: 300;
     color: #ffffff;
 }
 .top-banner-slider .flex_caption1 .title2 {
-    60px;
     font-weight: 900;
     color: #ffffff;
 }
@@ -491,7 +473,6 @@ a.slide_banner {
     text-align: center;
     font-weight: 700;
     line-height: 31px;
-    26px;
     color: #fff;
     transition: all 0.1s ease-in-out;
     -webkit-transition: all 0.1s ease-in-out;
@@ -503,7 +484,6 @@ a.slide_banner {
     display: block;
     font-weight: 100;
     line-height: 36px;
-    34px;
 }
 a.slide_banner::before {
     content: '';
@@ -627,7 +607,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     position: relative;
 }
 .slider_section h1 {
-    65px;
     line-height: 65px;
     color: #fff;
     font-weight: 500;
@@ -636,29 +615,24 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     margin-top: 140px;
 }
 .slider_section h1 strong.cur {
-    50px;
     line-height: 50px;
     color: #5293b7;
     font-weight: 400;
 }
 .slider_section p {
     color: #fff;
-    17px;
 }
 .banner-main span {
-    35px;
      color: #2f2f2f;
      padding-bottom: 25px;
      display: inline-block;
 }
 .banner-main p {
-    17px;
      line-height: 30px;
      color: #2f2f2f;
 }
 .heading h2 {
     padding: 0;
-    45px;
     font-weight: 500;
     text-align: left;
     color: #282e40;
@@ -671,14 +645,12 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      padding-top: 40px;
 }
  .about .aboutimg p {
-    17px;
      line-height: 32px;
      color: #555554;
      padding: 30px 0px;
 }
  .about .aboutimg a{
      width: 218px;
-     17px;
      padding: 20px 0px;
      background-color: #000;
      color: #fff;
@@ -701,7 +673,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
  .Coach .titlepage h2 {
      line-height: 72px;
-     40px;
      color: #18bb18;
 }
  .need {
@@ -709,7 +680,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      font-weight: normal;
 }
  .Coach .titlepage span {
-    20px;
      line-height: 22px;
      color: #383838;
 }
@@ -727,7 +697,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      float: left;
 }
  .Coach .tow-box p {
-    27px;
      line-height: 34px;
      color: #151108;
 }
@@ -740,7 +709,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      color: #fff;
      display: inline-block;
      font-weight: 400;
-     17px;
      line-height: 20px;
      margin: 0 auto;
      display: flex;
@@ -772,7 +740,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
  .get h2 {
      font-weight: bold;
      line-height: 86px;
-     60px;
      color: #14120f;
 }
  .white {
@@ -780,7 +747,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
  .get p {
     color: #fff;
-     17px;
      line-height: 32px;
 }
  .get a {
@@ -814,7 +780,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      padding-top: 50px;
 }
  .full-slider_cont h1 {
-     65px;
      line-height: 72px;
      color: #110707;
 }
@@ -824,7 +789,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
  .full-slider_cont p {
      font-weight: 400;
-     17px;
      line-height: 34px;
      color: #262424;
      padding: 19px 0px 70px 0px;
@@ -841,48 +805,19 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      padding-bottom: 50px;
 }
  .Contact .titlepage3 h2 {
-     60px;
      line-height: 50px;
      color: #01080b;
      padding-bottom: 0px;
      font-weight: bold;
 }
-/* .form-control {
-    border: none;
-    margin: 10px 0;
-    padding: 25px 25px;
-    color: #fff;
-    border-radius: 0;
-    background: #282e40;
-    height: 75px;
-    color: #fff;
-    max-width: 568px;
-    width: 100%;
-}
-.form-control:focus, .form-control:hover {
-     border: none !important;
-     background: #282e40;
-} */
+
 .form-control:focus, .form-control:hover {
     /* border: none !important; */
     background: transparent;
     color: #FFF;
 }
-/* .textarea {
-    margin-bottom: 37px;
-    padding: 25px 25px;
-    color: #fff;
-    max-width: 568px;
-    border: none;
-    border-radius: 0;
-    min-height: 145px;
-    background: #282e40;
-    width: 100%;
-    1rem;
-    line-height: 1.5em;
-} */
+
  .send-btn {
-     26px;
      border: #000000 solid 2px;
      padding: 16px 70px;
      background-color: #000000;
@@ -903,7 +838,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
  .footer .JJcoach h3 {
      color: #fff;
-     31px;
      line-height: 30px;
      display: block;
      padding-bottom: 25px;
@@ -925,7 +859,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
  .footer .Social h3 {
      color: #fff;
-     17px;
      line-height: 30px;
      display: block;
      padding-bottom: 25px;
@@ -953,7 +886,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     padding-right: 10px;
 }
  ul.location_icon span {
-    17px;
      font-weight: 400;
 }
  ul.socil_link {
@@ -982,7 +914,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
 .copyright p {
     color: #fff;
-    15px;
     text-align: center;
     width: 100%;
 }
@@ -1003,7 +934,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
  .about-bg .abouttitle h2 {
      color: #fff;
      text-transform: uppercase;
-     40px;
      line-height: 45px;
      padding: 40px 0;
      font-weight: 500;
@@ -1025,7 +955,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
  .meet_page .meet-me .abouttitle h2 {
      color: #fff;
      text-transform: uppercase;
-     40px;
      line-height: 45px;
      padding: 40px 0;
      font-weight: 500;
@@ -1037,7 +966,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
  .Coach-bg .abouttitle h2 {
      color: #fff;
      text-transform: uppercase;
-     40px;
      line-height: 45px;
      padding: 40px 0;
      font-weight: 500;
@@ -1049,19 +977,12 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
  .Contact-bg .abouttitle h2 {
      color: #fff;
      text-transform: uppercase;
-     40px;
      line-height: 45px;
      padding: 40px 0;
      font-weight: 500;
      text-align: center;
 }
 
-
-
-/* .container {
-     position: relative;
-     z-index: 99;
-} */
 .left_white {
      position: relative;
 }
@@ -1095,14 +1016,12 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      padding-left: 0 !important;
 }
 .main_heading_1 h2 {
-    75px;
     font-weight: 700;
     color: #5293b7;
     padding: 0;
     margin-top: 50px;
 }
 .blog_blue p {
-    15px;
     line-height: 23px;
     padding: 0 15px 20px 15px;
     position: relative;
@@ -1138,14 +1057,12 @@ footer p a {
 }
 footer h3 {
     color: #fff;
-    30px;
     font-weight: 500;
     margin-top: 0;
     margin-bottom: 35px;
 }
 footer p {
     color: #fff;
-    17px;
     line-height: 30px;
     float: left;
 }
@@ -1155,7 +1072,6 @@ footer p span:nth-child(1) {
 }
 
 footer p span {
-    15px;
     line-height: 24px;
     float: left;
 }
@@ -1175,22 +1091,10 @@ footer input {
     .slider_section::after {
         display: none;
      }
-     /* .slider_section::after {
-        width: 54%;
-        position: absolute;
-        top: 0;
-        right: 70px;
-        content: "";
-        background: #fff;
-        display: block;
-        height: 100%;
-        transform: skew(50deg);
-     } */
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .full-slider_cont h1 {
-        51px;
         line-height: 61px;
    }
 
@@ -1207,18 +1111,16 @@ footer input {
 @media (min-width: 768px) and (max-width: 991px) {
 
     .full-slider_cont h1{
-        40px;
         line-height: 50px;
-   }
-   .slider_section h1 {
-   40px;
-   line-height: 35px;
-   }
+    }
 
+    .slider_section h1 {
+        line-height: 35px;
+    }
 
-.slider_section::after {
-    display: none;
- }
+    .slider_section::after {
+        display: none;
+    }
 
 }
 @media (min-width: 576px) and (max-width: 767px){
@@ -1261,18 +1163,13 @@ footer input {
    margin-top: 50px;
 }
 .slider_section h1 {
-   35px;
    line-height: 35px;
 }
-.slider_section h1 strong.cur {
-   30px;
-}
+
 .slider_section .button_section {
    display: none;
 }
-.heading h2 {
-   35px;
-}
+
 img {
    border-style: none;
    max-width: 100%;
@@ -1321,30 +1218,20 @@ img {
    margin-top: 50px;
 }
 .slider_section h1 {
-   50px;
    line-height: 35px;
 }
-.slider_section h1 strong.cur {
-   35px;
-}
+
 .slider_section .button_section {
    display: none;
 }
-.heading h2 {
-   35px;
-}
+
 .main_heading_1 h2 {
-   42px;
    margin-top: 0;
    margin-bottom: 15px;
 }
 img {
    border-style: none;
    max-width: 100%;
-}
-
-.balance-1{
-    35px;
 }
 
 }

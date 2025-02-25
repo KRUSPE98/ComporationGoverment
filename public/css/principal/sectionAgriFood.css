@@ -37,14 +37,12 @@
 }
 
 .custom-card-title {
-    1.25rem;
     font-weight: 700;
     color: var(--main-color);
     margin-bottom: 1rem;
 }
 
 .custom-card-text {
-    0.95rem;
     color: #444;
     line-height: 1.6;
 }
@@ -60,7 +58,6 @@
 }
 
 .additional-text {
-    1.5rem;
     font-weight: 500;
     color: #444;
     line-height: 1.8;

@@ -3,7 +3,6 @@
 /*-----------------------------------------------------------------*/
 
 html {
-    14px;
     font-weight: 400;
     line-height: 28px;
     height: 100%;
@@ -12,7 +11,6 @@ html {
   body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    1rem;
     letter-spacing: 0.1px;
     line-height: 1.8;
     color: #051922;
@@ -59,79 +57,67 @@ html {
   }
 
   h1, .h1 {
-    4rem;
     font-weight: 700;
     line-height: 4rem;
   }
 
   @media only screen and (max-width: 767.96px) {
     h1, .h1 {
-      3rem;
       line-height: 3.25rem;
     }
   }
 
   @media only screen and (max-width: 575.96px) {
     h1, .h1 {
-      2.5rem;
       line-height: 2.75rem;
     }
   }
 
   h2, .h2 {
-    3rem;
     font-weight: 700;
     line-height: 3.25rem;
   }
 
   @media only screen and (max-width: 767.96px) {
     h2, .h2 {
-      2.5rem;
       line-height: 2.75rem;
     }
   }
 
   @media only screen and (max-width: 575.96px) {
     h2, .h2 {
-      2rem;
       line-height: 2.25rem;
     }
   }
 
   h3, .h3 {
-    2rem;
     font-weight: 700;
     line-height: 2.25rem;
   }
 
   @media only screen and (max-width: 575.96px) {
     h3, .h3 {
-      1.75rem;
       line-height: 2rem;
     }
   }
 
   h4, .h4 {
-    1.5rem;
     font-weight: 700;
     line-height: 1.75rem;
   }
 
   @media only screen and (max-width: 575.96px) {
     h4, .h4 {
-      1.25rem;
       line-height: 1.5rem;
     }
   }
 
   h5, .h5 {
-    1.25rem;
     font-weight: 700;
     line-height: 1.5rem;
   }
 
   h6, .h6 {
-    1rem;
     font-weight: 700;
     line-height: 1.5rem;
   }
@@ -139,139 +125,11 @@ html {
   p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    1rem;
     letter-spacing: 0.1px;
     line-height: 1.8;
     color: #051922;
     margin: 0 0 1.25rem 0;
   }
-
-  /* p:last-child {
-    margin: 0;
-  } */
-
-
-  /* -----------------------------------------------------------------------------
-
-# All Common Styles
-
------------------------------------------------------------------------------ */
-/* .loader {
-    bottom: 0;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 1111;
-    background: #fff;
-    overflow-x: hidden;
-  }
-
-  .loader-inner {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    height: 50px;
-    width: 50px;
-  }
-
-  .circle {
-    width: 8vmax;
-    height: 8vmax;
-    border-right: 4px solid #000;
-    border-radius: 50%;
-    -webkit-animation: spinRight 800ms linear infinite;
-    animation: spinRight 800ms linear infinite;
-  }
-
-  .circle:before {
-    content: '';
-    width: 6vmax;
-    height: 6vmax;
-    display: block;
-    position: absolute;
-    top: calc(50% - 3vmax);
-    left: calc(50% - 3vmax);
-    border-left: 3px solid #F28123;
-    border-radius: 100%;
-    -webkit-animation: spinLeft 800ms linear infinite;
-    animation: spinLeft 800ms linear infinite;
-  }
-
-  .circle:after {
-    content: '';
-    width: 6vmax;
-    height: 6vmax;
-    display: block;
-    position: absolute;
-    top: calc(50% - 3vmax);
-    left: calc(50% - 3vmax);
-    border-left: 3px solid #F28123;
-    border-radius: 100%;
-    -webkit-animation: spinLeft 800ms linear infinite;
-    animation: spinLeft 800ms linear infinite;
-    width: 4vmax;
-    height: 4vmax;
-    top: calc(50% - 2vmax);
-    left: calc(50% - 2vmax);
-    border: 0;
-    border-right: 2px solid #000;
-    -webkit-animation: none;
-    animation: none;
-  }
-
-
-
-  @-webkit-keyframes spinLeft {
-    from {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    to {
-      -webkit-transform: rotate(720deg);
-      transform: rotate(720deg);
-    }
-  }
-
-
-  @keyframes spinLeft {
-    from {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    to {
-      -webkit-transform: rotate(720deg);
-      transform: rotate(720deg);
-    }
-  }
-
-  @-webkit-keyframes spinRight {
-    from {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-    to {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-  }
-
-  @keyframes spinRight {
-    from {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-    to {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-  } */
 
 
   /*************************/
