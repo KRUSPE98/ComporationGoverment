@@ -609,7 +609,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 .slider_section h1 {
     line-height: 65px;
     color: #fff;
-    font-weight: 500;
     margin-bottom: 25px;
     padding-bottom: 0;
     margin-top: 140px;
@@ -830,40 +829,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
      border: #18bb18 solid 2px;
      color: #fff;
 }
-.footer {
-    background-color: #282e40;
-}
- .footer .JJcoach {
-    margin-top: 45px;
-}
- .footer .JJcoach h3 {
-     color: #fff;
-     line-height: 30px;
-     display: block;
-     padding-bottom: 25px;
-     text-transform: uppercase;
-     text-align: center;
-     border: #ddd solid 1px;
-     width: 676px;
-     margin: 0 auto;
-     padding: 25px 0;
-     font-weight: bold;
-}
- .coa {
-    color: #12dc12;
-}
- .footer .Contact i a {
-     border: #fff solid 1px;
-     padding: 3% 11%;
-     display: inline-block;
-}
- .footer .Social h3 {
-     color: #fff;
-     line-height: 30px;
-     display: block;
-     padding-bottom: 25px;
-     text-transform: uppercase;
-}
  .pdn-top-30 {
     padding-top: 30px;
 }
@@ -1050,39 +1015,6 @@ header {
 button.main_bt {
     background: #12c6f4;
     color: #111;
-}
-footer p a {
-    color: #fff;
-    line-height: 30px;
-}
-footer h3 {
-    color: #fff;
-    font-weight: 500;
-    margin-top: 0;
-    margin-bottom: 35px;
-}
-footer p {
-    color: #fff;
-    line-height: 30px;
-    float: left;
-}
-footer p span:nth-child(1) {
-    float: left;
-    margin-right: 15px;
-}
-
-footer p span {
-    line-height: 24px;
-    float: left;
-}
-
-footer input {
-    width: 100%;
-    height: 48px;
-    background: #fff;
-    border: none;
-    padding: 0 20px;
-    margin-bottom: 20px;
 }
 
 /* responive */

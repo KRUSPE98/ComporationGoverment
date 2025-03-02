@@ -140,6 +140,10 @@ footer .fab:hover {
 	color: #999;
 }
 
+.custom-final-footer{
+    font-size: 0.85rem;
+}
+
 @media (max-width:600px) {
     .text-about{
         text-align: center;

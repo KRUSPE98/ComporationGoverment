@@ -5,7 +5,7 @@
         @component('client.sections.principal.video')
         @endcomponent
 
-        <h2 class="section-title spacer">Sector <span>Agroalimentario</span></h2>
+        <h1 class="section-title spacer text-center">Sector <span>Agroalimentario</span></h1>
         <div class="row g-4">
             <!-- Card 1 -->
             <div class="col-md-6 col-lg-3 d-flex">

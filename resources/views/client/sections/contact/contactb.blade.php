@@ -9,8 +9,8 @@ Nosotros
 <section id="contact" class="section parallax">
     <div class="overlay"></div>
     <div class="container">
-        <div class="section-header text-center mb-4" data-aos="fade-down" data-aos-duration="800">
-            <h2 class="text-muted">Contáctanos</h2>
+        <div class="section-header text-center spacer" data-aos="fade-down" data-aos-duration="800">
+            <h1 class="text-muted">Contáctanos</h1>
         </div>
         <div class="row align-items-center contact-information">
             <div class="col-md-6 col-lg-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
@@ -19,7 +19,7 @@ Nosotros
                         <i class="fa fa-map-marker-alt"></i>
                     </div>
                     <div class="contact-text">
-                        <h3>Dirección</h3>
+                        <h2>Dirección</h2>
                         <p class="text-muted">{{config('app.contacts.address')}}</p>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ Nosotros
                         <i class="fa fa-phone-alt"></i>
                     </div>
                     <div class="contact-text">
-                        <h3>Teléfonos</h3>
+                        <h2>Teléfonos</h2>
                         <p class="text-muted">{!! nl2br(str_replace(' / ', "\n", config('app.contacts.phone'))) !!}</p>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ Nosotros
                         <i class="fa fa-envelope"></i>
                     </div>
                     <div class="contact-text">
-                        <h3>Correo Electrónico</h3>
+                        <h2>Correo Electrónico</h2>
                         <p class="text-muted">{{config('app.contacts.email')}}</p>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ Nosotros
                         <i class="fa fa-share"></i>
                     </div>
                     <div class="contact-text">
-                        <h3>Redes Sociales</h3>
+                        <h2>Redes Sociales</h2>
                         <div class="contact-social">
                             <a class="HOVER custom-btn btn btn-floating" href="{{config('app.urls.socialMedia.fb')}}" target="_blank" rel="noopener noreferrer" role="button">
                                 <i class="fab fa-facebook-f"></i>
@@ -72,12 +72,11 @@ Nosotros
             </div>
         </div>
 
-        <div class="section-header text-center mb-4" data-aos="fade-up" data-aos-duration="3000">
-            <h2 class="text-muted">Solicita tu diagnóstico</h2>
+        <div class="section-header text-center spacer" data-aos="fade-up" data-aos-duration="3000">
+            <h1 class="text-muted">Solicita tu diagnóstico</h1>
         </div>
 
-        <div class="row">
-            <div class="col-md-2"></div>
+        <div class="row justify-content-center spacer">
             <div class="col-md-8 col-md-offset-2 contact-form">
                 <div id="form_status"></div>
                 <form id="fruitkha-contact">

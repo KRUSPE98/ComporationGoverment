@@ -59,6 +59,7 @@ html {
   h1, .h1 {
     font-weight: 700;
     line-height: 4rem;
+    font-size: 2rem;
   }
 
   @media only screen and (max-width: 767.96px) {
@@ -76,6 +77,7 @@ html {
   h2, .h2 {
     font-weight: 700;
     line-height: 3.25rem;
+    font-size: 1.5rem;
   }
 
   @media only screen and (max-width: 767.96px) {
@@ -129,6 +131,19 @@ html {
     line-height: 1.8;
     color: #051922;
     margin: 0 0 1.25rem 0;
+    font-size: 1rem !important;
+  }
+
+  small {
+    font-size: 0.875rem;
+  }
+
+  .nav-link{
+    font-size: 1rem;
+  }
+
+  .banner-title {
+    font-size: 3rem;
   }
 
 
