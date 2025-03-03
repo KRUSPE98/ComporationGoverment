@@ -1,0 +1,266 @@
+
+
+.diagnostico-section {
+    margin: auto;
+    background: #FBF9F5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.diagnostico-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Contenedor del círculo y semicírculo */
+.diagnostico-wrapper {
+    position: relative;
+    width: 350px;
+    height: 350px; /* Espacio extra para el semicírculo */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+/* Círculo central */
+.diagnostico-circle {
+    width: 350px;
+    height: 350px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 10px;
+}
+
+.diagnostico-circle img {
+    width: 110px;
+}
+
+/* Texto dentro del círculo */
+.diagnostico-text {
+    font-size: 30px;
+    font-weight: 800;
+    color: #404040;
+}
+
+/* Semicírculo dividido en cuatro partes */
+.diagnostico-background {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: conic-gradient(
+        var(--main-color) 0deg 45deg,
+         var(--third-color) 45deg 90deg,
+         var(--third-color) 90deg 135deg,
+          var(--main-color) 135deg 180deg,
+          var(--third-color) 180deg 225deg,
+            var(--main-color) 225deg 270deg,
+            var(--main-color) 270deg 315deg,
+              var(--third-color) 315deg 360deg);
+    border-radius: 50%;
+    transform: rotate(180deg);
+    z-index: 1;
+    display: flex;
+}
+
+.diagnostico-background .hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FBF9F5;
+    clip-path: polygon(0% 0%, 0% 0, 0% 100%, 100% 100%, 100% 50%, 0 50%, 0 0);
+}
+
+.flower-left{
+    width: 100px;
+    margin-top: -150px;
+    margin-left: 70px;
+}
+
+.flower-right{
+    width: 100px;
+    margin-top: -150px;
+    margin-left: 10px;
+}
+
+
+/* Contenedor de los pasos */
+.diagnostico-steps-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -150px;
+    position: relative;
+    z-index: 1;
+    height: 600px;
+}
+
+.step-1{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.step-2{
+    margin-top: 210px;
+    margin-left: 40px;
+}
+.step-3{
+    margin-top: 205px;
+    margin-left: 60px;
+}
+.step-4{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.dotted-line-1 {
+    height: 100px; /* Ajusta la altura */
+    border-left: 4px dotted black; /* Línea punteada vertical */
+    margin-left: 70px;
+}
+
+.dotted-line-2 {
+    height: 100px; /* Ajusta la altura */
+    border-left: 4px dotted black; /* Línea punteada vertical */
+    margin-left: 82px;
+}
+
+.dotted-line-3 {
+    height: 100px; /* Ajusta la altura */
+    border-left: 4px dotted black; /* Línea punteada vertical */
+    margin-left: 105px;
+}
+
+.dotted-line-4 {
+    height: 100px; /* Ajusta la altura */
+    border-left: 4px dotted black; /* Línea punteada vertical */
+    margin-left: 105px;
+}
+
+/* Pasos numerados */
+.diagnostico-step {
+    width: 90px;
+    height: 90px;
+    background: white;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+}
+
+/* Texto debajo de los pasos */
+.diagnostico-step-text {
+    max-width: 180px;
+    margin: auto;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+    .diagnostico-wrapper {
+        width: 330px;
+        height: 330px;
+        margin-top: 0;
+    }
+    .diagnostico-circle {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .diagnostico-circle img {
+        width: 65px;
+    }
+
+    .diagnostico-text {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .diagnostico-background {
+        width: 300px;
+        height: 300px;
+
+    }
+    .dotted-line-1 {
+        display: none;
+    }
+    .dotted-line-2 {
+        display: none;
+    }
+    .dotted-line-3 {
+        display: none;
+    }
+    .dotted-line-4 {
+        display: none;
+    }
+    .diagnostico-steps-container {
+        height: auto;
+        margin-top: 0;
+        display: block;
+    }
+
+    .flower-left {
+        display: none;
+    }
+    .flower-right {
+        display: none;
+    }
+    .diagnostico-step-container{
+        text-align: -webkit-center;
+        border: none;
+        border-radius: 1rem;
+        background: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3sease, box-shadow 0.3sease;
+    }
+    .diagnostico-step-text {
+
+        margin-top: 20px;
+
+    }
+
+    .step-1 {
+        margin-top: 0;
+        margin-left: 0;
+        padding-top: 20px;
+    }
+    .step-2 {
+        margin-top: 30px;
+        margin-left: 0;
+        padding-top: 20px;
+    }
+    .step-3 {
+        margin-top: 30px;
+        margin-left: 0;
+        padding-top: 20px;
+    }
+    .step-4 {
+        margin-top: 30px;
+        margin-left: 0;
+        padding-top: 20px;
+    }
+}
