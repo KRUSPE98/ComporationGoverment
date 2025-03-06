@@ -17,7 +17,6 @@
 }
 
 .contact-info p {
-  font-size: 17px;
   line-height: 20px;
   margin-bottom: 16px;
   color: #FFF;
@@ -50,7 +49,6 @@
 }
 
 .contact-icon i {
-    font-size: 18px;
     color: #ffffff;
 }
 
@@ -58,16 +56,15 @@
     color: #FFF !important;
 }
 
-.contact-text h3 {
-    font-size: 18px;
-    font-weight: 700;
+.contact-text h2 {
+    /* font-weight: 700; */
     color: #ffffff;
 }
 
 .contact-text p {
     margin: 0;
-    font-size: 16px;
     color: #454545;
+    height: 40px;
 }
 
 .contact-social{
@@ -76,7 +73,6 @@
 
 .contact-social a {
     margin-right: 10px;
-    font-size: 18px;
     color: #fff;
     background: var(--main-color);
     padding: 5px;
@@ -101,7 +97,6 @@
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .form-control {
 	display: inline-block;
 	margin-bottom: 20px;
-	font-size: 15px;
 	line-height: 25px;
 	color: #FFF;
 	/* height: 46px; */
@@ -123,7 +118,6 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 
 #form_status .wrong {
     color: red;
-    font-size: medium;
     font-weight: 600;
     border: 2px solid;
     padding: 8px 18px;

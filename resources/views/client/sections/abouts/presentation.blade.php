@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="full">
-                    <h1>¿Quiénes somos?</h1>
+                    <h1 class="banner-title">¿Quiénes <span>somos?</span></h1>
                         <!-- <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
                         <div class="button_section"><a class="main_bt" href="#">Buy Now</a></div> -->
                 </div>

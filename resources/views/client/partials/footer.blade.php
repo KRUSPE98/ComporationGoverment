@@ -7,9 +7,9 @@
 
             <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <section class="mb-4 text-about">
-                    <p>
+                    <span>
                         En {{env('APP_NAME')}}, nos comprometemos a proteger la privacidad de nuestros clientes y visitantes. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos su información cuando visita nuestro sitio web y utiliza nuestros servicios de Consultoría y Capacitación en Gobernanza Familiar Corporativa.
-                    </p>
+                    </span>
                 </section>
             </div>
 
@@ -19,19 +19,25 @@
                     <li class="media">
                         <div class="media-body">
                             <i class="fas fa-square"></i>
-                            <a href="#">Inicio</a>
+                            <a href="{{ url('/') }}">Inicio</a>
                         </div>
                     </li>
                     <li class="media">
                         <div class="media-body">
                             <i class="fas fa-square"></i>
-                            <a href="#">Nosotros</a>
+                            <a href="{{ url('/nosotros') }}">Nosotros</a>
                         </div>
                     </li>
                     <li class="media">
                         <div class="media-body">
                             <i class="fas fa-square"></i>
-                            <a href="#">Contáctanos</a>
+                            <a href="{{ url('/services') }}">Servicios</a>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <div class="media-body">
+                            <i class="fas fa-square"></i>
+                            <a href="{{ url('/contacto') }}">Contáctanos</a>
                         </div>
                     </li>
                 </ul>
@@ -41,7 +47,7 @@
                 {{-- <section class="mb-4"> --}}
                     <div class="row">
                         <h5 class="text-uppercase">Redes Sociales</h5>
-                        <p class="p-small">Siguenos en nuestras redes sociales</p>
+                        <span class="p-small">Siguenos en nuestras redes sociales</span>
                     </div>
 
                     <a class="HOVER custom-btn btn btn-floating m-3" href="{{config('app.urls.socialMedia.fb')}}" target="_blank" role="button"

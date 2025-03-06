@@ -1,7 +1,3 @@
-#agri-food{
-    padding-top: 80px; /* Ajusta este valor al alto de tu menú */
-}
-
 /* Estilo de los cards */
 .custom-card {
     border: none;
@@ -41,21 +37,18 @@
 }
 
 .custom-card-title {
-    font-size: 1.25rem;
     font-weight: 700;
     color: var(--main-color);
     margin-bottom: 1rem;
 }
 
 .custom-card-text {
-    font-size: 0.95rem;
     color: #444;
     line-height: 1.6;
 }
 
 /* Estilo del texto adicional */
 .additional-text-container {
-    margin-top: 3rem;
     text-align: center;
     padding: 3rem 1.5rem;
     background: linear-gradient(135deg, rgba(108, 25, 71, 0.2), rgba(21, 57, 109, 0.2));
@@ -65,7 +58,6 @@
 }
 
 .additional-text {
-    font-size: 1.5rem;
     font-weight: 500;
     color: #444;
     line-height: 1.8;
