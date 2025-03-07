@@ -16,6 +16,8 @@ Nosotros
     @endcomponent
     @component('client.sections.services.history')
     @endcomponent
+    @component('client.sections.services.herramientas')
+    @endcomponent
     @component('client.sections.services.clasification')
     @endcomponent
     {{--
