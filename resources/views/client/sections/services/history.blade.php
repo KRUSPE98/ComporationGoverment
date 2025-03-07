@@ -1,12 +1,3 @@
-@extends('client.layout.layout')
-@section('title')
-Servicios
-@endsection
-
-@section('content')
-@component('client.sections.abouts.presentation')
-@endcomponent
-<link rel="stylesheet" href="{{asset('css/principal/video.css?v='.time())}}">
 <section id="history" class="section parallax">
     <div class="overlay"></div>
     <div class="container">
@@ -53,7 +44,19 @@ Servicios
                     <div class="timeline-body"><p class="text-muted">Implementamos prácticas y órganos de gobierno acorde a tus necesidades que permitan regular la estructura y el funcionamiento de la agroempresa, definiendo reglas para la toma de decisiones estratégicas y operativas, de dirección, control y de gestión a través de la transparencia, la responsabilidad y la rendición de cuentas.</p></div>
                 </div>
             </li>
+
+            {{-- <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4>
+                        Be Part
+                        <br />
+                        Of Our
+                        <br />
+                        Story!
+                    </h4>
+                </div>
+            </li> --}}
+
         </ul>
     </div>
 </section>
-@endsection
