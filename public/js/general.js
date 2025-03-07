@@ -5,10 +5,23 @@
 /****** START SET ACTIVE BACKGROUND BLACK TO THE NAV-BAR IN SOME CONDITIONS ******/
 showWait();
 $(window).scroll(function () {
-    if ($("#header").offset().top > 50) {
-        $("#header").addClass("menu-bg");
+    // if ($("#header").offset().top > 50) {
+    //     $("#header").addClass("menu-bg");
+    // } else {
+    //     $("#header").removeClass("menu-bg");
+    // }
+
+    if (window.location.pathname === "/services") {
+        $("#header").addClass("menu-bg"); // Mantiene el fondo siempre activo
     } else {
-        $("#header").removeClass("menu-bg");
+        // Aplica el cambio de fondo solo si se hace scroll
+        $(window).on("scroll", function () {
+            if ($("#header").offset().top > 50) {
+                $("#header").addClass("menu-bg");
+            } else {
+                $("#header").removeClass("menu-bg");
+            }
+        });
     }
 });
 
@@ -68,6 +81,9 @@ $(document).ready(function() {
     }
 
     $('.nav-item.page_' + main_route).addClass('active');
+    if (window.location.pathname === "/services") {
+        $("#header").addClass("menu-bg"); // Mantiene el fondo desde el inicio y en todo momento
+    }
 });
 
 /****** END SET ACTIVE NAV-ITEMS IN THE NAV-BAR ******/

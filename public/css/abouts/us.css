@@ -102,7 +102,7 @@ body{
   .timeline:before {
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: 20%;
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
@@ -304,6 +304,15 @@ body{
     }
   }
 
+
+  @media (max-width: 768px) {
+    .timeline > li .timeline-image {
+        height: 80px;
+    }
+    .timeline i {
+        font-size: 40px;
+    }
+}
 
 
 
