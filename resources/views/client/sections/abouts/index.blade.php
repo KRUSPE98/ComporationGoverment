@@ -4,6 +4,7 @@ Nosotros
 @endsection
 
 @section('custom-links')
+<link rel="stylesheet" href="{{asset('css/abouts/presentation.css?v='.time())}}">
 @endsection
 
 

@@ -1,0 +1,246 @@
+/* .banner {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    background: #032047;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 90px 50px 50px 0px;
+}
+
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+    width: 30%;
+    left: -60px;
+}
+.content h1{
+    color: var(--text-color-white);
+}
+
+.content-img-logo{
+    z-index: 3;
+    position: absolute;
+    width: 200px;
+    bottom: 80px;
+    left: 590px;
+}
+
+.content-img-top{
+    z-index: 3;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
+
+.content-img-button{
+    z-index: 3;
+    width: 480px;
+    position: absolute;
+    bottom: 0;
+    left: 750px;
+}
+.content-img-center{
+    z-index: 3;
+    width: 400px;
+    position: absolute;
+    top: 20;
+    left: 1000px;
+}
+.img-diag{
+    right: 0;
+    z-index: 2;
+    position: absolute;
+}
+
+
+.triangle.white {
+    position: absolute;
+    right: 20%;
+    width: 50%;
+    height: 100%;
+    background: white;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    z-index: 2;
+}
+
+
+.polygon.yellow {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #F2F609;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 40% 100%);
+}
+
+.gradient-diagonal {
+    width: 300px;
+    height: 500px;
+    background: linear-gradient(to bottom, #6C1947 0%, rgba(255, 255, 255, 0) 100%);
+    clip-path: polygon(30% 0%, 100% 0%, 70% 100%, 0% 100%);
+} */
+
+.banner {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 75px 0 50px 0;
+    background: #FFF;
+    position: relative; /* Para que los elementos absolutos se posicionen dentro */
+}
+
+/* Estilos para las imágenes adicionales */
+.content-img-top,
+.content-img-button,
+.content-img-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content-img-top {
+    z-index: 3;
+    width: 470px;
+    left: 55%;
+}
+
+.content-img-button {
+    bottom: 50px;
+    z-index: 2;
+    width: 470px;
+    left: 65%;
+}
+
+.content-img-center {
+    top: 60%;
+    transform: translate(55%, -50%);
+    z-index: 2;
+    width: 470px;
+}
+
+
+
+.content-left {
+    width: 55.02%; /* Ancho en pantallas grandes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.content-right {
+    width: 44.98%; /* Ancho en pantallas grandes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-font {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.content-title p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+/* Responsive: En pantallas menores a 768px, los divs se apilan */
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column; /* Apila los elementos */
+        height: auto; /* Permite que el contenido se ajuste */
+    }
+
+    .content-title p {
+        font-size: 1.5rem;
+    }
+
+    .content-left, .content-right {
+        width: 100%; /* Ambos divs ocupan el 100% del ancho */
+    }
+
+    /* Ajustes en responsive para las imágenes */
+    .content-img-top {
+        width: 330px;
+        top: 45%;
+    }
+
+    .content-img-button {
+        width: auto;
+        left: 0;
+
+    }
+
+    .content-img-center {
+        /* transform: none;
+        width: auto;
+        transform: rotate(60deg); */
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .content-img-top {
+        width: 630px;
+        /* top: 45%; */
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1368px) {
+    .content-img-center {
+        display: none;
+    }
+    .content-img-button{
+        left: 55%;
+    }
+}
+
+@media (min-width: 1180px) and (max-height: 820px) {
+    /* Estilos específicos para iPad Air en horizontal */
+}
+
+@media only screen and (min-width: 1024px) and (orientation: portrait) {
+    .content-img-center {
+        display: none;
+    }
+    .content-img-button{
+        left: 55%;
+    }
+}
+
+@media (max-width:  1024px) and (max-height: 600px) {
+    .content-img-top{
+        display: none;
+    }
+}
+
+@media (max-width:  1280px) and (max-height: 800px) {
+    .content-img-top{
+        display: none;
+    }
+}
+
+
