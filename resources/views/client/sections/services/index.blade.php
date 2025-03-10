@@ -18,9 +18,9 @@ Nosotros
     @endcomponent
     @component('client.sections.services.clasification')
     @endcomponent
-    {{--
-    @component('client.sections.abouts.video')
-    @endcomponent --}}
 
 @endsection
 
+@section('custom-scripts')
+<script src="{{ asset('js/services/services.js?v='.time()) }}"></script>
+@endsection

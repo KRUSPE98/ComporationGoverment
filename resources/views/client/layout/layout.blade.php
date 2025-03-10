@@ -29,5 +29,6 @@
 
     <!-- Spripts JS 19-03-2022 -->
     @include('client.partials.scripts')
+    @yield('custom-scripts') <!-- Aquí se cargarán los scripts personalizados antes del cierre del body -->
 </body>
 </html>
