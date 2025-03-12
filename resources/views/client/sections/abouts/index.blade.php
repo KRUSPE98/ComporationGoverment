@@ -5,6 +5,7 @@ Nosotros
 
 @section('custom-links')
 <link rel="stylesheet" href="{{asset('css/abouts/presentation.css?v='.time())}}">
+<link rel="stylesheet" href="{{asset('css/principal/flip_card.css?v='.time())}}">
 @endsection
 
 
@@ -13,7 +14,7 @@ Nosotros
     @endcomponent
     @component('client.sections.abouts.response')
     @endcomponent
-    @component('client.sections.abouts.philosophy')
-    @endcomponent
+    {{-- @component('client.sections.abouts.philosophy')
+    @endcomponent --}}
 @endsection
 
