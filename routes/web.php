@@ -25,7 +25,7 @@ Route::get('/nosotros', function () {
 });
 Route::get('/services', function () {
     return view('client.sections.services.index');
-});
+})->name('services');
 Route::get('/contacto', function () {
     return view('client.sections.contact.contactb');
 });

@@ -11,7 +11,9 @@ $(window).scroll(function () {
     //     $("#header").removeClass("menu-bg");
     // }
 
-    if (window.location.pathname === "/services") {
+    if (window.location.pathname === "/services"
+       || window.location.pathname === "/nosotros"
+    ) {
         $("#header").addClass("menu-bg"); // Mantiene el fondo siempre activo
     } else {
         // Aplica el cambio de fondo solo si se hace scroll
@@ -81,7 +83,9 @@ $(document).ready(function() {
     }
 
     $('.nav-item.page_' + main_route).addClass('active');
-    if (window.location.pathname === "/services") {
+    if (window.location.pathname === "/services"
+       || window.location.pathname === "/nosotros"
+    ) {
         $("#header").addClass("menu-bg"); // Mantiene el fondo desde el inicio y en todo momento
     }
 });
