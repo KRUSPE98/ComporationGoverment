@@ -61,7 +61,7 @@
             <div class="col-lg-8">
                 <div class="founder-info p-5 bg-light border rounded shadow-sm">
                     <h4 class="fw-bold mb-2 text-start">Gustavo Solís</h4>
-                    <p class="small text-muted mb-3 text-start">Socio Fundador</p>
+                    <p class="small mb-3 text-start">Socio Fundador</p>
                     <p class="text-dark lh-lg small text-start">
                         Ingeniero agroindustrial egresado de la Universidad Autónoma Chapingo (UACh) y licenciado en Psicología con profundización en el ámbito organizacional por la Universidad Nacional Autónoma de México (UNAM),
                         actualmente maestrante de la Maestría en Estrategia Agroempresarial de la UACh.
@@ -92,7 +92,8 @@
         position: relative;
         overflow: hidden;
         cursor: pointer;
-        height: 250px;
+        height: 100%;
+        min-height: 250px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -149,8 +150,7 @@
 
     .mission-card:hover .content,
     .vision-card:hover .content {
-        transform: translateY(-90%);
-        font-size: 20px;
+        display: none;
     }
 
     .mission-card:hover .icon-container,
