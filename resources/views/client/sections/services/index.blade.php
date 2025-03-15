@@ -6,6 +6,7 @@ Nosotros
 @section('custom-links')
 <link rel="stylesheet" href="{{asset('css/services/clasification.css?v='.time())}}">
 <link rel="stylesheet" href="{{asset('css/services/presentation.css?v='.time())}}">
+<link rel="stylesheet" href="{{asset('css/principal/flip_card.css?v='.time())}}">
 @endsection
 
 
