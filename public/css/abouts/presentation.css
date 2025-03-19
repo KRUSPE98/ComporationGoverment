@@ -5,6 +5,7 @@
     padding: 75px 0 0 0;
     background: #FFF;
     position: relative; /* Para que los elementos absolutos se posicionen dentro */
+    overflow: hidden;
 }
 
 #banner-about-us .section-title{

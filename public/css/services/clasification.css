@@ -25,6 +25,7 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 150px;
+    max-width: 100%;
 }
 
 /* Círculo central */
@@ -53,6 +54,9 @@
     font-size: 30px;
     font-weight: 800;
     color: #404040;
+}
+.diagnostico-text:hover{
+    color: var(--secondary-color);
 }
 
 /* Semicírculo dividido en cuatro partes */

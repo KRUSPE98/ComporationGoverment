@@ -5,7 +5,7 @@
     <div class="diagnostico-wrapper">
         <div class="diagnostico-circle">
             <img src="{{asset('images/sections/diagnostic/hojas.png')}}">
-            <p class="diagnostico-text">SOLICITA TU DIAGNÓSTICO AHORA</p>
+            <a class="diagnostico-text" href="{{ url('/contacto') }}?#contact-form">SOLICITA TU DIAGNÓSTICO AHORA</a>
             <img src="{{asset('images/sections/diagnostic/logo-anterior-wf.png')}}">
         </div>
         <div class="diagnostico-background">

@@ -70,7 +70,7 @@ Nosotros
             </div>
         </div>
 
-        <h1 class="section-title spacer text-center" data-aos="fade-up" data-aos-duration="3000">Solicita <span>tu diagnóstico</span></h1>
+        <h1 class="section-title spacer text-center" data-aos="fade-up" data-aos-duration="3000" id="contact-form">Solicita <span>tu diagnóstico</span></h1>
 
         <div class="row justify-content-center spacer">
             <div class="col-md-8 col-md-offset-2 contact-form">
