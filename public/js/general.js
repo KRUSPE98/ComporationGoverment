@@ -3,7 +3,7 @@
 -------------------------------------------------------*/
 
 /****** START SET ACTIVE BACKGROUND BLACK TO THE NAV-BAR IN SOME CONDITIONS ******/
-showWait();
+// showWait();
 $(window).scroll(function () {
     // if ($("#header").offset().top > 50) {
     //     $("#header").addClass("menu-bg");

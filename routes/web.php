@@ -28,7 +28,7 @@ Route::get('/services', function () {
 })->name('services');
 Route::get('/contacto', function () {
     return view('client.sections.contact.contactb');
-});
+})->name('contacto');
 
 Route::post('/contactForm','ContactsController@contactForm')->name('contact.form');
 Route::get('/contactForm/preview', 'ContactsController@preview');

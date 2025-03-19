@@ -12,7 +12,7 @@ Nosotros
         <div class="section-header text-center spacer" data-aos="fade-down" data-aos-duration="800">
             <h1 class="text-muted">Contáctanos</h1>
         </div>
-        <div class="row align-items-center contact-information">
+        <div class="row align-items-center contact-information" id="sectionIcons">
             <div class="col-md-6 col-lg-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
                 <div class="contact-info">
                     <div class="contact-icon">
@@ -72,7 +72,7 @@ Nosotros
             </div>
         </div>
 
-        <div class="section-header text-center spacer" data-aos="fade-up" data-aos-duration="3000">
+        <div class="section-header text-center spacer" id="sectionForm" data-aos="fade-up" data-aos-duration="3000">
             <h1 class="text-muted">Solicita tu diagnóstico</h1>
         </div>
 
