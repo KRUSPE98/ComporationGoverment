@@ -3,7 +3,7 @@
         <!-- Content 1: Título + Imágenes -->
         <div class="content-1">
             <div class="content-title">
-                Conoce nuestros servicios
+                <h1 class="section-title spacer text-center">Conoce nuestros <span>servicios</span></h1>
             </div>
             <div class="content-image">
                 <img src="{{asset('images/sections/diagnostic/logo-anterior-wf.png')}}" alt="Logo">

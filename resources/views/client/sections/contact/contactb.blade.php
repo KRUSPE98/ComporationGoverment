@@ -9,9 +9,7 @@ Nosotros
 <section id="contact" class="section parallax">
     <div class="overlay"></div>
     <div class="container">
-        <div class="section-header text-center spacer" data-aos="fade-down" data-aos-duration="800">
-            <h1 class="text-muted">Contáctanos</h1>
-        </div>
+        <h1 class="section-title spacer text-center" data-aos="fade-down" data-aos-duration="800">Contáctanos</h1>
         <div class="row align-items-center contact-information">
             <div class="col-md-6 col-lg-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
                 <div class="contact-info">
@@ -72,9 +70,7 @@ Nosotros
             </div>
         </div>
 
-        <div class="section-header text-center spacer" data-aos="fade-up" data-aos-duration="3000">
-            <h1 class="text-muted">Solicita tu diagnóstico</h1>
-        </div>
+        <h1 class="section-title spacer text-center" data-aos="fade-up" data-aos-duration="3000">Solicita <span>tu diagnóstico</span></h1>
 
         <div class="row justify-content-center spacer">
             <div class="col-md-8 col-md-offset-2 contact-form">

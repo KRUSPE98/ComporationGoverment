@@ -13,7 +13,7 @@
                     <img src="{{asset('images/sections/agrifood/agri-percentage.jpg')}}" class="card-img-top" alt="Imagen 1">
                     <div class="custom-card-body">
                         <h5 class="custom-card-title">Análisis Generacional</h5>
-                        <p class="custom-card-text">En México, más del 90 % de las empresas del sector agroalimentario son de carácter familiar; de ellas, solamente el 30 % pasa a la segunda generación y solo el 13 % a la tercera, cuarta  o más generaciones.</p>
+                        <p class="custom-card-text">En México, más del 90% de las empresas del sector agroalimentario son de carácter familiar; de ellas, solamente el 30% pasa a la segunda generación y solo el 13% a la tercera, cuarta  o más generaciones.</p>
                     </div>
                 </div>
             </div>
@@ -46,15 +46,6 @@
                         <p class="custom-card-text">La profesionalización empresarial, la adopción de prácticas de gobernanza familiar y de gobierno corporativo son un medio eficaz para evitar, mitigar o resolver conflictos derivados de la interacción familia-empresa-propiedad.</p>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <!-- Texto adicional -->
-        <div class="additional-text-container spacer">
-            <div class="additional-text">
-                En <span class="additional-highlight">{{env('APP_NAME')}}</span>, gestionamos el fuego de la empresa familiar
-                agroalimentaria para que no incendie la relación entre la empresa y la familia, contribuyendo con su
-                continuidad generacional y su permanencia en el mercado.
             </div>
         </div>
     </div>

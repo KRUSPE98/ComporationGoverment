@@ -1,6 +1,4 @@
-<section class="banner">
-
-
+<section class="banner" id="banner-about-us">
     <div class="content-img-top">
         <img class="" src="{{asset('images/sections/presentation/triangle_1.png')}}" alt="triangles">
     </div>
@@ -14,7 +12,7 @@
     <div class="content-left">
         <img class="img-font" src="{{asset('images/sections/presentation/banner-left.png')}}" alt="">
         <div class="content-title">
-            <p>¿Quienes somos?</p>
+            <h1 class="section-title spacer text-center">¿Quienes <span>somos?</span></h1>
         </div>
 
     </div>

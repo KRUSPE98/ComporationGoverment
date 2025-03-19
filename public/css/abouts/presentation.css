@@ -7,6 +7,11 @@
     position: relative; /* Para que los elementos absolutos se posicionen dentro */
 }
 
+#banner-about-us .section-title{
+    color: #FFF;
+    text-transform: uppercase;
+}
+
 /* Estilos para las imágenes adicionales */
 .content-img-top,
 .content-img-button,

@@ -17,9 +17,9 @@
       <div class="col-md-6">
         <h1 class="section-title">Nuestra <span>Empresa</span></h1>
         <p class="mt-3">
-          En [Nombre de la Empresa], nos especializamos en ofrecer soluciones innovadoras
-          para [servicio o producto]. Nuestro equipo está comprometido con la calidad y la
-          satisfacción del cliente, brindando siempre lo mejor.
+            En <span class="additional-highlight">{{env('APP_NAME')}}</span>, gestionamos el fuego de la empresa familiar
+            agroalimentaria para que no incendie la relación entre la empresa y la familia, contribuyendo con su
+            continuidad generacional y su permanencia en el mercado.
         </p>
       </div>
     </div>

@@ -27,12 +27,6 @@
     @component('client.sections.principal.agri-food')
     @endcomponent
 
-    {{-- @component('client.sections.principal.servicios')
-    @endcomponent
-    @component('client.sections.principal.trabajo')
-    @endcomponent --}}
-
-
 @endsection
 
 
