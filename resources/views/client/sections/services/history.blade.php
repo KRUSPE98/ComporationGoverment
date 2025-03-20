@@ -49,6 +49,18 @@
                     <div class="timeline-body"><p class="text-muted">Implementamos prácticas y órganos de gobierno acorde a tus necesidades que permitan regular la estructura y el funcionamiento de la agroempresa, definiendo reglas para la toma de decisiones estratégicas y operativas, de dirección, control y de gestión a través de la transparencia, la responsabilidad y la rendición de cuentas.</p></div>
                 </div>
             </li>
+
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4 class="text-download">
+                        <a class="link-download" href="https://drive.google.com/drive/folders/1Khr2qKuhdo_sHun1hn3Omny6DsIA8Vf0" target="_blank">
+                            Consulta nuestro catálogo a detalle aquí.
+                        <br>
+                        <i class="fas fa-download icon-download"></i>
+                        </a>
+                    </h4>
+                </div>
+            </li>
         </ul>
     </div>
 </section>

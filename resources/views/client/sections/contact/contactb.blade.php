@@ -10,7 +10,7 @@ Nosotros
     <div class="overlay"></div>
     <div class="container">
         <h1 class="section-title spacer text-center" data-aos="fade-down" data-aos-duration="800">Contáctanos</h1>
-        <div class="row align-items-center contact-information">
+        <div class="row align-items-center contact-information" id="sectionIcons">
             <div class="col-md-6 col-lg-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
                 <div class="contact-info">
                     <div class="contact-icon">

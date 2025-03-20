@@ -4,6 +4,7 @@
     --third-color: #F2F609;
     --text-color-white: #FFFFFF;
     --text-color-title-yellow: #ffde59;
+    --text-dark: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
 }
 
 .custom-btn.btn{
@@ -599,12 +600,25 @@ span.ripple {
     transition: all 0.3s;
     text-decoration: none;
 }
+.btn-inver {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 2px solid var(--secondary-color);
+    color: var(--text-dark);
+    font-weight: bold;
+    transition: all 0.3s;
+    text-decoration: none;
+}
 
 #sendInformation {
     margin-top: 2rem;
 }
 
 .btn:hover {
+    background: var(--secondary-color);
+    color: var(--text-color-white);
+}
+.btn-inver:hover {
     background: var(--secondary-color);
     color: var(--text-color-white);
 }
