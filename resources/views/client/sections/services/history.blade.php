@@ -7,7 +7,7 @@
     <div class="overlay"></div>
     <div class="container">
         <div class="text-center">
-            <h1 class="section-title spacer text-center">¿Qué <span>nos caracteriza?</span></h1>
+            <h1 class="section-title spacer text-center">Nuestros <span>servicios</span></h1>
             <h3 class="section-subheading text-muted"></h3>
 
             <img src="assets/img/corporativas/fondo-bolas.png" alt="">

@@ -28,7 +28,7 @@
     <div class="diagnostico-wrapper">
         <div class="diagnostico-circle">
             <img src="{{asset('images/sections/diagnostic/hojas.png')}}">
-            <a class="diagnostico-text" href="{{ url('/contacto') }}?#contact-form">SOLICITA TU DIAGNÓSTICO AHORA</a>
+            <a class="diagnostico-text" href="{{ url('/contacto') }}?#sectionIcons">SOLICITA TU DIAGNÓSTICO AHORA</a>
             <img src="{{asset('images/sections/diagnostic/logo-anterior-wf.png')}}">
         </div>
         <div class="diagnostico-background">
