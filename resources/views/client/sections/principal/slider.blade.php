@@ -28,7 +28,7 @@
                     <li>Suseción generacional sana y efectiva</li>
                     <li>Transparencia en la gestión familiar y empresarial...</li>
                 </ul>
-                <a href="{{ route('services') }}" class="btn animate__animated animate__zoomIn">Leer más...</a>
+                <a href="{{ route('services') }}#tools" class="btn animate__animated animate__zoomIn">Leer más...</a>
             </div>
         </div>
     </div>

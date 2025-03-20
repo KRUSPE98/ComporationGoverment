@@ -1,4 +1,4 @@
-<section class="container my-5">
+<section class="container my-5" id="tools">
     <div class="spacer">
         <h1 class="section-title text-center">Colaborando <span>con nosotros</span></h1>
         <h2 class="section-title text-center">Obtendrás las <span>herramientas para:</span></h2>
