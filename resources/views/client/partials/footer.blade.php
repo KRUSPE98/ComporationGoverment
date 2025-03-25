@@ -8,7 +8,7 @@
             <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <section class="mb-4 text-about">
                     <span>
-                        En {{env('APP_NAME')}}, nos comprometemos a proteger la privacidad de nuestros clientes y visitantes. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos su información cuando visita nuestro sitio web y utiliza nuestros servicios de Consultoría y Capacitación en Gobernanza Familiar Corporativa.
+                        {{env('APP_NAME')}}, con domicilio en Puebla, México, es responsable del tratamiento de sus datos personales de acuerdo con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares. Recabamos datos como nombre, correo electrónico, teléfono y cualquier otra información proporcionada de manera voluntaria en la sección de «contáctanos».
                     </span>
                 </section>
             </div>

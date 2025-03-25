@@ -255,13 +255,21 @@ body{
       margin-left: -50px;
     }
     .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-      line-height: 18px;
+      line-height: 16px;
       /* margin-top: 16px; */
     }
     .timeline > li.timeline-inverted > .timeline-panel {
       float: right;
       padding: 0 30px 20px 20px;
       text-align: left;
+    }
+
+    .text-download{
+        /* font-size: 8px; */
+        padding: 5px;
+      }
+      .timeline i {
+        font-size: 65px;
     }
     /* .balance-1{
         35px !important;
@@ -317,11 +325,14 @@ body{
 
   @media (max-width: 768px) {
     .timeline > li .timeline-image {
-        height: 80px;
+        height: 100px;
     }
     .timeline i {
         font-size: 40px;
     }
+    .text-download{
+        font-size: 8px;
+      }
 }
 
 
