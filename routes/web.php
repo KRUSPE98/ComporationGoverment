@@ -33,3 +33,10 @@ Route::get('/contacto', function () {
 Route::post('/contactForm','ContactsController@contactForm')->name('contact.form');
 Route::get('/contactForm/preview', 'ContactsController@preview');
 
+
+
+Route::get('/test-log', function () {
+    Log::info('This is a test log message!');
+    return 'Log has been written!';
+});
+
