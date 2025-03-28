@@ -51,13 +51,13 @@
                         </p>
                     </td>
                 </tr>
-                <tr>
+                {{-- <tr>
                     <td style="padding: 10px;">
                         <p style="font-size: 12px;">
                             <a href="http://www.miempresa.com/privacy" style="color:#c1c1c1;">Política de privacidad</a>
                         </p>
                     </td>
-                </tr>
+                </tr> --}}
                 <tr>
                     <td style="padding: 10px;">
                         <p style="font-size: 12px;">
