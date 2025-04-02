@@ -3,12 +3,18 @@
         <div class="slide slide-1" style="background-image: url('{{ asset('images/slider/level-br.jpeg') }}');">
             <div class="overlay"></div>
             <div class="slider-text-wrapper animate__animated animate__fadeInDown">
-                <h2 class="big">Click aquí y evalúa el nivel de profesionalización que tiene tu empresa familiar.</h2>
-                <p class="small animate__animated animate__fadeInUp">Y evalúa tu nivel de </p>
-                <a href="{{ route('services') }}#diagnostico-section" class="btn animate__animated animate__zoomIn">Gobernanza familiar</a>
+                <h2 class="big">
+
+                    <a href="{{ route('services') }}#diagnostico-section" class="text-white">
+                        Click aquí y evalúa el nivel de profesionalización que tiene tu empresa familiar.
+                    </a>
+
+                </h2>
+                {{-- <p class="small animate__animated animate__fadeInUp">Y evalúa tu nivel de </p> --}}
+                {{-- <a href="{{ route('services') }}#diagnostico-section" class="btn animate__animated animate__zoomIn">Gobernanza familiar</a>
                 <a href="{{ route('services') }}#diagnostico-section" class="btn animate__animated animate__zoomIn">Gobierno corporativo</a>
                 <a href="{{ route('services') }}#diagnostico-section" class="btn animate__animated animate__zoomIn">Desarrollo organizacional</a>
-                <p class="small animate__animated animate__fadeInUp">que tiene tu empresa familiar agroalimentaria.</p>
+                <p class="small animate__animated animate__fadeInUp">que tiene tu empresa familiar agroalimentaria.</p> --}}
             </div>
         </div>
         <div class="slide slide-2" style="background-image: url('{{ asset('images/slider/services-br.jpeg') }}');">

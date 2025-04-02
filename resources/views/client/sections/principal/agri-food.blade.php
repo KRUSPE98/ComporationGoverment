@@ -5,7 +5,9 @@
         @component('client.sections.principal.video')
         @endcomponent
 
-        <h1 class="section-title spacer text-center">Sector <span>Agroalimentario</span></h1>
+        <h1 class="section-title spacer text-center">
+            La importancia de la&nbsp;<span>profesionalización</span>,&nbsp;en el sector <span>agroalimentario</span>.
+        </h1>
         <div class="row g-4">
             <!-- Card 1 -->
             <div class="col-md-6 col-lg-3 d-flex">
