@@ -9,12 +9,12 @@
             <div class="card p-5 shadow-sm bg-light border-0">
                 {{-- <h2 class="fw-bold text-dark mb-4">Consultoría y Capacitación en Gobernanza Familiar Corporativa</h2> --}}
                 <p class="text-dark lh-lg text-justify" style="text-align: justify;">
-                    «Nuestro método como consultora de empresas familiares especializados en el sector
+                    Nuestro método como consultora de empresas familiares especializados en el sector
                     agroalimentario se encuentra basado en la determinación de una línea base o
                     diagnóstico, la indagación y el análisis de la trayectoria familiar-empresarial; la
                     alineación de metas y objetivos; y el co-diseño, la co-creación y la implementación de
                     prácticas de profesionalización; todo enmarcado en un acompañamiento psicológico
-                    para la gestión emocional y de conflictos».
+                    para la gestión emocional y de conflictos.
                 </p>
                 <p class="text-dark lh-lg text-justify" style="text-align: justify;">
                     Da el primer paso y descubre el nivel de profesionalización que tiene tu agroempresa
@@ -76,10 +76,9 @@
         <div class="col-lg-10">
             <div class="card p-5 shadow-sm bg-light border-0">
                 {{-- <h2 class="fw-bold text-dark mb-4">Consultoría y Capacitación en Gobernanza Familiar Corporativa</h2> --}}
-                <p class="text-dark lh-lg text-justify" style="text-align: center;">
-                    Déjanos tus datos aquí y en breve uno de nuestros consultores se pondrá en contacto
-                    contigo.
-                </p>
+                <h2 class="text-dark lh-lg text-justify" style="text-align: center;">
+                    Recuerda que también puedes solicitar un servicio específico de nuestro catálogo; déjanos tus datos y en breve nos comunicaremos contigo.
+                </h2>
                 <a href="{{ route('contacto') }}#sectionIcons" class="btn-inver animate__animated animate__zoomIn d-block mx-auto" >
                     Ir <i class="fas fa-arrow-right"></i>
                 </a>

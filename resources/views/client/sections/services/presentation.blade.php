@@ -10,24 +10,6 @@
                 <img src="{{asset('images/sections/presentation/bars.png')}}" alt="Bars">
             </div>
         </div>
-
-        <!-- Content 2: Teléfono + Email -->
-        <div class="content-2">
-            <div class="content-phone">
-                <div class="icon"><i class="fa-solid fa-phone"></i></div>
-                <div class="phone-info">
-                    <label for="">Llámanos</label>
-                    <span class="phone-number">+57 (3) 1234 5678</span>
-                </div>
-            </div>
-            <div class="content-email">
-                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
-                <div class="email-info">
-                    <label for="">Contáctanos</label>
-                    <span class="email">gobernanza.familiar@gmail.com</span>
-                </div>
-            </div>
-        </div>
     </div>
 
     <div class="content-right col-md-7">

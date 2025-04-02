@@ -36,7 +36,7 @@
                     </div>
                     <p class="mission-text">
                         Somos una empresa de consultoría mexicana especializada en la profesionalización de empresas familiares del sector agroalimentario del país,
-                        a través de la implementación de gobernanza familiar, gobierno corporativo y desarrollo organizacional...
+                        a través de la implementación de gobernanza familiar, gobierno corporativo y desarrollo organizacional.
                     </p>
                 </div>
             </div>

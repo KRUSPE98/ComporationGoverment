@@ -32,7 +32,7 @@
                     <div class="timeline-heading">
                         <h4 class="section-title spacer">Gobernanza <span>familiar</span></h4>
                     </div>
-                    <div class="timeline-body"><p class="text-muted">Implementamos prácticas y órganos de gobierno acorde a tus necesidades que te permiten establecer hábitos y canales de comunicación e información transparentes entre los miembros de la familia, te ayudamos a establecer un protocolo familiar y contribuimos a la resolución efectiva de conflictos evitando que estos traspasen las barreras hacia la agroempresa, planificando una sucesión generacional sana y adecuada.</p></div>
+                    <div class="timeline-body"><p class="text-muted">Implementamos prácticas y órganos de gobierno acorde a tus necesidades que te permitan establecer hábitos y canales de comunicación e información transparentes entre los miembros de la familia, te ayudamos a establecer un protocolo familiar y contribuimos a la resolución efectiva de conflictos evitando que estos traspasen las barreras hacia la agroempresa, planificando una sucesión generacional sana y adecuada.</p></div>
                 </div>
             </li>
 

@@ -12,7 +12,7 @@
     <div class="content-left">
         <img class="img-font" src="{{asset('images/sections/presentation/banner-left.png')}}" alt="">
         <div class="content-title">
-            <h1 class="section-title spacer text-center">¿Quienes <span>somos?</span></h1>
+            <h1 class="section-title spacer text-center">¿Quiénes <span>somos?</span></h1>
         </div>
 
     </div>
