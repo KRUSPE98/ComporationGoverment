@@ -48,6 +48,13 @@
                 </div>
             </div>
         </div>
+
+        <!-- Texto adicional -->
+        <div class="additional-text-container mt-4">
+            <div class="additional-text">
+                ¿Por qué esperar a que haya una imposición del entorno, o que el nivel de conflicto intrafamiliar se desborde, para adoptar estas innovaciones organizacionales?
+            </div>
+        </div>
     </div>
 </section>
 <!-- end of small Services -->
