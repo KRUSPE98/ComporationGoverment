@@ -12,8 +12,8 @@
                 <div class="custom-card">
                     <img src="{{asset('images/sections/agrifood/agri-percentage.jpg')}}" class="card-img-top" alt="Imagen 1">
                     <div class="custom-card-body">
-                        <h5 class="custom-card-title">Análisis Generacional</h5>
-                        <p class="custom-card-text">En México, más del 90% de las empresas del sector agroalimentario son de carácter familiar; de ellas, solamente el 30% pasa a la segunda generación y solo el 13% a la tercera, cuarta  o más generaciones.</p>
+                        <h5 class="custom-card-title">Sucesión generacional</h5>
+                        <p class="custom-card-text">En México, el 90 % de las empresas del sector agroalimentario son de carácter familiar; y de ellas, solo el 30 % sobrevive de la primera a la segunda generación, 12 % a la tercera y 3 % a la cuarta o más generaciones.</p>
                     </div>
                 </div>
             </div>
@@ -22,8 +22,8 @@
                 <div class="custom-card">
                     <img src="{{asset('images/sections/agrifood/agri-lands.jpg')}}" class="card-img-top" alt="Imagen 2">
                     <div class="custom-card-body">
-                        <h5 class="custom-card-title">Gobernanza Empresarial</h5>
-                        <p class="custom-card-text">La empresa familiar se caracteriza por componerse de los subsistemas familia, empresa y propiedad;  y en el caso específico de las empresas del sector, la tenencia de tierras es un componente muy importante a considerar.</p>
+                        <h5 class="custom-card-title">Modelo de equilibrio</h5>
+                        <p class="custom-card-text">En las empresas familiares coexisten los subsistemas familia, empresa y propiedad; y su superposición genera conflictos que afectan su desempeño y continuidad.</p>
                     </div>
                 </div>
             </div>
@@ -32,8 +32,8 @@
                 <div class="custom-card">
                     <img src="{{asset('images/sections/agrifood/agri-management.jpg')}}" class="card-img-top" alt="Imagen 3">
                     <div class="custom-card-body">
-                        <h5 class="custom-card-title">Resolución de Conflictos</h5>
-                        <p class="custom-card-text">La mayor amenaza para el desempeño y la continuidad de las empresas familiares lo representan los conflictos que surgen entre la familia y la empresa; los cuales, generalmente no son gestionados adecuadamente.</p>
+                        <h5 class="custom-card-title">Conflictos familia-empresa</h5>
+                        <p class="custom-card-text">Los conflictos más comunes surgen con el ingreso de familiares con ideas nuevas, la toma de decisiones compartida, el retiro de los fundadores, la mala sucesión generacional y la aparición de la familia extendida.</p>
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                     <img src="{{asset('images/sections/agrifood/agri-practices.jpg')}}" class="card-img-top" alt="Imagen 4">
                     <div class="custom-card-body">
                         <h5 class="custom-card-title">Profesionalización</h5>
-                        <p class="custom-card-text">La profesionalización empresarial, la adopción de prácticas de gobernanza familiar y de gobierno corporativo son un medio eficaz para evitar, mitigar o resolver conflictos derivados de la interacción familia-empresa-propiedad.</p>
+                        <p class="custom-card-text">Profesionalizar a la agroempresa a través de la adopción de prácticas de desarrollo organizacional, gobernanza familiar y gobierno corporativo ha demostrado ser un medio eficaz para prevenir, mitigar y resolver conflictos.</p>
                     </div>
                 </div>
             </div>

@@ -17,9 +17,7 @@
       <div class="col-md-6">
         <h1 class="section-title">Nuestra <span>Empresa</span></h1>
         <p class="mt-3">
-            En <span class="additional-highlight">{{env('APP_NAME')}}</span>, gestionamos el fuego de la empresa familiar
-            agroalimentaria para que no incendie la relación entre la empresa y la familia, contribuyendo con su
-            continuidad generacional y su permanencia en el mercado.
+            En <span class="additional-highlight">{{env('APP_NAME')}}</span>, gestionamos el fuego del emprendimiento de la agroempresa familiar para que no incendie la relación entre la empresa y la familia; contribuimos con su continuidad generacional familiar y con su permanencia en el mercado.
         </p>
       </div>
     </div>

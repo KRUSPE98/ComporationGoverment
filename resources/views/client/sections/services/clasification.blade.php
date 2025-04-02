@@ -1,5 +1,5 @@
 
-<section class="diagnostico-section">
+<section class="diagnostico-section" id="diagnostico-section">
     <h1 class="section-title spacer text-center">¿EN QUÉ NIVEL DE PROFESIONALIZACIÓN <span>SE ENCUENTRA TU AGROEMPRESA?</span></h1>
 
 
