@@ -6,7 +6,7 @@
         @endcomponent
 
         <h1 class="section-title spacer text-center">
-            La importancia de la&nbsp;<span>profesionalización</span>,&nbsp;en el sector <span>agroalimentario</span>.
+            La importancia de la&nbsp;<span>profesionalización</span>&nbsp;en el sector <span>agroalimentario</span>.
         </h1>
         <div class="row g-4">
             <!-- Card 1 -->
