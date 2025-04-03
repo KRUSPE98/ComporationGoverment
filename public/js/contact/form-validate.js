@@ -73,7 +73,7 @@ function sendContactInformation() {
             if(response){
                 $("#fruitkha-contact")[0].reset();
                 console.log(response);
-                toastr.success("Gracias por su mensaje!!", "Nueva solicitud de diagnóstico", {timeOut:3000});
+                toastr.success("Gracias por su mensaje", "Tu mensaje ha sido enviado.", {timeOut:3000});
             }
         },
         error: function (response) {
