@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ config('app.name') }} - @yield('title')</title>
+    <title>{{ config('app.full_name') }} - @yield('title')</title>
+    <meta name="description" content="@yield('meta_description', config('app.description'))">
     <!-- Styles CSS 19-03-2022 -->
     @include('client.partials.header')
 </head>

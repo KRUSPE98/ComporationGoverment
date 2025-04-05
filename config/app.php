@@ -23,6 +23,10 @@ $config = [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    'full_name' => env('APP_FULL_NAME', 'CGF'),
+
+    'description' => env('APP_DESCRIPTION', 'Empresa especializada en consultoría y capacitación para la gobernanza familiar corporativa y agroempresas'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment

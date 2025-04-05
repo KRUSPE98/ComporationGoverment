@@ -1,5 +1,5 @@
 @extends('client.layout.layout')
-@section('title','Principal')
+@section('title','Inicio')
 
 @section('custom-links')
 
