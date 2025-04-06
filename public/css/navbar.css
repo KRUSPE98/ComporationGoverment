@@ -1,24 +1,26 @@
 .topMenu.wrap
 {
-    background:var(--third-color);
+    background:var(--main-color);
 }
 
 nav.navbar
 {
-    /* box-shadow: 0px 5px 20px -17px rgb(0 0 0 / 34%); */
     padding: 0;
 }
 nav .navbar-nav > .nav-item > .nav-link
 {
-    font-size: 14px;
     padding: 1.4rem 20px;
     font-weight: 500;
     color: #FFF;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     position: relative;
-    /* opacity: 1 !important; */
 }
+
+nav .nav-item{
+    margin-left: 2px;
+}
+
 nav .navbar-nav > .nav-item.active > a
 {
     color: #fff;
@@ -26,7 +28,6 @@ nav .navbar-nav > .nav-item.active > a
 nav .navbar-nav > .nav-item > .nav-link:hover:before
 {
     visibility: visible;
-    /* background-color: #f1bc31; */
     background-color: var(--secondary-color);
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
@@ -85,7 +86,7 @@ nav .navbar-nav > .nav-item > .nav-link:before
 }
 
 .menu-bg {
-	background:#202020;
+	background:var(--main-color);
 }
 
 #main-menu ul {
@@ -105,7 +106,6 @@ nav .navbar-nav > .nav-item > .nav-link:before
 	line-height: 60px;
 	color: #FFF;
 	font-weight: 600;
-	font-size: 15px;
 	text-transform: uppercase;
 	transition: all 0.25s ease 0s;
 }
@@ -131,7 +131,6 @@ nav .navbar-nav > .nav-item > .nav-link:before
 .navbar-toggle {
 	color: #FFF;
 	margin-top: 4px;
-	font-size: 32px;
 	margin-bottom: 0px;
 	padding-top: 9px;
 	position: absolute;
@@ -149,48 +148,29 @@ nav .navbar-nav > .nav-item > .nav-link:before
 	line-height: 60px;
 }
 
+.navbar-brand img{
+    width: 180px;
+}
+
 @media (min-width: 992px) and (max-width: 1024px) {
 
     .navbar-right {
         float:none !important;
     }
-
-}
-
-/* @media (min-width: 768px) and (max-width: 992px) {
-
-    .thumnail-img {
-        width:50%;
+    .nav-item{
+        margin-left: 0;
     }
 
 }
-
-     @media (max-width: 768px) {
-
-     .thumnail-img {
-        width:50%;
-    }
-
-    }
-
-     @media (max-width: 550px) {
-
-    .thumnail-img {
-        width:100%;
-    }
-
-    } */
-
 
 @media (max-width:480px) {
 
     .big {
-        font-size: 35px;
         line-height: 52px;
     }
 
-    .small {
-        font-size: 19px;
+    .nav-item{
+        margin-left: 0;
     }
 
 }
@@ -199,6 +179,9 @@ nav .navbar-nav > .nav-item > .nav-link:before
 
     #main-menu.collapse {
      display: block !important;
+    }
+    .nav-item{
+        margin-left: 0;
     }
 
 }
@@ -244,5 +227,8 @@ nav .navbar-nav > .nav-item > .nav-link:before
         box-shadow: none !important;
     }
 
+    .nav-item{
+        margin-left: 0;
+    }
 
 }

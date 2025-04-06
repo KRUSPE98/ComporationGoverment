@@ -1,250 +1,190 @@
-/*-----------------------------------------------------------------*/
-/* Slider
-/*-----------------------------------------------------------------*/
-
-
-.home {
-	overflow: hidden;
-	font-family: "Raleway", sans-serif;
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(-45deg, var(--main-color) 50%, var(--third-color) 50%);
 }
 
-.home .slides {
-	display: inline-block;
-	width: 100%;
+.owl-carousel .slide {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
 
-.home .flexslider {
-	overflow: hidden;
-}
-
-.big {
-	font-size: 50px;
-	font-weight: bold;
-	line-height: 70px;
-	text-transform: uppercase;
-	margin: 6px -10px;
-	color: white;
-	z-index: 999;
-}
-
-.small {
-    font-size: 20px;
-    font-weight: 200;
-    color: #FFF;
-    margin: 30px 0px 0px;
-    text-transform: uppercase;
-	font-weight: 600;
-}
-
-.home .flexslider .slides img {
-	background-position: center 0;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-}
-
-.home .flexslider .slides img.parallax {
-	background-attachment: fixed;
-}
-
-.flexslider.video img {
-	background: none !important;
-}
-
-#video_player {
-	bottom: 0;
-	height: auto;
-	min-height: 100%;
-	min-width: 100%;
-	position: absolute;
-	right: 0;
-	width: auto;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .slider-text-wrapper {
-	position: absolute;
-	width: 100%;
-	height: 250px;
-	top: 50%;
-	left: 0;
-	margin-top: -125px;
-	text-align: center;
-	z-index:999;
+    position: absolute;
+    bottom: 5%;
+    width: 40%;
+    text-align: left;
+    color: white;
+    z-index: 10;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+    border-radius: 10px;
 }
 
-.slider-text-wrapper .btn {
-	margin-top: 60px;
-	border:2px solid #FFF;
-	background:transparent;
-	color:#FFF;
+/* Posiciones específicas */
+.slide-1 .slider-text-wrapper {
+    right: 5%;
+    text-align: right;
 }
 
-.flex-control-nav {
-	bottom: 40px;
-	z-index: 999;
-	position: absolute;
-	width: 100%;
-	text-align: center;
+.slide-2 .slider-text-wrapper {
+    left: 5%;
 }
 
-.flex-control-nav li {
-	display: inline-block;
+/* Ajustes para el slide 3 */
+.slide-3 .slider-text-wrapper {
+    position: absolute;
+    bottom: 5%;
+    width: 70%;
+    text-align: left;
+    color: white;
+    z-index: 10;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+    border-radius: 10px;
+    left: 5%;
 }
 
-.flex-control-paging li a {
-	width: 6px !important;
-	height: 6px !important;
-	box-shadow: none !important;
-	background: #fff !important;
-	display: inline-block !important;
-	text-indent: -9999px !important;
-	border-radius: 50% !important;
-	margin: 0 6px !important;
-	cursor: pointer !important;
-	z-index:9999 !important;
+.big {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
 }
 
-.flex-control-paging li a.flex-active {
-	background: #18263a;
+.small {
+    margin: 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
 }
 
-.flexslider {
-	position: relative;
+.small li{
+    text-align: left !important;
 }
 
-.flex-prev {
-	color: #333;
-	font-size: 40px;
-	height: 40px;
-	left: 20px;
-	margin-top: -20px;
-	position: absolute;
-	top: 50%;
-	width: 40px;
-	z-index: 2;
+.custom-prev, .custom-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    z-index: 20;
+    transition: background 0.3s ease;
 }
 
-.home .flex-prev, .home .flex-next {
-	color: #FFF;
-	transition: none 0s ease 0s;
-	z-index: 999;
+.custom-prev { left: 20px; }
+.custom-next { right: 20px; }
+
+.custom-prev:hover, .custom-next:hover {
+    background: var(--third-color);
+    color: var(--main-color);
 }
 
-.flex-next {
-	color: #333;
-	font-size: 40px;
-	height: 40px;
-	right: 0px;
-	margin-top: -20px;
-	position: absolute;
-	top: 50%;
-	width: 40px;
-	z-index: 2;
-}
-.home .flex-prev, .home .flex-next {
-	color: #fff;
-	transition: none;
+/* Slide 1 - Diagonal a la izquierda */
+.owl-carousel .slide.slide-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 100%;
+    background: #F2F609; /* Color azul principal */
+    clip-path: polygon(0 0, 100% 0, 60% 100%, 0% 100%);
+    z-index: 5;
 }
 
-#home {
-	width: 100%;
-	height: 100%;
-	color: #fff;
+.owl-carousel .slide.slide-1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background: #15396D; /* Color amarillo */
+    clip-path: polygon(0 0, 100% 0, 60% 100%, 0% 100%);
+    z-index: 6;
 }
 
-.slider-overlay {
-    background:url('/images/slider/pattern.png') repeat rgba(0, 0, 0, .4);
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	z-index: 100;
-	width: 100%;
-	height: 100%;
+/* Slide 2 - Diagonal a la derecha */
+.owl-carousel .slide.slide-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0; /* Movida a la derecha */
+    width: 50%; /* Aumento el tamaño para que sea más visible */
+    height: 100%;
+    background: #F2F609; /* Color azul principal */
+    clip-path: polygon(60% 0, 100% 0, 60% 100%, 0% 100%);
+    z-index: 5;
+}
+
+.owl-carousel .slide.slide-2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0; /* Movida a la derecha */
+    width: 40%; /* Aumento el tamaño para que sea más visible */
+    height: 100%;
+    background: #15396D; /* Color amarillo */
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 0% 100%);
+    z-index: 6;
+}
+
+/* Slide 3 - Triángulos en las esquinas */
+.owl-carousel .slide.slide-3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50vw solid #F2F609; /* Triángulo amarillo */
+    border-top: 50vh solid transparent; /* Triángulo amarillo */
+    z-index: 5;
+}
+
+.owl-carousel .slide.slide-3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-right: 50vw solid #15396D; /* Triángulo azul */
+    border-bottom: 50vh solid transparent; /* Triángulo azul */
+    z-index: 6;
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .slider-text-wrapper {
+        width: 90% !important;
+        text-align: center !important;
+        margin: auto;
+    }
+
+    /* Botones */
+    .btn {
+        padding: 10px 25px;
+    }
 }
 
 
-/*-----------------------------------------------------------------*/
-/*  Flexslider
-/*-----------------------------------------------------------------*/
-
-
-.flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus {
-	outline: none;
-}
-
-.slides, .flex-control-nav, .flex-direction-nav {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.flexslider {
-	margin: 0;
-	padding: 0;
-}
-
-.flexslider .slides > li {
-	display: none;
-	-webkit-backface-visibility: hidden;
-}
-
-.flexslider .slides img {
-	width: 100%;
-	display: block;
-	height:630px;
-}
-
-.flex-pauseplay span {
-	text-transform: capitalize;
-}
-
-.slides:after {
-	content: "\0020";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
-}
-
-html[xmlns] .slides {
-	display: block;
-}
-
-* html .slides {
-	height: 1%;
-}
-
-.no-js .slides > li:first-child {
-	display: block;
-}
-
-.flex-control-nav {
-	position:absolute;
-	bottom: 20px;
-	text-align:center;
-	width: 100%;
-}
-
-.flex-control-nav li {
-	margin: 0 3px;
-	display: inline-block;
-}
-
-.flex-control-nav li a {
-	width: 30px;
-	height: 5px;
-	background: #FFF;
-	text-indent:-9999px;
-	display:block;
-	opacity: 0.4;
-}
-
-.flex-control-nav li a.flex-active {
-	opacity: 1;
-}
-
-.flex-direction-nav .flex-prev:hover,  .flex-direction-nav .flex-next:hover {
-	opacity: 1;
-}

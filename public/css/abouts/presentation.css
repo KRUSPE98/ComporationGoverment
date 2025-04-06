@@ -1,0 +1,162 @@
+.banner {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 75px 0 0 0;
+    background: #FFF;
+    position: relative; /* Para que los elementos absolutos se posicionen dentro */
+    overflow: hidden;
+}
+
+#banner-about-us .section-title{
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+/* Estilos para las imágenes adicionales */
+.content-img-top,
+.content-img-button,
+.content-img-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content-img-top {
+    z-index: 3;
+    width: 470px;
+    left: 55%;
+}
+
+.content-img-button {
+    bottom: 0;
+    z-index: 2;
+    width: 470px;
+    left: 65%;
+}
+
+.content-img-center {
+    top: 60%;
+    transform: translate(55%, -50%);
+    z-index: 2;
+    width: 470px;
+}
+
+
+
+.content-left {
+    width: 55.02%; /* Ancho en pantallas grandes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.content-right {
+    width: 44.98%; /* Ancho en pantallas grandes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-font {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.content-title p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+/* Responsive: En pantallas menores a 768px, los divs se apilan */
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column; /* Apila los elementos */
+        height: auto; /* Permite que el contenido se ajuste */
+    }
+
+    .content-title p {
+        font-size: 1.5rem;
+    }
+
+    .content-left, .content-right {
+        width: 100%; /* Ambos divs ocupan el 100% del ancho */
+    }
+
+    /* Ajustes en responsive para las imágenes */
+    .content-img-top {
+        width: 330px;
+        top: 45%;
+    }
+
+    .content-img-button {
+        width: auto;
+        left: 0;
+
+    }
+
+    .content-img-center {
+        /* transform: none;
+        width: auto;
+        transform: rotate(60deg); */
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .content-img-top {
+        width: 630px;
+        /* top: 45%; */
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1368px) {
+    .content-img-center {
+        display: none;
+    }
+    .content-img-button{
+        left: 55%;
+    }
+}
+
+@media (min-width: 1180px) and (max-height: 820px) {
+    /* Estilos específicos para iPad Air en horizontal */
+}
+
+@media only screen and (min-width: 1024px) and (orientation: portrait) {
+    .content-img-center {
+        display: none;
+    }
+    .content-img-button{
+        left: 55%;
+    }
+}
+
+@media (max-width:  1024px) and (max-height: 600px) {
+    .content-img-top{
+        display: none;
+    }
+}
+
+@media (max-width:  1280px) and (max-height: 800px) {
+    .content-img-top{
+        display: none;
+    }
+}
+
+

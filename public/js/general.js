@@ -3,15 +3,27 @@
 -------------------------------------------------------*/
 
 /****** START SET ACTIVE BACKGROUND BLACK TO THE NAV-BAR IN SOME CONDITIONS ******/
-
+// showWait();
 $(window).scroll(function () {
-    if ($("#header").offset().top > 50) {
-        $("#header").addClass("menu-bg");
+    // if ($("#header").offset().top > 50) {
+    //     $("#header").addClass("menu-bg");
+    // } else {
+    //     $("#header").removeClass("menu-bg");
+    // }
+
+    if (window.location.pathname === "/services"
+       || window.location.pathname === "/nosotros"
+    ) {
+        $("#header").addClass("menu-bg"); // Mantiene el fondo siempre activo
     } else {
-        var main_route = (window.location.pathname.split("/")[1]);
-        if(main_route != 'nosotros'){
-            $("#header").removeClass("menu-bg");
-        }
+        // Aplica el cambio de fondo solo si se hace scroll
+        $(window).on("scroll", function () {
+            if ($("#header").offset().top > 50) {
+                $("#header").addClass("menu-bg");
+            } else {
+                $("#header").removeClass("menu-bg");
+            }
+        });
     }
 });
 
@@ -69,10 +81,13 @@ $(document).ready(function() {
     if (main_route == '') {
         main_route = 'home';
     }
-    if(main_route == 'nosotros'){
-        $("#header").addClass("menu-bg");
-    }
+
     $('.nav-item.page_' + main_route).addClass('active');
+    if (window.location.pathname === "/services"
+       || window.location.pathname === "/nosotros"
+    ) {
+        $("#header").addClass("menu-bg"); // Mantiene el fondo desde el inicio y en todo momento
+    }
 });
 
 /****** END SET ACTIVE NAV-ITEMS IN THE NAV-BAR ******/
@@ -98,7 +113,7 @@ $('.popup-with-move-anim').magnificPopup({
 
 
 $(".tab-carousel").owlCarousel({
- 
+
     navigation : false, // Show next and prev buttons
     slideSpeed : 400,
     pagination : false,
@@ -116,30 +131,65 @@ $(".tab-carousel").owlCarousel({
 
 /* Preloader */
 $(window).on('load', function() {
-    var preloaderFadeOutTime = 500;
-    function hidePreloader() {
-        var preloader = $('.spinner-wrapper');
-        setTimeout(function() {
-            preloader.fadeOut(preloaderFadeOutTime);
-        }, 500);
-    }
-    hidePreloader();
+    hideWait();
 });
 
+function hideWait() {
+    var preloaderFadeOutTime = 500;
+    var preloader = $('.spinner-wrapper');
+
+    setTimeout(function() {
+        preloader.fadeOut(preloaderFadeOutTime);
+    }, 500);
+}
+
+function showWait() {
+    var preloader = $('.spinner-wrapper');
+    preloader.show();
+}
 
 /*------------------------------*/
 /*  Scroll to top
 /*------------------------------*/
-	 
+
 $(window).scroll(function(){
     if ($(this).scrollTop() > 100) {
         $('.scrollup').fadeIn();
     } else {
         $('.scrollup').fadeOut();
     }
-}); 
+});
 
 $('.scrollup').click(function(){
     $("html, body").animate({ scrollTop: 0 }, 0);
     return false;
 });
+
+
+
+var owl = $(".owl-carousel").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    nav: false,
+    dots: false,
+});
+
+// Botón anterior
+$(".custom-prev").on('click', function() {
+    owl.trigger('prev.owl.carousel');
+});
+
+// Botón siguiente
+$(".custom-next").on('click', function() {
+    owl.trigger('next.owl.carousel');
+});
+
+toastr.options = {
+    "closeButton": true,  // Habilita el botón de cierre
+    "positionClass": "toast-center",  // Centramos la notificación
+    "preventDuplicates": true,
+};

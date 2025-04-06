@@ -1,6 +1,14 @@
 <?php
+$client = env('CLIENT_NAME', 'default');
 
-return [
+$configuracion_file = __DIR__.'/clients/'.$client.'.php';
+if (!file_exists($configuracion_file)) {
+    $configuracion_file = __DIR__.'/clients/default.php';
+}
+
+$configuracion_cliente = require $configuracion_file;
+
+$config = [
 
     /*
     |--------------------------------------------------------------------------
@@ -14,6 +22,10 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+
+    'full_name' => env('APP_FULL_NAME', 'CGF'),
+
+    'description' => env('APP_DESCRIPTION', 'Empresa especializada en consultoría y capacitación para la gobernanza familiar corporativa y agroempresas'),
 
     /*
     |--------------------------------------------------------------------------
@@ -233,3 +245,8 @@ return [
     ],
 
 ];
+
+//merge the configuration
+$config = array_merge($config, $configuracion_cliente);
+
+return $config;

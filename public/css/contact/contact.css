@@ -4,7 +4,11 @@
 /*-----------------------------------------------------------------*/
 
 #contact {
-	background:url('../../images/presentations/ilustraation.jpg') no-repeat;
+	background:url('../../images/presentations/office_reference.jpg') no-repeat;
+}
+
+#contact .section-title{
+    color: #FFF;
 }
 
 .contact-form {
@@ -17,7 +21,6 @@
 }
 
 .contact-info p {
-  font-size: 17px;
   line-height: 20px;
   margin-bottom: 16px;
   color: #FFF;
@@ -27,7 +30,8 @@
     min-height: 150px;
     margin: 0 0 30px 0;
     padding: 30px 15px 0 15px;
-    background: rgba(0, 0, 0, .4);
+    background-color: var(--secondary-color);
+    backdrop-filter: blur(10px);
 }
 
 .contact-info {
@@ -44,35 +48,44 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #FBB03F;
+    background: var(--main-color);
     border-radius: 50px;
 }
 
 .contact-icon i {
-    font-size: 18px;
     color: #ffffff;
 }
 
-.contact-text h3 {
-    font-size: 18px;
-    font-weight: 700;
-    color: #719a0a;
+.text-muted {
+    color: #FFF !important;
+}
+
+.contact-text h2 {
+    /* font-weight: 700; */
+    color: #ffffff;
 }
 
 .contact-text p {
     margin: 0;
-    font-size: 16px;
     color: #454545;
+    height: 40px;
+}
+
+.contact-social{
+    display: flex;
 }
 
 .contact-social a {
     margin-right: 10px;
-    font-size: 18px;
-    color: #FBB03F;
+    color: #fff;
+    background: var(--main-color);
+    padding: 5px;
+    border-radius: 50%;
+    border: none !important;
 }
 
 .contact-social a:hover {
-    color: #719a0a;
+    color: var(--secondary-color);
 }
 
 
@@ -88,7 +101,6 @@
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .form-control {
 	display: inline-block;
 	margin-bottom: 20px;
-	font-size: 15px;
 	line-height: 25px;
 	color: #FFF;
 	/* height: 46px; */
@@ -108,14 +120,33 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	border-color:#FFF !important;
 }
 
-.btn-green {
-	background:#7EC13F;
-	border-color: #7EC13F;
-	color:#FFF;
+#form_status .wrong {
+    color: red;
+    font-weight: 600;
+    border: 2px solid;
+    padding: 8px 18px;
+    background: #fff;
+    border-radius: 6px;
 }
 
-.btn-green:hover, .btn-green:focus {
-	color: #FFF;
-	background:transparent;
-	border-color: #FFF;
+#form_status{
+    margin-bottom: 20px;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: #fff !important;  /* El color que prefieras */
+    opacity: 0.7 !important;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Ajusta la altura aquí */
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }

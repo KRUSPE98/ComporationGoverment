@@ -3,27 +3,25 @@
 /*-----------------------------------------------------------------*/
 
 html {
-    font-size: 14px;
     font-weight: 400;
     line-height: 28px;
     height: 100%;
   }
-  
+
   body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 1rem;
     letter-spacing: 0.1px;
     line-height: 1.8;
     color: #051922;
     overflow-x: hidden;
     background-color: #fbf9f5;
   }
-  
+
   body img {
     max-width: 100%;
   }
-  
+
   a {
     cursor: pointer;
     text-decoration: none;
@@ -31,12 +29,12 @@ html {
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
-  
+
   a:hover {
-    color: #F28123;
+    color: #FFFFFF;
     text-decoration: none;
   }
-  
+
   h1, .h1,
   h2, .h2,
   h3, .h3,
@@ -46,9 +44,9 @@ html {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     margin: 0 0 1.25rem 0;
-    color: #051922;
+    /* color: #051922; */
   }
-  
+
   h1:last-child, .h1:last-child,
   h2:last-child, .h2:last-child,
   h3:last-child, .h3:last-child,
@@ -57,221 +55,96 @@ html {
   h6:last-child, .h6:last-child {
     margin: 0;
   }
-  
+
   h1, .h1 {
-    font-size: 4rem;
     font-weight: 700;
     line-height: 4rem;
+    /* font-size: 2.5rem; */
   }
-  
+
   @media only screen and (max-width: 767.96px) {
     h1, .h1 {
-      font-size: 3rem;
       line-height: 3.25rem;
     }
   }
-  
+
   @media only screen and (max-width: 575.96px) {
     h1, .h1 {
-      font-size: 2.5rem;
       line-height: 2.75rem;
     }
   }
-  
+
   h2, .h2 {
-    font-size: 3rem;
     font-weight: 700;
     line-height: 3.25rem;
+    font-size: 1.5rem;
   }
-  
+
   @media only screen and (max-width: 767.96px) {
     h2, .h2 {
-      font-size: 2.5rem;
       line-height: 2.75rem;
     }
   }
-  
+
   @media only screen and (max-width: 575.96px) {
     h2, .h2 {
-      font-size: 2rem;
       line-height: 2.25rem;
     }
   }
-  
+
   h3, .h3 {
-    font-size: 2rem;
     font-weight: 700;
     line-height: 2.25rem;
   }
-  
+
   @media only screen and (max-width: 575.96px) {
     h3, .h3 {
-      font-size: 1.75rem;
       line-height: 2rem;
     }
   }
-  
+
   h4, .h4 {
-    font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.75rem;
   }
-  
+
   @media only screen and (max-width: 575.96px) {
     h4, .h4 {
-      font-size: 1.25rem;
       line-height: 1.5rem;
     }
   }
-  
+
   h5, .h5 {
-    font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.5rem;
   }
-  
+
   h6, .h6 {
-    font-size: 1rem;
     font-weight: 700;
     line-height: 1.5rem;
   }
-  
+
   p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 1rem;
     letter-spacing: 0.1px;
     line-height: 1.8;
     color: #051922;
     margin: 0 0 1.25rem 0;
-  }
-  
-  /* p:last-child {
-    margin: 0;
-  } */
-
-  
-  /* -----------------------------------------------------------------------------
-
-# All Common Styles
-
------------------------------------------------------------------------------ */
-/* .loader {
-    bottom: 0;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 1111;
-    background: #fff;
-    overflow-x: hidden;
-  }
-  
-  .loader-inner {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    height: 50px;
-    width: 50px;
-  }
-  
-  .circle {
-    width: 8vmax;
-    height: 8vmax;
-    border-right: 4px solid #000;
-    border-radius: 50%;
-    -webkit-animation: spinRight 800ms linear infinite;
-    animation: spinRight 800ms linear infinite;
-  }
-  
-  .circle:before {
-    content: '';
-    width: 6vmax;
-    height: 6vmax;
-    display: block;
-    position: absolute;
-    top: calc(50% - 3vmax);
-    left: calc(50% - 3vmax);
-    border-left: 3px solid #F28123;
-    border-radius: 100%;
-    -webkit-animation: spinLeft 800ms linear infinite;
-    animation: spinLeft 800ms linear infinite;
-  }
-  
-  .circle:after {
-    content: '';
-    width: 6vmax;
-    height: 6vmax;
-    display: block;
-    position: absolute;
-    top: calc(50% - 3vmax);
-    left: calc(50% - 3vmax);
-    border-left: 3px solid #F28123;
-    border-radius: 100%;
-    -webkit-animation: spinLeft 800ms linear infinite;
-    animation: spinLeft 800ms linear infinite;
-    width: 4vmax;
-    height: 4vmax;
-    top: calc(50% - 2vmax);
-    left: calc(50% - 2vmax);
-    border: 0;
-    border-right: 2px solid #000;
-    -webkit-animation: none;
-    animation: none;
+    font-size: 1rem !important;
   }
 
-
-  
-  @-webkit-keyframes spinLeft {
-    from {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    to {
-      -webkit-transform: rotate(720deg);
-      transform: rotate(720deg);
-    }
+  small {
+    font-size: 0.875rem;
   }
 
-  
-  @keyframes spinLeft {
-    from {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    to {
-      -webkit-transform: rotate(720deg);
-      transform: rotate(720deg);
-    }
+  .nav-link{
+    font-size: 1rem;
   }
-  
-  @-webkit-keyframes spinRight {
-    from {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-    to {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
+
+  .banner-title {
+    font-size: 3rem;
   }
-  
-  @keyframes spinRight {
-    from {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-    to {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-  } */
 
 
   /*************************/
@@ -285,6 +158,7 @@ html {
 	bottom: 0;
 	left: 0;
 	background: #f7fafd;
+    /* display: none; */
 }
 
 .spinner {
@@ -293,7 +167,7 @@ html {
 	left: 50%; /* centers the loading animation horizontally one the screen */
 	width: 3.75rem;
 	height: 1.25rem;
-	margin: -0.625rem 0 0 -1.875rem; /* is width and height divided by two */ 
+	margin: -0.625rem 0 0 -1.875rem; /* is width and height divided by two */
 	text-align: center;
 }
 
@@ -302,7 +176,7 @@ html {
 	width: 1rem;
 	height: 1rem;
 	border-radius: 100%;
-	background-color: #fbb03f;
+	background-color: var(--main-color);
 	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 }
@@ -323,11 +197,11 @@ html {
 }
 
 @keyframes sk-bouncedelay {
-	0%, 80%, 100% { 
+	0%, 80%, 100% {
 		-webkit-transform: scale(0);
 		-ms-transform: scale(0);
 		transform: scale(0);
-	} 40% { 
+	} 40% {
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
@@ -346,15 +220,15 @@ html {
     top: 0px;
     left: 0px;
   }
-  
+
   section {
     position:relative;
   }
-      
+
   .parallax .container {
       position:relative;
   }
-  
+
   .parallax {
       background-attachment: fixed !important;
       background-position: center center !important;
@@ -371,7 +245,6 @@ html {
     background-color: #F5F5F5;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #F90; 
+    background-color: #F90;
     background-image: -webkit-linear-gradient(90deg,rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,transparent 75%,transparent)
 }
-  
