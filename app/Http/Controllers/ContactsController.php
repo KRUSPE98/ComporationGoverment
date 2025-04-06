@@ -115,7 +115,12 @@ class ContactsController extends Controller
         }
 
         try {
-            $adminEmails = explode(',', env('ADMIN_EMAILS'));
+            $adminEmails = array_filter(array_map('trim', explode(',', env('ADMIN_EMAILS'))));
+
+            if (empty($adminEmails)) {
+                throw new \Exception('No hay correos de administrador configurados.');
+            }
+
             // Aquí envías el correo al administrador y al usuario
             // Enviar al administrador (puedes configurar una dirección en el archivo .env)
             Mail::to($adminEmails)->send(new ContactFormMail(
