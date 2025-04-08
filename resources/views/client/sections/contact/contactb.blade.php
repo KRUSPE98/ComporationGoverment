@@ -1,7 +1,6 @@
 @extends('client.layout.layout')
-@section('title')
-Nosotros
-@endsection
+@section('title','Contacto')
+@section('meta_description', 'Contáctanos para obtener más información sobre cómo podemos ayudarte con nuestros servicios de consultoría y capacitación.')
 
 @section('content')
 
