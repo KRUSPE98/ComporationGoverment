@@ -9,6 +9,7 @@
 
     <!-- ✅ Favicon -->
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <!-- Styles CSS 19-03-2022 -->
     @include('client.partials.header')
 </head>

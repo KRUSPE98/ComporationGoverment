@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="{{asset('css/navbar.css?v='.time())}}">
 <link rel="stylesheet" href="{{asset('css/footer.css?v='.time())}}">
 <link rel="stylesheet" href="{{asset('css/principal/magnific-popup.css?v='.time())}}">
+<link rel="stylesheet" href="{{asset('css/clickMe.css?v='.time())}}">
 
 @yield('custom-links')
 
