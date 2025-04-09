@@ -1,5 +1,6 @@
 @extends('client.layout.layout')
 @section('title','Inicio')
+@section('meta_description', 'Bienvenidos a nuestro sitio web, donde ofrecemos servicios de consultoría y capacitación en gobernanza familiar para agroempresas.')
 
 @section('custom-links')
 

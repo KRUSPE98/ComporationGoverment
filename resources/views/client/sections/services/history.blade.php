@@ -49,12 +49,14 @@
             </li>
 
             <li class="timeline-inverted">
-                <div class="timeline-image">
+                <div class="timeline-image timeline-image-dw" data-aos="flip-right">
                     <h4 class="text-download">
                         <a class="link-download" href="https://drive.google.com/drive/folders/1Khr2qKuhdo_sHun1hn3Omny6DsIA8Vf0" target="_blank">
                             Consulta nuestro catálogo a detalle aquí.
                         <br>
-                        <i class="fas fa-download icon-download"></i>
+                        <button class="btn-white">
+                            <i class="fas fa-download icon-download"></i>
+                        </button>
                         </a>
                     </h4>
                 </div>

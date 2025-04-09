@@ -1,7 +1,6 @@
 @extends('client.layout.layout')
-@section('title')
-Nosotros
-@endsection
+@section('title', 'Servicios')
+@section('meta_description', 'Descubre los servicios que ofrecemos para mejorar la gobernanza familiar en las agroempresas y fortalecer sus operaciones.')
 
 @section('custom-links')
 <link rel="stylesheet" href="{{asset('css/services/clasification.css?v='.time())}}">
