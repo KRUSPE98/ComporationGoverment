@@ -6,6 +6,7 @@
     <title>{{ config('app.full_name') }} - @yield('title')</title>
     <meta name="description" content="@yield('meta_description', config('app.description'))">
     <meta name="google-site-verification" content="o1dCZU6Myd4tD0KAMrLLYI5ZQpPU6vX4Y0cYsRFCFqQ" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <!-- Styles CSS 19-03-2022 -->
     @include('client.partials.header')
 </head>
