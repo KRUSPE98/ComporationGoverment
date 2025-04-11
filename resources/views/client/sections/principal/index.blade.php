@@ -22,6 +22,36 @@
     <meta name="twitter:image" content="https://profesionalizacionagroempresarial.com/images/partials/nav/CGF-logo-new.png" />
 
 
+    <!-- ✅ Rich Snippet JSON-LD -->
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Inicio - Consultoría y Capacitación en Gobernanza Familiar Corporativa",
+        "url": "https://profesionalizacionagroempresarial.com/",
+        "logo": "https://profesionalizacionagroempresarial.com/images/partials/nav/CGF-logo-new.png",
+        "contactPoint": [
+            {
+            "@type": "ContactPoint",
+            "telephone": "+52-221-345-8714",
+            "contactType": "customer service"
+            },
+            {
+            "@type": "ContactPoint",
+            "telephone": "+52-551-836-5601",
+            "contactType": "customer service"
+            }
+        ],
+        "sameAs": [
+            "https://www.facebook.com/Gobernanza.familiar",
+            "https://www.instagram.com/gobernanza.familiar/",
+            "https://www.tiktok.com/@gobernanza.familiar",
+            "https://www.youtube.com/@gobernanza.familiar"
+            ]
+        }
+    </script>
+
+
     {{-- <link rel="stylesheet" href="{{asset('css/principal/sectionSlider.css?v='.time())}}"> --}}
     <link rel="stylesheet" href="{{asset('css/principal/sectionSlider.css?v='.time())}}">
     {{-- <link rel="stylesheet" href="{{asset('css/principal/sectionServices.css?v='.time())}}"> --}}

@@ -19,6 +19,47 @@
 <meta name="twitter:image" content="https://profesionalizacionagroempresarial.com/images/partials/nav/CGF-logo-new.png" />
 
 
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Nosotros - Consultoría y Capacitación en Gobernanza Familiar Corporativa",
+        "url": "https://profesionalizacionagroempresarial.com/nosotros",
+        "logo": "https://profesionalizacionagroempresarial.com/images/partials/nav/CGF-logo-new.png",
+        "description": "Somos una empresa de consultoría mexicana especializada en la profesionalización de empresas familiares del sector agroalimentario del país.",
+        "sameAs": [
+        "https://www.facebook.com/Gobernanza.familiar",
+        "https://www.instagram.com/gobernanza.familiar/",
+        "https://www.tiktok.com/@gobernanza.familiar",
+        "https://www.youtube.com/@gobernanza.familiar"
+        ],
+        "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "telephone": "+52-221-345-8714",
+            "contactType": "customer support",
+            "areaServed": "MX"
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+52-551-836-5601",
+            "contactType": "customer support",
+            "areaServed": "MX"
+        }
+        ],
+        "foundingLocation": {
+        "@type": "Place",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "MX"
+        }
+        }
+    }
+</script>
+
+
+
+
 <link rel="stylesheet" href="{{asset('css/abouts/presentation.css?v='.time())}}">
 <link rel="stylesheet" href="{{asset('css/principal/flip_card.css?v='.time())}}">
 @endsection

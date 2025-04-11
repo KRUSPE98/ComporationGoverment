@@ -18,6 +18,64 @@
 <meta name="twitter:description" content="Soluciones personalizadas en gobernanza y desarrollo empresarial familiar." />
 <meta name="twitter:image" content="https://profesionalizacionagroempresarial.com/images/partials/nav/CGF-logo-new.png" />
 
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Servicios - Consultoría y Capacitación en Gobernanza Familiar Corporativa",
+        "url": "https://profesionalizacionagroempresarial.com/services",
+        "logo": "https://profesionalizacionagroempresarial.com/images/partials/nav/CGF-logo-new.png",
+        "description": "Somos una empresa de consultoría mexicana especializada en la profesionalización de empresas familiares del sector agroalimentario del país.",
+        "sameAs": [
+            "https://www.facebook.com/Gobernanza.familiar",
+            "https://www.instagram.com/gobernanza.familiar/",
+            "https://www.tiktok.com/@gobernanza.familiar",
+            "https://www.youtube.com/@gobernanza.familiar"
+        ],
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "+52-221-345-8714",
+                "contactType": "customer support",
+                "areaServed": "MX"
+            },
+            {
+                "@type": "ContactPoint",
+                "telephone": "+52-551-836-5601",
+                "contactType": "customer support",
+                "areaServed": "MX"
+            }
+        ],
+        "foundingLocation": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "MX"
+            }
+        },
+        "service": [
+            {
+                "@type": "Service",
+                "name": "Consultoría en Gobernanza Familiar",
+                "description": "Ofrecemos asesoría a empresas familiares para la implementación de estrategias de gobernanza, asegurando una estructura organizacional eficiente y sostenible.",
+                "serviceType": "Consulting"
+            },
+            {
+                "@type": "Service",
+                "name": "Capacitación para Empresas Familiares",
+                "description": "Brindamos programas de formación para los miembros de empresas familiares, enfocándonos en la mejora de sus habilidades en gestión y toma de decisiones.",
+                "serviceType": "Training"
+            },
+            {
+                "@type": "Service",
+                "name": "Desarrollo de Planes Estratégicos para Empresas Agroindustriales",
+                "description": "Diseñamos planes estratégicos adaptados a las necesidades del sector agroalimentario para empresas familiares, promoviendo su crecimiento y sostenibilidad.",
+                "serviceType": "Strategy Development"
+            }
+        ]
+    }
+</script>
+
 
 <link rel="stylesheet" href="{{asset('css/services/clasification.css?v='.time())}}">
 <link rel="stylesheet" href="{{asset('css/services/presentation.css?v='.time())}}">

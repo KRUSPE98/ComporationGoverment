@@ -17,6 +17,48 @@
 <meta name="twitter:description" content="Escribinos para conocer cómo trabajar juntos en la profesionalización de tu empresa familiar." />
 <meta name="twitter:image" content="https://profesionalizacionagroempresarial.com/images/partials/nav/CGF-logo-new.png" />
 
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "url": "https://profesionalizacionagroempresarial.com/contacto",
+        "name": "Contacto - Consultoría y Capacitación en Gobernanza Familiar Corporativa",
+        "description": "En esta página, podrás encontrar toda la información para contactar con nosotros, ya sea por teléfono, correo electrónico o redes sociales.",
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "+52-221-345-8714",
+                "contactType": "customer support",
+                "areaServed": "MX",
+                "availableLanguage": "es"
+            },
+            {
+                "@type": "ContactPoint",
+                "telephone": "+52-551-836-5601",
+                "contactType": "customer support",
+                "areaServed": "MX",
+                "availableLanguage": "es"
+            },
+            {
+                "@type": "ContactPoint",
+                "email": "profesionalizacion.cgf@gmail.com",
+                "contactType": "customer support",
+                "areaServed": "MX",
+                "availableLanguage": "es"
+            }
+        ],
+        "sameAs": [
+            "https://www.facebook.com/Gobernanza.familiar",
+            "https://www.instagram.com/gobernanza.familiar/",
+            "https://www.tiktok.com/@gobernanza.familiar",
+            "https://www.youtube.com/@gobernanza.familiar"
+        ],
+        "logo": "https://profesionalizacionagroempresarial.com/images/partials/nav/CGF-logo-new.png"
+    }
+</script>
+
+
 @endsection
 
 
