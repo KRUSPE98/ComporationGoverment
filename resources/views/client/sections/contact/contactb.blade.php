@@ -2,6 +2,10 @@
 @section('title','Contacto')
 @section('meta_description', 'Contáctanos para obtener más información sobre cómo podemos ayudarte con nuestros servicios de consultoría y capacitación.')
 @section('custom-links')
+
+<link rel="canonical" href="https://profesionalizacionagroempresarial.com/contacto" />
+
+
 <meta property="og:title" content="Contacto | Consultoría en Gobernanza Familiar Corporativa" />
 <meta property="og:description" content="¿Querés transformar la gestión de tu agroempresa? Contactanos y descubrí cómo podemos ayudarte." />
 <meta property="og:image" content="https://profesionalizacionagroempresarial.com/images/partials/nav/CGF-logo-new.png" />

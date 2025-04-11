@@ -4,6 +4,9 @@
 
 @section('custom-links')
 
+<link rel="canonical" href="https://profesionalizacionagroempresarial.com/nosotros" />
+
+
 <meta property="og:title" content="Nosotros | Equipo de Expertos en Gobernanza Familiar Corporativa" />
 <meta property="og:description" content="Conocé a los profesionales detrás de nuestra consultoría especializada en gobernanza familiar corporativa." />
 <meta property="og:image" content="https://profesionalizacionagroempresarial.com/images/partials/nav/CGF-logo-new.png" />
