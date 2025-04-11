@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ config('app.full_name') }} - @yield('title')</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@yield('title') - {{ config('app.full_name') }}</title>
     <meta name="description" content="@yield('meta_description', config('app.description'))">
     <meta name="google-site-verification" content="o1dCZU6Myd4tD0KAMrLLYI5ZQpPU6vX4Y0cYsRFCFqQ" />
 
