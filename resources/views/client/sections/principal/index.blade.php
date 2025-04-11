@@ -4,6 +4,20 @@
 
 @section('custom-links')
 
+    <!-- Open Graph -->
+    <meta property="og:title" content="Inicio | Consultoría y Capacitación en Gobernanza Familiar Corporativa" />
+    <meta property="og:description" content="Brindamos soluciones a agroempresas familiares a través de consultoría y capacitación en gobernanza, fortaleciendo su crecimiento sostenible." />
+    <meta property="og:image" content="https://profesionalizacionagroempresarial.com/images/partials/nav/CGF-logo-new.png" />
+    <meta property="og:url" content="https://profesionalizacionagroempresarial.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Inicio | Consultoría y Capacitación en Gobernanza Familiar Corporativa" />
+    <meta name="twitter:description" content="Brindamos soluciones a agroempresas familiares a través de consultoría y capacitación en gobernanza." />
+    <meta name="twitter:image" content="https://profesionalizacionagroempresarial.com/images/partials/nav/CGF-logo-new.png" />
+
+
     {{-- <link rel="stylesheet" href="{{asset('css/principal/sectionSlider.css?v='.time())}}"> --}}
     <link rel="stylesheet" href="{{asset('css/principal/sectionSlider.css?v='.time())}}">
     {{-- <link rel="stylesheet" href="{{asset('css/principal/sectionServices.css?v='.time())}}"> --}}
