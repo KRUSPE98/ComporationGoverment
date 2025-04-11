@@ -4,6 +4,10 @@
 
 @section('custom-links')
 
+    <!-- SEO para motores de búsqueda -->
+    <link rel="canonical" href="https://profesionalizacionagroempresarial.com/" />
+
+
     <!-- Open Graph -->
     <meta property="og:title" content="Inicio | Consultoría y Capacitación en Gobernanza Familiar Corporativa" />
     <meta property="og:description" content="Brindamos soluciones a agroempresas familiares a través de consultoría y capacitación en gobernanza, fortaleciendo su crecimiento sostenible." />

@@ -3,6 +3,10 @@
 @section('meta_description', 'Descubre los servicios que ofrecemos para mejorar la gobernanza familiar en las agroempresas y fortalecer sus operaciones.')
 
 @section('custom-links')
+
+<link rel="canonical" href="https://profesionalizacionagroempresarial.com/servicios" />
+
+
 <meta property="og:title" content="Servicios | Consultoría y Capacitación para Agroempresas Familiares" />
 <meta property="og:description" content="Capacitación y asesoría estratégica en gobernanza familiar corporativa para agroempresas." />
 <meta property="og:image" content="https://profesionalizacionagroempresarial.com/images/partials/nav/CGF-logo-new.png" />
