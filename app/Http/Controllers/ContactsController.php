@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\SendContactFormEmails;
 use App\Mail\ContactFormMail;
 use App\Models\Contacts;
 use Illuminate\Http\Request;
@@ -121,29 +122,17 @@ class ContactsController extends Controller
                 throw new \Exception('No hay correos de administrador configurados.');
             }
 
-            // Aquí envías el correo al administrador y al usuario
-            // Enviar al administrador (puedes configurar una dirección en el archivo .env)
-            Mail::to($adminEmails)->send(new ContactFormMail(
-                $request->name,
-                $request->email,
-                $request->phone,
-                $request->message,
-                'emails.admin_contact', // Vista específica para el admin
-                'Nuevo mensaje de contacto'
-            ));
-
-            // Enviar al usuario con su contenido específico
-            Mail::to($request->email)->send(new ContactFormMail(
-                $request->name,
-                $request->email,
-                null,  // No se necesita el teléfono en la confirmación
-                null,  // No se necesita el mensaje en la confirmación
-                'emails.user_confirmation', // Vista específica para el usuario
-                'Confirmación de mensaje enviado'
-            ));
+            // Despachar el Job a la cola
+            SendContactFormEmails::dispatch([
+                'adminEmails' => $adminEmails,
+                'email' => $request->email,
+                'name' => $request->name,
+                'phone' => $request->phone,
+                'message' => $request->message
+            ]);
 
             $response['success'] = true;
-            $response['message'] = 'Mensaje enviado correctamente';
+            $response['message'] = 'Mensaje enviado correctamente.';
         } catch (\Throwable $th) {
             $response['message'] = $th->getMessage();
         }

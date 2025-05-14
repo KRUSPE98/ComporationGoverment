@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Queue;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,3 +34,11 @@ Route::get('/contacto', function () {
 Route::post('/contactForm','ContactsController@contactForm')->name('contact.form');
 Route::get('/contactForm/preview', 'ContactsController@preview');
 
+
+Route::post('/tasks/handle-job', function () {
+    if (! request()->hasHeader('X-CloudTasks-TaskName')) {
+        abort(403, 'Unauthorized');
+    }
+
+    return Queue::marshal();
+});
