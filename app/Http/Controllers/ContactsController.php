@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Jobs\SendContactFormEmails;
 use App\Mail\ContactFormMail;
 use App\Models\Contacts;
+use App\Services\GoogleCloudTaskService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Mail;
@@ -95,7 +96,7 @@ class ContactsController extends Controller
         //
     }
 
-    public function contactForm(Request $request)
+    public function contactForm(Request $request, GoogleCloudTaskService $taskService)
     {
         // dd($request->all());
         $response = [
@@ -123,13 +124,17 @@ class ContactsController extends Controller
             }
 
             // Despachar el Job a la cola
-            SendContactFormEmails::dispatch([
+            $payload = [
                 'adminEmails' => $adminEmails,
                 'email' => $request->email,
                 'name' => $request->name,
                 'phone' => $request->phone,
                 'message' => $request->message
-            ]);
+            ];
+
+            $handlerUrl = env('APP_URL') . '/tasks/handle-email';
+
+            $taskService->createHttpTask($payload, $handlerUrl);
 
             $response['success'] = true;
             $response['message'] = 'Mensaje enviado correctamente.';
