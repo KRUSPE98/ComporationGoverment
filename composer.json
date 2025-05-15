@@ -10,7 +10,8 @@
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.8",
-        "spatie/laravel-ignition": "^2.0"
+        "spatie/laravel-ignition": "^2.0",
+        "stackkit/laravel-google-cloud-tasks-queue": "4.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

@@ -1,8 +1,7 @@
 <?php
 
-use App\Jobs\SendContactFormEmails;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Stackkit\LaravelGoogleCloudTasksQueue\Middleware\EnsureFrontendRequestIsFromCloudTasks;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,18 +34,19 @@ Route::get('/contacto', function () {
 Route::post('/contactForm','ContactsController@contactForm')->name('contact.form');
 Route::get('/contactForm/preview', 'ContactsController@preview');
 
+Route::post('/handle-task', function () {
+    $jobClass = request()->input('job');
 
-// Route::post('/tasks/handle-job', function () {
-//     if (! request()->hasHeader('X-CloudTasks-TaskName')) {
-//         abort(403, 'Unauthorized');
-//     }
+    if (!class_exists($jobClass)) {
+        abort(400, 'Invalid job class.');
+    }
 
-//     return Queue::marshal();
+    $job = app($jobClass);
+
+    dispatch($job);
+})->middleware(EnsureFrontendRequestIsFromCloudTasks::class);
+
+// Route::post('/tasks/handle-email', function (Request $request) {
+//     SendContactFormEmails::dispatch($request->all());
+//     return response()->json(['ok' => true]);
 // });
-
-
-
-Route::post('/tasks/handle-email', function (Request $request) {
-    SendContactFormEmails::dispatch($request->all());
-    return response()->json(['ok' => true]);
-});
