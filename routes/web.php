@@ -34,19 +34,14 @@ Route::get('/contacto', function () {
 Route::post('/contactForm','ContactsController@contactForm')->name('contact.form');
 Route::get('/contactForm/preview', 'ContactsController@preview');
 
-Route::post('/handle-task', function () {
-    $jobClass = request()->input('job');
+// Route::post('/handle-task', function () {
+//     $jobClass = request()->input('job');
 
-    if (!class_exists($jobClass)) {
-        abort(400, 'Invalid job class.');
-    }
+//     if (!class_exists($jobClass)) {
+//         abort(400, 'Invalid job class.');
+//     }
 
-    $job = app($jobClass);
+//     $job = app($jobClass);
 
-    dispatch($job);
-})->middleware(EnsureFrontendRequestIsFromCloudTasks::class);
-
-// Route::post('/tasks/handle-email', function (Request $request) {
-//     SendContactFormEmails::dispatch($request->all());
-//     return response()->json(['ok' => true]);
-// });
+//     dispatch($job);
+// })->middleware(EnsureFrontendRequestIsFromCloudTasks::class);
