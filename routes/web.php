@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Stackkit\LaravelGoogleCloudTasksQueue\Middleware\EnsureFrontendRequestIsFromCloudTasks;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,3 +46,35 @@ Route::get('/contactForm/preview', 'ContactsController@preview');
 
 //     dispatch($job);
 // })->middleware(EnsureFrontendRequestIsFromCloudTasks::class);
+
+use Google\Cloud\Tasks\V2\CloudTasksClient;
+
+Route::get('/test-gcloud-auth', function () {
+    try {
+        $keyFilePath = '/var/www/keys/laravel-tasks.json';
+
+        if (!file_exists($keyFilePath)) {
+            throw new Exception("Key file not found at $keyFilePath");
+        }
+
+        $credentialsJson = json_decode(file_get_contents($keyFilePath), true);
+
+        $clientEmail = $credentialsJson['client_email'] ?? 'client_email not found in key file';
+
+        return response()->json([
+            'client_email' => $clientEmail,
+        ]);
+    } catch (\Exception $e) {
+        return response()->json([
+            'error' => $e->getMessage(),
+        ], 500);
+    }
+});
+
+Route::get('/test-env', function() {
+    return env('GOOGLE_APPLICATION_CREDENTIALS');
+});
+
+use Stackkit\LaravelGoogleCloudTasksQueue\CloudTasksController;
+
+Route::post('/cloud-tasks/handler', [CloudTasksController::class, 'handle']);
