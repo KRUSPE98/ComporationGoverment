@@ -24,6 +24,7 @@ class SendContactFormEmails implements ShouldQueue
 
     public function handle()
     {
+	Log::info('Ejecutando el job SendContactFormEmails', $this->data);
         try {
             // Enviar al admin
             Mail::to($this->data['adminEmails'])->send(new ContactFormMail(

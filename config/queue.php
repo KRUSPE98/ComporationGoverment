@@ -76,7 +76,7 @@ return [
             'project' => env('GOOGLE_CLOUD_PROJECT'),
             'location' => env('GOOGLE_CLOUD_LOCATION'),
             'queue' => env('GOOGLE_CLOUD_QUEUE', 'default'),
-	    'handler' => config('cloud-tasks.uri'),
+	    'handler' => env('GOOGLE_CLOUD_TASKS_HANDLER'),
             'service_account_email' => env('GOOGLE_CLOUD_SERVICE_ACCOUNT'),
             'backoff' => 0,
         ],
