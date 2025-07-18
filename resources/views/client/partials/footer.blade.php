@@ -82,7 +82,7 @@
     <div class="d-flex justify-content-around align-items-center p-2 custom-final-footer" style="background-color: rgba(0, 0, 0, 0.2);">
       <span>© {{ now()->year }} Copyright: {{env('APP_NAME')}}</span>
       <span id="seta-content">Contenido Desarrollado por:
-        <a class="custom-btn no-background" href="http://82.25.85.85:8081/">
+        <a class="custom-btn no-background" href="{{ config('app.dev_url') }}">
             <span></span>
             <text>© Dev Innovate Lab</text>
         </a>

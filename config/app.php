@@ -27,6 +27,7 @@ $config = [
 
     'description' => env('APP_DESCRIPTION', 'Empresa especializada en consultoría y capacitación para la gobernanza familiar corporativa y agroempresas'),
 
+    'dev_url' => env('DEV_URL', 'https://devinnovatelab.com/'),
     /*
     |--------------------------------------------------------------------------
     | Application Environment
