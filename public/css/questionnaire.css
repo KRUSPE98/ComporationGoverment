@@ -1,0 +1,310 @@
+/* Fix para z-index del Modal y Backdrop para que queden sobre el navbar (z-index 99999) */
+.modal-backdrop {
+    z-index: 100000 !important;
+}
+
+#questionnaireModal {
+    z-index: 100001 !important;
+}
+
+/* Questionnaire Wizard Styles */
+#questionnaireModal .modal-content,
+.wizard-container {
+    color: #212529 !important;
+}
+
+#questionnaireModal p,
+#questionnaireModal label,
+#questionnaireModal span,
+#questionnaireModal li,
+.wizard-container p,
+.wizard-container label,
+.wizard-container span,
+.wizard-container li {
+    text-transform: none !important;
+}
+
+/* Fix visual para checkboxes en el modal */
+#questionnaireModal input[type="checkbox"],
+.wizard-container input[type="checkbox"] {
+    appearance: auto !important;
+    -webkit-appearance: checkbox !important;
+    width: 20px !important;
+    height: 20px !important;
+    min-width: 20px !important;
+    margin-right: 12px !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    float: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: inline-block !important;
+    position: static !important;
+    cursor: pointer !important;
+    vertical-align: middle !important;
+}
+
+#questionnaireModal p,
+#questionnaireModal label,
+#questionnaireModal span,
+#questionnaireModal input,
+#questionnaireModal select,
+#questionnaireModal textarea,
+#questionnaireModal h1,
+#questionnaireModal h2,
+#questionnaireModal h3,
+#questionnaireModal h4,
+#questionnaireModal h5,
+#questionnaireModal h6,
+#questionnaireModal li,
+.wizard-container p,
+.wizard-container label,
+.wizard-container span,
+.wizard-container input,
+.wizard-container select,
+.wizard-container textarea,
+.wizard-container h1,
+.wizard-container h2,
+.wizard-container h3,
+.wizard-container h4,
+.wizard-container h5,
+.wizard-container h6,
+.wizard-container li {
+    color: #212529;
+}
+
+#questionnaireModal .text-muted,
+.wizard-container .text-muted {
+    color: #6c757d !important;
+}
+
+#questionnaireModal .text-danger,
+.wizard-container .text-danger {
+    color: #dc3545 !important;
+}
+
+#questionnaireModal .card,
+.wizard-container .card {
+    background-color: #ffffff !important;
+    border: 1px solid #de2a2a22;
+}
+
+#questionnaireModal .card.bg-light,
+.wizard-container .card.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+#questionnaireModal .instruction-alert,
+.wizard-container .instruction-alert {
+    background-color: #fff3cd !important;
+    border: 1px solid #ffe69c !important;
+    color: #664d03 !important;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+}
+
+#questionnaireModal .instruction-alert *,
+.wizard-container .instruction-alert * {
+    color: #664d03 !important;
+}
+
+.wizard-container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.wizard-steps-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    position: relative;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 15px;
+    overflow-x: auto;
+}
+
+.wizard-step-item {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    min-width: 100px;
+}
+
+.wizard-step-item .step-number {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #e9ecef;
+    color: #6c757d;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+    transition: all 0.3s ease;
+}
+
+.wizard-step-item .step-number {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #e9ecef;
+    color: #6c757d !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+    transition: all 0.3s ease;
+}
+
+.wizard-step-item.active .step-number {
+    background: #800020 !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 10px rgba(128, 0, 32, 0.3);
+}
+
+.wizard-step-item.active .step-number * {
+    color: #ffffff !important;
+}
+
+.wizard-step-item.completed .step-number {
+    background: #198754 !important;
+    color: #ffffff !important;
+}
+
+.wizard-step-item .step-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #6c757d;
+    display: block;
+}
+
+.wizard-step-item.active .step-title {
+    color: #800020;
+}
+
+/* Wizard Content */
+.wizard-step-content {
+    display: none;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.wizard-step-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Rating Scale (0 to 10) */
+.question-card {
+    background: #f8f9fa !important;
+    border-left: 4px solid #800020 !important;
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin-bottom: 20px;
+}
+
+.question-text {
+    font-size: 15px;
+    font-weight: 600;
+    color: #2b2b2b !important;
+    margin-bottom: 12px;
+}
+
+.scale-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.scale-option {
+    flex: 1;
+    min-width: 42px;
+    text-align: center;
+}
+
+.scale-option input[type="radio"] {
+    display: none;
+}
+
+.scale-option label {
+    display: block;
+    padding: 8px 0;
+    background: #ffffff !important;
+    color: #2b2b2b !important;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.scale-option input[type="radio"]:checked + label {
+    background: #800020 !important;
+    color: #ffffff !important;
+    border-color: #800020 !important;
+    box-shadow: 0 3px 8px rgba(128, 0, 32, 0.25);
+}
+
+.scale-option label:hover {
+    border-color: #800020;
+    color: #800020 !important;
+}
+
+.scale-option input[type="radio"]:checked + label:hover {
+    color: #ffffff !important;
+}
+
+/* Buttons Container */
+.wizard-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e9ecef;
+}
+
+.btn-wizard-prev {
+    background-color: #6c757d;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+.btn-wizard-next, .btn-wizard-submit {
+    background-color: #800020;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-wizard-next:hover, .btn-wizard-submit:hover {
+    background-color: #5a0016;
+    color: #ffffff;
+}
+
+.instruction-alert {
+    background-color: #fff3cd;
+    border-color: #ffe69c;
+    color: #664d03;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+}

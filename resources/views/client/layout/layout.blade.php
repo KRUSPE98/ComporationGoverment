@@ -35,11 +35,21 @@
     <a href="#" class="scrollup"> <i class="fa fa-chevron-up"> </i></a>
     @include('client.partials.footer')
 
+    @php
+        $questionnaireService = app(\App\Services\QuestionnaireService::class);
+        $questionnaire = $questionnaireService->getQuestionnaireData();
+    @endphp
+    @include('client.partials.questionnaire_modal')
+
+    <!-- Styles y scripts del cuestionario -->
+    <link rel="stylesheet" href="{{ asset('css/questionnaire.css?v='.time()) }}">
+
 
 
 
     <!-- Spripts JS 19-03-2022 -->
     @include('client.partials.scripts')
+    <script src="{{ asset('js/questionnaire.js?v='.time()) }}"></script>
     @yield('custom-scripts') <!-- Aquí se cargarán los scripts personalizados antes del cierre del body -->
 </body>
 </html>
