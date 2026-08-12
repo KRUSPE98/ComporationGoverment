@@ -33,3 +33,7 @@ Route::get('/contacto', function () {
 Route::post('/contactForm','ContactsController@contactForm')->name('contact.form');
 Route::get('/contactForm/preview', 'ContactsController@preview');
 
+// Rutas del Cuestionario de Autodiagnóstico
+Route::get('/autodiagnostico', 'QuestionnaireController@index')->name('questionnaire.index');
+Route::post('/autodiagnostico', 'QuestionnaireController@submit')->name('questionnaire.submit');
+
