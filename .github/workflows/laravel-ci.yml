@@ -17,7 +17,7 @@ jobs:
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
       with:
-        php-version: '7.4' # Puedes ajustar la versión de PHP según tu entorno
+        php-version: '8.2'
         extensions: mbstring, dom, fileinfo, mysql, openssl, pdo, bcmath, json
         coverage: none
 
