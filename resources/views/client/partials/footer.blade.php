@@ -70,6 +70,11 @@
                     ><span></span><i class="fab fa-instagram"></i
                     ></a>
 
+                    <div class="mt-3">
+                        <p class="p-small text-muted mb-0">Consultor externo especializado FIRA</p>
+                        <p class="p-small text-muted">Registro No. 000000</p>
+                    </div>
+
                 {{-- </section> --}}
             </div>
 
