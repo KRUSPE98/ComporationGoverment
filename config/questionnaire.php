@@ -4,7 +4,7 @@ return [
     'title' => 'Diagnóstico de profesionalización y gobernanza en empresas familiares',
 
     'intro' => [
-        'welcome' => 'Desde Consultoría y Capacitación en Gobernanza Familiar Corporativa (CGF), te damos la bienvenida a este espacio creado especialmente para personas como tú —propietarios(as), fundadores(as), colaboradores(as) y partes interesadas que forman parte de una empresa familiar en el sector agroalimentario o de su cadena de valor —',
+        'welcome' => 'Desde Consultoría y Capacitación en Gobernanza Familiar Corporativa (CGF), te damos la bienvenida a este espacio creado especialmente para personas como tú —propietarios(as), fundadores(as), colaboradores(as) y partes interesadas que forman parte de una empresa familiar o de su cadena de valor —',
         'description' => 'Este es un ejercicio de autodiagnóstico que te ayudará a reflexionar sobre tu empresa familiar y detectar oportunidades para avanzar en su desarrollo. A través de tus respuestas podremos:',
         'benefits' => [
             'Identificar las fortalezas y áreas de mejora en la gestión empresarial y familiar.',
@@ -13,13 +13,13 @@ return [
             'Observar los puntos de fricción (conflictos) entre la empresa y la familia; y cómo abordarlos de manera eficiente.'
         ],
         'importance_title' => '🌟 ¿Por qué es importante profesionalizar a la empresa y fortalecer la gobernanza familiar?',
-        'importance_text' => 'Porque hacerlo permite construir una organización más sólida, eficiente y en armonía con su esencia familiar, lo cual se logra a través de la implementación de prácticas gerenciales que fundamenten la transparencia, la eficiencia y una estrategia alineada, así como el desarrollo de modelos de gobernanza familiar que establezcan acuerdos claros, reglas compartidas y espacios para el diálogo; fortaleciendo la cohesión y la armonía familiar-empresarial y asegurando la continuidad de la empresa familiar en el largo plazo.',
+        'importance_text' => 'Porque hacerlo permite construir una organización más sólida, eficiente y en armonía con su esencia familiar, lo cual se logra a través de la implementación de prácticas gerenciales que fomenten la transparencia, la eficiencia y una estrategia alineada, así como el desarrollo de modelos de gobernanza familiar que establezcan acuerdos claros, reglas compartidas y espacios para el diálogo; fortaleciendo la cohesión y la armonia familiar-empresarial y asegurando la continuidad de la empresa en el largo plazo.',
         'workflow_title' => '🛠️ ¿Cómo funciona este acompañamiento?',
         'workflow_intro' => 'Este proceso consta de tres etapas:',
         'workflow_steps' => [
-            'Autodiagnóstico' => 'Todas las personas involucradas en la empresa familiar deben responder este cuestionario - ya sean integrantes de la familia que participan activamente, quienes reciben beneficios sin involucrarse directamente, y líderes (altos mandos) no familiares en caso de existir-',
-            'Entrevistas personalizadas' => 'Se agendarán entrevistas, presenciales o virtuales, con cada persona involucrada en la toma de decisiones, dirección y gestión de la empresa -que previamente haya contestado el autodiagnóstico- con el objetivo de conocer la trayectoria familiar y empresarial, contrastar resultados del cuestionario y profundizar en temas claves identificados',
-            'Informe y propuesta de intervención' => 'Se agendará una reunión, presencial o virtual, en donde se presentarán los hallazgos y recomendaciones, con acciones concretas, tiempos y costos definidos (propuesta de intervención), ajustado a las necesidades reales de tu empresa.'
+            'Cuestionario autodiagnóstico' => 'Instrumento dividido en tres áreas estratégicas: desarrollo organizacional, gobernanza familiar y gobierno corporativo. Deben constestarlo la generación en turno, generación siguiente, familiares activos en la empresa, familiares que no colaboran en la empresa pero que toman decisiones sobre ella y personal no familiar en alto mando. Permite identificar el nivel de profesionalización, estructura de gobierno y áreas de mejora',
+            'Entrevistas personalizadas' => 'Conversaciones estructuradas con los participantes clave en la toma de decisiones y gestión de la empresa (que hayan completado previamente el cuestionario). Se profundiza en la trayectoria familiar‑empresarial y financiera, se contrastan resultados y se identifican patrones de liderazgo, sucesión y comunicación',
+            'Informe y propuesta de intervención' => 'Presentación de hallazgos y recomendaciones estratégicas, con acciones concretas, tiempos y costos estimados. Se priorizan las áreas de intervención según las necesidades reales de la empresa y su familia, estableciendo una hoja de ruta para la profesionalización.'
         ]
     ],
 
