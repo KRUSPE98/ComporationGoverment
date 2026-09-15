@@ -8,7 +8,7 @@
 <body style="margin: 0;padding: 0;background-color: #f4f4f4;font-family: Tahoma, sans-serif;">
     <div class="container" style="max-width: 600px;margin: auto;background-color: #ffffff;">
         <div class="header" style="background:#15396D;height: 120px;text-align: center;border-bottom: 4px solid #F2F609;">
-            <img src="{{ url('images/partials/nav/CGF-logo-white.png') }}" alt="cgf-logo" style="max-width: 100%;max-height: 100%;">
+            <img src="{{ url('images/partials/nav/CGF-logo-26.png') }}" alt="cgf-logo" style="max-width: 100%;max-height: 100%;">
         </div>
 
         <div style="font-size:14px;font-weight:300;font-style:normal;padding:20px;position:relative;">
