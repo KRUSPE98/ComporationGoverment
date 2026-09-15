@@ -70,16 +70,20 @@ function sendContactInformation() {
         url: "/contactForm",
         data: $("#fruitkha-contact").serialize(),
         success: function (response) {
-            if(response){
+            if(response && response.success){
                 $("#fruitkha-contact")[0].reset();
                 console.log(response);
                 toastr.success("Gracias por su mensaje", "Tu mensaje ha sido enviado.", {timeOut:3000});
+            } else {
+                console.log(response);
+                var errorMsg = (response && response.message) ? response.message : "Error al enviar la solicitud.";
+                toastr.error(errorMsg, "Error", {timeOut:5000});
             }
         },
         error: function (response) {
             console.log(response);
-            // toastr error
-            toastr.error("Error al enviar la solicitud.", "Error", {timeOut:3000});
+            var errorMsg = (response.responseJSON && response.responseJSON.message) ? response.responseJSON.message : "Error al enviar la solicitud.";
+            toastr.error(errorMsg, "Error", {timeOut:5000});
         },
         complete: function() {
             hideWait();
