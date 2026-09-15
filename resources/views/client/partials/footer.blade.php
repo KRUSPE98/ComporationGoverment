@@ -72,7 +72,7 @@
 
                     <div class="mt-3">
                         <p class="p-small text-muted mb-0">Consultor externo especializado FIRA</p>
-                        <p class="p-small text-muted">Registro No. 000000</p>
+                        <p class="p-small text-muted">Registro No. CO20455130</p>
                     </div>
 
                 {{-- </section> --}}

@@ -28,7 +28,7 @@ return [
         'paragraphs' => [
             'CGF es responsable del tratamiento de sus datos personales. La información que usted comparta en este cuestionario —incluyendo datos personales y sobre su empresa— será utilizada solamente por nuestro equipo de consultores, con el fin de entender cómo funciona su empresa familiar, para fines de diagnóstico, contacto y seguimiento relacionados con nuestros servicios de profesionalización, gobernanza y mediación en empresas familiares.',
             'Sus datos serán tratados conforme a la legislación vigente y no serán compartidos con terceros sin su consentimiento (salvo en los casos legalmente previstos), y su uso es exclusivo para fines relacionados con este diagnóstico y su seguimiento.',
-            'Usted tiene derecho a Acceder, Rectificar, Cancelar u Oponerse al tratamiento de sus datos personales (derechos ARCO), enviando una solicitud al correo gobernanza.familiar@gmail.com'
+            'Usted tiene derecho a Acceder, Rectificar, Cancelar u Oponerse al tratamiento de sus datos personales (derechos ARCO), enviando una solicitud al correo contacto@profesionalizacionagroempresarial.com'
         ],
         'checkbox_label' => 'He leído y acepto el aviso de privacidad',
         'disclaimer' => 'Si está de acuerdo con este aviso de privacidad, le pedimos marcar la casilla “He leído y acepto el aviso de privacidad” para continuar. En caso contrario, solo cierre esta pestaña sin enviar sus respuestas.'

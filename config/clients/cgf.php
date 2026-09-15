@@ -16,7 +16,7 @@ return [
         ],
     ],
     'contacts' => [
-        'email' => 'gobernanza.familiar@gmail.com',
+        'email' => 'contacto@profesionalizacionagroempresarial.com',
         'phone' => "2213458714 / 5518365601",
         'address' => 'Puebla, México',
     ],
