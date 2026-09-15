@@ -70,7 +70,7 @@
     <div class="container">
         <h1 class="section-title spacer text-center" data-aos="fade-down" data-aos-duration="800">Contáctanos</h1>
         <div class="row align-items-center contact-information" id="sectionIcons">
-            <div class="col-md-6 col-lg-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
+            <div class="col-md-6 col-lg-2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
                 <div class="contact-info">
                     <div class="contact-icon">
                         <i class="fa fa-map-marker-alt"></i>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+            <div class="col-md-6 col-lg-2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="contact-info">
                     <div class="contact-icon">
                         <i class="fa fa-phone-alt"></i>
@@ -92,7 +92,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1200">
+            <div class="col-md-6 col-lg-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1200">
                 <div class="contact-info">
                     <div class="contact-icon">
                         <i class="fa fa-envelope"></i>
