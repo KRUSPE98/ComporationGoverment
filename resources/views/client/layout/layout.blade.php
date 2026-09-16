@@ -9,7 +9,7 @@
     <meta name="google-site-verification" content="o1dCZU6Myd4tD0KAMrLLYI5ZQpPU6vX4Y0cYsRFCFqQ" />
     <meta name="robots" content="index, follow" />
     <!-- ✅ Favicon -->
-    <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('favicon_new.ico') }}" type="image/x-icon">
 
     @include('client.partials.header')
 
