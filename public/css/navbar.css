@@ -149,7 +149,8 @@ nav .navbar-nav > .nav-item > .nav-link:before
 }
 
 .navbar-brand img{
-    width: 180px;
+    width: 150px;
+    height: 100px;
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
